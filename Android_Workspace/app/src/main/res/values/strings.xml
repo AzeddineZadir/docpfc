@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DB_Test</string>
+    <string-array name="priorite">
+        <item>Critique</item>
+        <item>Très important</item>
+        <item>Important</item>
+        <item>Intermédiaire</item>
+        <item>Pas important</item>
+
+
+    </string-array>
+</resources>
