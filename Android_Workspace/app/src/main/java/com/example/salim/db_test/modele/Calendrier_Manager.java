@@ -30,7 +30,7 @@ public class Calendrier_Manager {
 
     public long insertCalendar(Calendrier cal){
         ContentValues cv=new ContentValues();
-        cv.put("id",cal.getId());
+
         cv.put("titre",cal.getTitre());
         cv.put("priorite",cal.getPriorite());
         cv.put("couleur",cal.getCouleur());
@@ -39,6 +39,11 @@ public class Calendrier_Manager {
 
             return db.insert("calendrier",null,cv);
 
+    }
+
+    public int deleteCalendar(int delete_id){
+
+        return db.delete("calendrier","id="+delete_id,null);
     }
 
 }
