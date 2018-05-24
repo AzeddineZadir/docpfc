@@ -1,0 +1,53 @@
+\chapter{Titre du deuxième chapitre}
+\fancyhead[R]{\textit{Titre du deuxième chapitre}}
+\renewcommand{\headrulewidth}{1pt}
+
+
+\section{Introduction}
+
+Texte ...
+
+
+\section{Titre de la section}
+
+Texte ...
+
+
+\subsection{Titre de la première sous-section}
+
+La figure \ref{fig1} ...
+
+\begin{figure}[h!]
+	\centering
+		\includegraphics[width=8cm]{images/MySQL.png}
+	\caption{Titre de la figure.}
+	\label{fig1}
+\end{figure}
+
+
+\subsection{Titre de la deuxième sous-section}
+
+Texte ...
+
+
+%%%% Ajout d'un tableau %%%%
+\begin{table}[!h]
+		\small
+		\centering
+		\footnotesize{
+			\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|} %%% La taille des trois colonnes est égale à 4cm %%%
+				\hline
+				\rowcolor{lightgray} \textbf{Colonne 1} & \textbf{Colonne 2} & \textbf{Colonne 3} \\
+				\hline
+				Ligne 1 Colonne 1 & Ligne 1 Colonne 2 & Ligne 1 Colonne 3 \\
+				\hline
+				Ligne 2 Colonne 1	& etc. 							& etc. \\
+				\hline
+			\end{tabular}}
+		\caption{Titre du tableau.}	
+\end{table}
+	
+
+\section{Conclusion}
+
+Texte ...

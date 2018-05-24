@@ -1,0 +1,121 @@
+%AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+%AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+%Ce document est réalisé par
+%Mlle S. BOUCHELAGHEM Doctorante/Enseignante
+%Département d'Informatique, Université de Béjaia
+
+%Pour les étudiants de Licence 3 en Informatique
+%Dans le cadre du module *** Rédaction Scientifique ***
+
+% ***Avril 2018***
+
+%AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+%AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+\documentclass[12pt]{report}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+\usepackage{graphicx}
+\usepackage{layout}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{url}
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{multirow}
+\usepackage{nomencl}
+\usepackage{setspace}
+
+
+\makenomenclature
+
+\definecolor{lightgray}{gray}{0.85}
+\pagestyle{fancy}
+
+\fancyhead[L]{}
+
+\begin{document} 
+
+%%%% Page de garde %%%%
+\input{Page_de_garde}
+
+%%%% Remerciements %%%%
+\input{Remerciements}
+
+%%%% Dédicaces %%%%
+\input{Dédicaces}
+
+%Début de la numérotation romaine pour la table des matières
+\newpage
+\pagenumbering{roman}
+
+%Construire la table des matières
+\addcontentsline{toc}{part}{Table des matières} 
+\tableofcontents
+\fancyhead[R]{}
+\renewcommand{\headrulewidth}{0pt}
+
+%Construire la table des figures
+\listoffigures
+\addcontentsline{toc}{part}{Table des figures}
+
+%Construire la liste des tableaux
+\listoftables
+\addcontentsline{toc}{part}{Liste des tableaux}
+
+%Construire la liste des abréviations
+\input{Liste_des_Abreviations}
+
+%Début de la numérotation arabe pour le reste du mémoire
+\newpage
+\pagenumbering{arabic}
+
+%%%% Mise en forme des titres des chapitres %%%%
+\makeatletter
+\def\@makechapterhead#1{%
+  \vspace*{10\p@}%
+  {\parindent \z@ \centering \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+        \huge\bfseries \@chapapp\space \thechapter
+        \par\nobreak
+        \vskip 20\p@
+    \fi
+    \interlinepenalty\@M
+    \Huge \bfseries #1\par\nobreak
+    \vskip 40\p@
+  }}
+ 
+\def\@makeschapterhead#1{%
+  \vspace*{10\p@}%
+  {\parindent \z@ \centering
+    \normalfont
+    \interlinepenalty\@M
+    \Huge \bfseries  #1\par\nobreak
+    \vskip 40\p@
+  }}
+\makeatother 
+
+%%%% Profondeur des sous-titres jusqu'à 4 chiffres %%%%
+\setcounter{secnumdepth}{3}
+
+%%%% Introduction Générale %%%%
+\input{Introduction_Générale}
+
+%%%% Chapitre 1 %%%%
+\input{Chapitre_1}
+
+%%%% Chapitre 2 %%%%
+\input{Chapitre_2}
+
+%%%% Conclusion Générale %%%%
+\input{Conclusion_Générale}
+
+%%%% Bibliographie %%%%
+\input{Bibliographie}
+
+%%%% Résumé/Abstract %%%%
+\input{Résumé}
+
+\end{document}

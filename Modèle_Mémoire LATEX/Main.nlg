@@ -1,0 +1,14 @@
+This is E:\Miktex\miktex\bin\makeindex.exe, version 2.15 [MiKTeX 2.9] (kpathsea + Thai support).
+Scanning style file E:/TXC/Modèle_Mémoire LATEX/nomencl.ist.......
+** Input style error (file = E:/TXC/Modèle_Mémoire LATEX/nomencl.ist, line = 70):
+   -- Unknown specifier lethead_prefix.
+** Input style error (file = E:/TXC/Modèle_Mémoire LATEX/nomencl.ist, line = 71):
+   -- Unknown specifier lethead_suffix.
+** Input style error (file = E:/TXC/Modèle_Mémoire LATEX/nomencl.ist, line = 72):
+   -- Unknown specifier lethead_flag.
+...done (10 attributes redefined, 3 ignored).
+Scanning input file Main.nlo....done (3 entries accepted, 0 rejected).
+Sorting entries....done (5 comparisons).
+Generating output file Main.nls....done (12 lines written, 0 warnings).
+Output written in Main.nls.
+Transcript written in Main.nlg.
