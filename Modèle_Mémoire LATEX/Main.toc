@@ -1,4 +1,4 @@
-\select@language {french}
+\babel@toc {french}{}
 \contentsline {paragraph}{}{1}
 \contentsline {paragraph}{}{1}
 \contentsline {paragraph}{}{1}
@@ -12,9 +12,9 @@
 \contentsline {paragraph}{}{1}
 \contentsline {paragraph}{}{1}
 \contentsline {part}{Table des mati\`eres}{i}
-\contentsline {part}{Table des figures}{ii}
-\contentsline {part}{Liste des tableaux}{iii}
-\contentsline {part}{Liste des abr\'eviations}{iv}
+\contentsline {part}{Table des figures}{iii}
+\contentsline {part}{Liste des tableaux}{iv}
+\contentsline {part}{Liste des abr\'eviations}{v}
 \contentsline {part}{Introduction g\'en\'erale}{1}
 \contentsline {chapter}{\numberline {1}Titre du premier chapitre}{2}
 \contentsline {section}{\numberline {1.1}Introduction}{2}
@@ -30,6 +30,20 @@
 \contentsline {subsection}{\numberline {2.2.1}Titre de la premi\`ere sous-section}{4}
 \contentsline {subsection}{\numberline {2.2.2}Titre de la deuxi\`eme sous-section}{4}
 \contentsline {section}{\numberline {2.3}Conclusion}{5}
-\contentsline {part}{Conclusion g\'en\'erale et perspectives}{6}
-\contentsline {part}{Bibliographie}{7}
+\contentsline {chapter}{\numberline {3}Impl\'ementation}{6}
+\contentsline {section}{\numberline {3.1}Introduction}{6}
+\contentsline {section}{\numberline {3.2}Environnement de d\'eveloppement}{6}
+\contentsline {subsection}{\numberline {3.2.1}Android Studio}{6}
+\contentsline {subsection}{\numberline {3.2.2}Git}{6}
+\contentsline {subsection}{\numberline {3.2.3}GitHub}{6}
+\contentsline {subsection}{\numberline {3.2.4}Outils de d\'eveloppement}{6}
+\contentsline {subsubsection}{\numberline {3.2.4.1}SDK de Android}{6}
+\contentsline {subsubsection}{\numberline {3.2.4.2}JDK}{7}
+\contentsline {subsection}{\numberline {3.2.5}Langage de programmation}{7}
+\contentsline {subsubsection}{\numberline {3.2.5.1}Java}{7}
+\contentsline {subsubsection}{\numberline {3.2.5.2}XML}{7}
+\contentsline {subsection}{\numberline {3.2.6}Titre de la deuxi\`eme sous-section}{7}
+\contentsline {section}{\numberline {3.3}Conclusion}{8}
+\contentsline {part}{Conclusion g\'en\'erale et perspectives}{9}
+\contentsline {part}{Bibliographie}{10}
 \contentsline {paragraph}{}{1}
