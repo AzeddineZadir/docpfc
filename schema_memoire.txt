@@ -1,0 +1,43 @@
+Introduction générale (1 page)
+
+Chapitre 1:Méthodologie de conception
+Introduction (1/2 page)
+Notions et préliminaires:(2 pages)
+	- UML
+	- Application mobile
+	- Contexte du projet
+	- Cahier des charges
+Conclusion (1/2)
+
+Chapitre 2: Spécification des besoins (
+Introduction (1/2 page)
+Acteur'Utilisateur' (
+Cas d'utilisation (1 page)
+Maquette IHM et Navigation (2 pages)
+Conclusion (1/2 page)
+
+Chapitre 3:Analyse des besoins
+Introduction (1/2 page)
+Diagrammes de séquence système (1/2 page) [Optionnel]
+Modèle du domaine (1/2 page)
+Diagramme des classes participantes (1 page)
+Conclusion (1/2 page)
+
+Chapitre 4: Conception
+Introduction (1/2)
+Diagramme d'interaction
+Diagramme de classe de conception
+Modèle relationnel
+Conclusion (1/2 page)
+
+Chapitre 5: Implémentation
+Introduction (1/2 page)
+Environnement de développement (1/2 page)
+A) Stockage
+Persistance des données (1/2 page)
+B) Moteur de notification
+Les interfaces
+
+Conclusion
+
+Conclusion générale
