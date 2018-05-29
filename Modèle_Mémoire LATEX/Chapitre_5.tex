@@ -13,7 +13,7 @@
 
 \subsection{Android Studio}
 
-Android Studio est un environnement de développement intégré(EDI) permettant de développer des application sous Android. Développé par Google, il se base sur l'EDI IntelliJ de JetBrains. Il offre les outils nécessaires pour développer des applications mobiles natives destinées à Android. Ainsi, il permet d'éditer des fichiers Java/Kotlin  
+Android Studio est un environnement de développement intégré(EDI) permettant de développer des applications sous Android. Développé par Google, il se base sur l'EDI IntelliJ de JetBrains. Il offre les outils nécessaires pour développer des applications mobiles natives destinées à Android. Ainsi, il permet d'éditer des fichiers Java/Kotlin pour la partie programmation et des fichiers XML pour la partie graphique.  
 
 \subsection{Git}
 
@@ -22,41 +22,62 @@ Git est un logiciel libre de gestion de versions, sous licence publique générale
 \subsection{GitHub}
 GitHub est un service web de gestion et d'hébergement de projet de développement logiciel utilisant le logiciel Git.  
 
-\subsection{Outils de développement}
-\subsubsection{SDK de Android}
+\section{Outils de développement}
+\subsection{SDK de Android}
 
-Le SDK (Software Developpement Kit) de Android est un ensemble d'outils de développement essentiel au développement d'application mobile sous Android, il inclut ainsi de différents outils tel que un débogueur, de la documentation, un émulateur basé sur QEMU, un ensemble de bibliothèques logicielles.  
+Le SDK (Software Developpement Kit) de Android est un ensemble d'outils de développement essentiel au développement d'application mobile sous Android, il inclut ainsi de différents outils tel qu'un débogueur, de la documentation, un émulateur basé sur QEMU et un ensemble de bibliothèques logicielles.  
 
-\subsubsection{JDK}
+\subsection{JDK}
 
-Le JDK (Java Developement Kit) est un ensemble d'outils et de bibliothèques logicielles destinées à la programmation Java. Il est nécessaire notamment pour la compilation du code Java qui sera transformé en bytecode pour être exécuté la Java Virtual Machine(JVM).
+Le JDK (Java Developement Kit) est un ensemble d'outils et de bibliothèques logicielles destinées à la programmation Java. Il est nécessaire notamment pour la compilation du code Java qui sera transformé en bytecode pour être exécuté par la Java Virtual Machine(JVM).
 
-\subsection{Langage de programmation}
+\section{Langage de programmation}
 
 
-\subsubsection{Java}
+\subsection{Java}
  Java est un langage de programmation orienté objet, puissant, il a la particularité d'être portable 
 c'est-à-dire avoir la possibilité d'exécuter les programmes écrits en Java sous n'importe quel système d'exploitation grâce a la JVM incluse dans le JDK.
-\subsubsection{XML}
+\subsection{XML}
 
 eXtensible Markup Language (Langage de balisage extensible en français) est un métalangage informatique de balisage générique. Il permet ainsi de structurer des données grâce à des balises.
 
+\section{Persistance des données}
+Comme nous l'avons vu durant les chapitres précédents, il est primordial de stocker en permanence les données. Ceci dit, une base de données locale est suffisante dans notre contexte.
 
+\subsection{SQLite}
+SQLite est une bibliothèque de Android qui propose un moteur de base de données relationnelles accessible par SQL.
 
-La figure \ref{fig1} ...
+\subsection{Room}
+Room est une librairie de base de données développée par Google. Elle est une couche d'abstraction à SQLite. En effet, Room facilite la gestion de la base de données, de sa création à la lecture des données en passant par leur mise à jour de manière fluide pour exploiter toute la puissance de SQLite. Elle est composée de:
+ \begin{description}
+\item[Entités: ]Les entités est l'ensemble de classes dont chacune d'elle représente une table dans la base de données.  
+\item[DAOs(Data Access Objects): ]Ce sont des interfaces qui ont pour rôle de gérer toutes les requêtes SQL, elle agit comme un intermédiaire entre la base de données et le reste de l'application. Chaque entité doit avoir son propre DAO.  
+\item[Base de données: ]Elle contient toutes les tables et toutes les données stockées.
+ \end{description}
+
+ 
+
+La figure suivante résume l'architecture de Room
 
 \begin{figure}[h!]
 	\centering
-		\includegraphics[width=8cm]{images/MySQL.png}
-	\caption{Titre de la figure.}
-	\label{fig1}
+		\includegraphics[width=8cm]{images/roomarchitecture.png}
+	\caption{Architecture de Room.}
+	\label{roomarchitecture}
 \end{figure}
 
 
-\subsection{Titre de la deuxième sous-section}
+\section{Présentation des interfaces}
 
-Texte ...
+\subsection{Interface d'accueil}
+La figure \ref{home} 
 
+\begin{figure}[h!]
+	\centering
+		\includegraphics[width=8cm]{images/roomarchitecture.png}
+	\caption{Écran d'accueil.}
+	\label{home}
+\end{figure}
 
 %%%% Ajout d'un tableau %%%%
 \begin{table}[!h]
