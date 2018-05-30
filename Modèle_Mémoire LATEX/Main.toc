@@ -18,51 +18,52 @@
 \contentsline {part}{Introduction g\'en\'erale}{1}
 \contentsline {chapter}{\numberline {1}M\'ethodologie de conception}{2}
 \contentsline {section}{\numberline {1.1}Introduction}{2}
-\contentsline {section}{\numberline {1.2}Titre de la section}{2}
-\contentsline {subsection}{\numberline {1.2.1}Titre de la premi\`ere sous-section}{2}
-\contentsline {subsection}{\numberline {1.2.2}Titre de la deuxi\`eme sous-section}{2}
-\contentsline {subsubsection}{\numberline {1.2.2.1}Titre de la premi\`ere sous-sous-section}{2}
-\contentsline {subsubsection}{\numberline {1.2.2.2}Titre de la deuxi\`eme sous-sous-section}{2}
-\contentsline {section}{\numberline {1.3}Conclusion}{3}
-\contentsline {chapter}{\numberline {2}Sp\'ecification des besoins}{4}
-\contentsline {section}{\numberline {2.1}Introduction}{4}
-\contentsline {section}{\numberline {2.2}Titre de la section}{4}
-\contentsline {subsection}{\numberline {2.2.1}Titre de la premi\`ere sous-section}{4}
-\contentsline {subsection}{\numberline {2.2.2}Titre de la deuxi\`eme sous-section}{4}
-\contentsline {section}{\numberline {2.3}Conclusion}{5}
-\contentsline {chapter}{\numberline {3}Analyse des besoins}{6}
-\contentsline {section}{\numberline {3.1}Introduction}{6}
-\contentsline {section}{\numberline {3.2}Titre de la section}{6}
-\contentsline {subsection}{\numberline {3.2.1}Titre de la premi\`ere sous-section}{6}
-\contentsline {subsection}{\numberline {3.2.2}Titre de la deuxi\`eme sous-section}{6}
-\contentsline {subsubsection}{\numberline {3.2.2.1}Titre de la premi\`ere sous-sous-section}{6}
-\contentsline {subsubsection}{\numberline {3.2.2.2}Titre de la deuxi\`eme sous-sous-section}{6}
-\contentsline {section}{\numberline {3.3}Conclusion}{7}
-\contentsline {chapter}{\numberline {4}Conception}{8}
-\contentsline {section}{\numberline {4.1}Introduction}{8}
-\contentsline {section}{\numberline {4.2}Titre de la section}{8}
-\contentsline {subsection}{\numberline {4.2.1}Titre de la premi\`ere sous-section}{8}
-\contentsline {subsection}{\numberline {4.2.2}Titre de la deuxi\`eme sous-section}{8}
-\contentsline {subsubsection}{\numberline {4.2.2.1}Titre de la premi\`ere sous-sous-section}{8}
-\contentsline {subsubsection}{\numberline {4.2.2.2}Titre de la deuxi\`eme sous-sous-section}{8}
-\contentsline {section}{\numberline {4.3}Conclusion}{9}
-\contentsline {chapter}{\numberline {5}Impl\'ementation}{10}
-\contentsline {section}{\numberline {5.1}Introduction}{10}
-\contentsline {section}{\numberline {5.2}Environnement de d\'eveloppement}{10}
-\contentsline {subsection}{\numberline {5.2.1}Android Studio}{10}
-\contentsline {subsection}{\numberline {5.2.2}Git}{10}
-\contentsline {subsection}{\numberline {5.2.3}GitHub}{10}
-\contentsline {section}{\numberline {5.3}Outils de d\'eveloppement}{11}
-\contentsline {subsection}{\numberline {5.3.1}SDK de Android}{11}
-\contentsline {subsection}{\numberline {5.3.2}JDK}{11}
-\contentsline {section}{\numberline {5.4}Langage de programmation}{11}
-\contentsline {subsection}{\numberline {5.4.1}Java}{11}
-\contentsline {subsection}{\numberline {5.4.2}XML}{11}
-\contentsline {section}{\numberline {5.5}Persistance des donn\'ees}{11}
-\contentsline {subsection}{\numberline {5.5.1}SQLite}{11}
-\contentsline {subsection}{\numberline {5.5.2}Room }{12}
-\contentsline {section}{\numberline {5.6}Pr\'esentation des interfaces}{12}
-\contentsline {section}{\numberline {5.7}Conclusion}{13}
-\contentsline {part}{Conclusion g\'en\'erale et perspectives}{14}
-\contentsline {part}{Bibliographie}{15}
+\contentsline {section}{\numberline {1.2}UML}{2}
+\contentsline {paragraph}{E}{2}
+\contentsline {section}{\numberline {1.3}Application mobile}{3}
+\contentsline {section}{\numberline {1.4}Contexte du projet}{4}
+\contentsline {section}{\numberline {1.5}Cahier des charges}{4}
+\contentsline {section}{\numberline {1.6}Conclusion}{5}
+\contentsline {chapter}{\numberline {2}Sp\'ecification des besoins}{6}
+\contentsline {section}{\numberline {2.1}Introduction}{6}
+\contentsline {section}{\numberline {2.2}Titre de la section}{6}
+\contentsline {subsection}{\numberline {2.2.1}Titre de la premi\`ere sous-section}{6}
+\contentsline {subsection}{\numberline {2.2.2}Titre de la deuxi\`eme sous-section}{6}
+\contentsline {section}{\numberline {2.3}Conclusion}{7}
+\contentsline {chapter}{\numberline {3}Analyse des besoins}{8}
+\contentsline {section}{\numberline {3.1}Introduction}{8}
+\contentsline {section}{\numberline {3.2}Titre de la section}{8}
+\contentsline {subsection}{\numberline {3.2.1}Titre de la premi\`ere sous-section}{8}
+\contentsline {subsection}{\numberline {3.2.2}Titre de la deuxi\`eme sous-section}{8}
+\contentsline {subsubsection}{\numberline {3.2.2.1}Titre de la premi\`ere sous-sous-section}{8}
+\contentsline {subsubsection}{\numberline {3.2.2.2}Titre de la deuxi\`eme sous-sous-section}{8}
+\contentsline {section}{\numberline {3.3}Conclusion}{9}
+\contentsline {chapter}{\numberline {4}Conception}{10}
+\contentsline {section}{\numberline {4.1}Introduction}{10}
+\contentsline {section}{\numberline {4.2}Titre de la section}{10}
+\contentsline {subsection}{\numberline {4.2.1}Titre de la premi\`ere sous-section}{10}
+\contentsline {subsection}{\numberline {4.2.2}Titre de la deuxi\`eme sous-section}{10}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Titre de la premi\`ere sous-sous-section}{10}
+\contentsline {subsubsection}{\numberline {4.2.2.2}Titre de la deuxi\`eme sous-sous-section}{10}
+\contentsline {section}{\numberline {4.3}Conclusion}{11}
+\contentsline {chapter}{\numberline {5}Impl\'ementation}{12}
+\contentsline {section}{\numberline {5.1}Introduction}{12}
+\contentsline {section}{\numberline {5.2}Environnement de d\'eveloppement}{12}
+\contentsline {subsection}{\numberline {5.2.1}Android Studio}{12}
+\contentsline {subsection}{\numberline {5.2.2}Git}{12}
+\contentsline {subsection}{\numberline {5.2.3}GitHub}{12}
+\contentsline {section}{\numberline {5.3}Outils de d\'eveloppement}{13}
+\contentsline {subsection}{\numberline {5.3.1}SDK de Android}{13}
+\contentsline {subsection}{\numberline {5.3.2}JDK}{13}
+\contentsline {section}{\numberline {5.4}Langage de programmation}{13}
+\contentsline {subsection}{\numberline {5.4.1}Java}{13}
+\contentsline {subsection}{\numberline {5.4.2}XML}{13}
+\contentsline {section}{\numberline {5.5}Persistance des donn\'ees}{13}
+\contentsline {subsection}{\numberline {5.5.1}SQLite}{13}
+\contentsline {subsection}{\numberline {5.5.2}Room}{14}
+\contentsline {section}{\numberline {5.6}Pr\'esentation des interfaces}{14}
+\contentsline {subsection}{\numberline {5.6.1}Interface d'accueil}{14}
+\contentsline {section}{\numberline {5.7}Conclusion}{15}
+\contentsline {part}{Conclusion g\'en\'erale et perspectives}{16}
+\contentsline {part}{Bibliographie}{17}
 \contentsline {paragraph}{}{1}

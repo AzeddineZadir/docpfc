@@ -5,42 +5,70 @@
 
 \section{Introduction}
 
-Texte ...
+Pour réaliser n'importe quelle tâche complexe, il faut un plan, une méthode, un raisonnement et le fait de réaliser une application n'échappe pas à cette règle car oui réaliser une application ou plutôt une application de qualité en fait partie. La première étape de cette méthodologie  est l'analyse  qui va nous permettre de répertorier les fonctionnalités principales de l'application, tant dit que l'étape de conception va nous permettre de modéliser les solutions suite à l'analyse en ayant recours au langage de modélisation choisi.
+Le langage UML(Unified Modeling Language) sera présenté au cours de ce chapitre, puis nous parlerons des applications mobiles et du contexte du projet actuel puis on finira avec un cahier des charge.
 
 
-\section{Titre de la section}
 
-Texte ...
+\section{UML}
 
+UML (Unified Modeling Language) se définit comme un langage de modélisation graphique et textuel. Il est destiné à décrire des besoins, spécifier et documenter des systèmes, esquisser des architectures logicielles, concevoir des solutions et communiquer des points de vue. UML unifie également les notations nécessaires aux différentes activités d'un processus de développement d'applications et offre, par ce biais, le moyen d'établir le suivi des décisions prises, depuis l'expression des besoins jusqu'à l'étape de réalisation.
 
-\subsection{Titre de la première sous-section}
+\begin{paragraph}
+En fait, et comme son nom l'indique, UML n'a pas l'ambition d'être exactement une méthode : c'est un langage. UML est donc non seulement un outil intéressant, mais une norme qui s'impose en technologie à objets et à laquelle se sont rangés tous les grands acteurs du domaine, acteurs qui ont d'ailleurs contribué à son élaboration. 
+\end{paragraph}
 
-Texte ... \cite{1}.
-
-
-\subsection{Titre de la deuxième sous-section}
-
-Texte ... \cite{2}.
-
-
-\subsubsection{Titre de la première sous-sous-section}
-
-	Texte ... \\
-
+\section{Application mobile}
+Une application mobile n'est rien d'autre qu'un logiciel téléchargeable que l'on installe facilement sur nos smartphones(mobile intelligent) comme on ferait sur notre ordinateur. Le téléchargement de l'application mobile se fait suivant deux options:
 \begin{itemize}
-
-\item[\textbullet] Premier point;
-
-\item[\textbullet] Deuxième point;
-
-\item[\textbullet] Dernier point.\\
-
+	\item Sur téléphone par le biais de connexion Internet.
+	\item Sur ordinateur en le branchant avec le téléphone mobile.
 \end{itemize}
 
+Il existe trois types distincts selon leurs spécificités techniques qui sont:
+\begin{description}
 
-\subsubsection{Titre de la deuxième sous-sous-section}
 
-Texte ...
+	
+\item [Application Native : ]Ces applications sont liés au système d'exploitation sur le quel sont installées car elles utilisent des caractéristiques reliées à celui-ci. Elle sont écrites dans un langage adapté au système d'exploitation en question. Ce type d'application est accessible seulement sur les systèmes d'exploitation auxquelles sont destinées. Ces plate-formes retirent 25 du prix de vente pour une application native payante.
+\item [Application Web :] Ce sont toutes les applications conçues grâce aux outils de développent web actuels (HTML, CSS, JavaScript..). Elles sont accessible sur tout les mobiles via un navigateur Web ce qui la rend plus intéressante sur le point de vue financier car les coûts de développement sont réduits vue qu'on développe une seule application qui est compatible avec tous les smartphones  quelque soit leur système. 
+\item[Application Hybride:] sont des applications qui incorporent les deux principes de développement des types précédemment cités. Les caractéristiques des applications web et celles des application native. Elles pourront être distribuées sur les plate-formes de téléchargement telles que l'Apple Store (iOS), Play Store (Android) ou encore Windows Store (Windows Phone). L'utilisateur peut donc installer ces applications et consulter leur contenu sans avoir à passer par un navigateur web. Ce type d'application mobile minimise les charges et la durée de son développement même si cela sera au détriment du perfectionnement et de la qualité qui caractérise l'application native.
+\end{description}
+La figure suivante illustre les trois types cités.
+\begin{figure}[h!]
+	\centering
+		\includegraphics[width=8cm]{images/types-d-application-mobile.jpg}
+	\caption{Les différents types d'applications.}
+	\label{typedapplication}
+\end{figure}
+
+\section{Contexte du projet}
+On dit toujours que le temps est la chose la plus précieuse car on peut tout acheter sauf le temps.   Quoi qu'on fasse, une journée durera toujours 24 heures et le rythme de vie de la société moderne nous fait sentir que l'on est en perpétuellement en manque de temps. Donc la solution serait qu'on organise mieux notre temps et que l'on peut pas se permettre de gaspiller. En utilisant une des plus grandes inventions modernes accessibles à tous qui est le smartphone ceci en mettant entre vos mains un outil aussi simple qu'efficace, capable de vous accompagnez tout au long de votre journée pour vous rappeler ce que vous avez prévu à quelle heure et bien plus encore.
+
+
+Nous sommes conscients que ce genre d'applications existe par milliers mais sont-elle vraiment utilisées par tout le monde ? Pour répondre à cette question vous n'avez qu'à déverrouiller votre mobile .Très peu de gens les utilise pourquoi ? Nous nous sommes posés cette question donc naturellement nous avons téléchargé quelques unes, on s'est rendu compte qu'elles étaient trop complexe, offrant des fonctionnalités dont on ne comprenait pas l'intérêt si ce n'est d'encombrer  l'interface, elles étaient difficiles à utiliser, on prenait énormément de temps pour comprendre leurs fonctionnement, du temps qu'on était sensé mieux gérer grâce à elles. avait du mal à enregistrer nos activités chaque jour car on devait remplir des formulaire long et fastidieux. Pour résumé on passait plus de temps a essayer de comprendre comment fonctionnais ses applications plutôt qu'à les exploiter.
+
+Voila pourquoi on a décider de réaliser ce projet. On a décidé de faire  une application dont le mot  d'ordre est simplicité. Tout au long de ce travail, nous allons raisonné avec le principe du rasoir d'Ockham également appelé principe de simplicité. Vous allez voir une conception simple, des diagrammes  très légers pour aboutir a un résultat fidèle à ce principe que nous avons pas décelé dans les applications testées.
+
+Vous avez tendance à arriver en retard ou carrément à rater des rendez-vous car vous aviez  prévu autre chose au même moment sans le savoir ? Vous faites pleins d'activités et vous n'arrivez plus à vous situer ? Vous ne savez pas quoi répondre quand on vous demande si vous êtes libre à tels moment? Désormais, vous n'allez plus plus à réfléchir pour répondre à cette question grâce a notre application.
+
+\section{Cahier des charges}
+l'application à développer aura pour mission d'offrir une représentation des événements et des activités de l'utilisateur pendant les jours de la semaine. Pour cela, l'application devra répondre à ces besoins avec les fonctionnalités suivantes:
+\begin{itemize}
+\item Permettre à l'utilisateur d'organiser ses activités et les regrouper dans de différents calendriers.
+\item Permettre à l'utilisateur d'ajouter des activités dans le calendrier qui leur convient.
+\item Offrir une interface intuitive à l'utilisateur pour afficher ses activités.
+\item Générer des alertes/notifications pour les activités correspondantes. 
+\end{itemize}
+ 
+
+%%Texte ... \cite{1}.
+
+
+
+%Texte ... \cite{2}.
+
+
 
     
 \section{Conclusion}
