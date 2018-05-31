@@ -16,7 +16,7 @@
 \contentsline {part}{Liste des tableaux}{iv}
 \contentsline {part}{Liste des abr\'eviations}{v}
 \contentsline {part}{Introduction g\'en\'erale}{1}
-\contentsline {chapter}{\numberline {1}context et probl\'ematique}{2}
+\contentsline {chapter}{\numberline {1}Contexte et probl\'ematique}{2}
 \contentsline {section}{\numberline {1.1}Introduction}{2}
 \contentsline {section}{\numberline {1.2}UML}{2}
 \contentsline {paragraph}{E}{2}
@@ -26,27 +26,28 @@
 \contentsline {section}{\numberline {1.6}Conclusion}{4}
 \contentsline {chapter}{\numberline {2}Sp\'ecification des besoins et conception}{5}
 \contentsline {section}{\numberline {2.1}Introduction}{5}
-\contentsline {section}{\numberline {2.2}sp\'ecification et analyse des besoins}{5}
+\contentsline {section}{\numberline {2.2}Sp\'ecification et analyse des besoins}{5}
 \contentsline {subsection}{\numberline {2.2.1}Identification des acteurs}{5}
 \contentsline {subsection}{\numberline {2.2.2}Identification des besoins}{5}
-\contentsline {subsection}{\numberline {2.2.3}Titre de la deuxi\`eme sous-section}{6}
-\contentsline {section}{\numberline {2.3}Conclusion}{6}
-\contentsline {chapter}{\numberline {3}Impl\'ementation}{8}
-\contentsline {section}{\numberline {3.1}Introduction}{8}
-\contentsline {section}{\numberline {3.2}Environnement de d\'eveloppement}{8}
-\contentsline {subsection}{\numberline {3.2.1}Android Studio}{8}
-\contentsline {subsection}{\numberline {3.2.2}Git et GitHub}{8}
-\contentsline {section}{\numberline {3.3}Outils de d\'eveloppement}{8}
-\contentsline {subsection}{\numberline {3.3.1}SDK de Android}{8}
-\contentsline {subsection}{\numberline {3.3.2}JDK}{9}
-\contentsline {section}{\numberline {3.4}Langage de programmation}{9}
-\contentsline {section}{\numberline {3.5}Persistance des donn\'ees}{9}
-\contentsline {section}{\numberline {3.6}Librairies utilis\'ees}{10}
-\contentsline {section}{\numberline {3.7}Pr\'esentation des interfaces}{10}
-\contentsline {subsection}{\numberline {3.7.1}Interface d'accueil}{10}
-\contentsline {subsection}{\numberline {3.7.2}Interface d'ajout d'un calendrier}{11}
-\contentsline {subsection}{\numberline {3.7.3}Interface d'ajout d'\'ev\'enement}{11}
-\contentsline {section}{\numberline {3.8}Conclusion}{12}
-\contentsline {part}{Conclusion g\'en\'erale et perspectives}{13}
-\contentsline {part}{Bibliographie}{14}
+\contentsline {subsection}{\numberline {2.2.3}maquttage des interfaces graphiques}{7}
+\contentsline {subsection}{\numberline {2.2.4}le mod\'ele du domaine}{7}
+\contentsline {section}{\numberline {2.3}Conclusion}{7}
+\contentsline {chapter}{\numberline {3}Impl\'ementation}{10}
+\contentsline {section}{\numberline {3.1}Introduction}{10}
+\contentsline {section}{\numberline {3.2}Environnement de d\'eveloppement}{10}
+\contentsline {subsection}{\numberline {3.2.1}Android Studio}{10}
+\contentsline {subsection}{\numberline {3.2.2}Git et GitHub}{10}
+\contentsline {section}{\numberline {3.3}Outils de d\'eveloppement}{10}
+\contentsline {subsection}{\numberline {3.3.1}SDK de Android}{10}
+\contentsline {subsection}{\numberline {3.3.2}JDK}{11}
+\contentsline {section}{\numberline {3.4}Langage de programmation}{11}
+\contentsline {section}{\numberline {3.5}Persistance des donn\'ees}{11}
+\contentsline {section}{\numberline {3.6}Librairies utilis\'ees}{12}
+\contentsline {section}{\numberline {3.7}Pr\'esentation des interfaces}{12}
+\contentsline {subsection}{\numberline {3.7.1}Interface d'accueil}{12}
+\contentsline {subsection}{\numberline {3.7.2}Interface d'ajout d'un calendrier}{13}
+\contentsline {subsection}{\numberline {3.7.3}Interface d'ajout d'\'ev\'enement}{13}
+\contentsline {section}{\numberline {3.8}Conclusion}{13}
+\contentsline {part}{Conclusion g\'en\'erale et perspectives}{16}
+\contentsline {part}{Bibliographie}{17}
 \contentsline {paragraph}{}{1}

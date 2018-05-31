@@ -2,9 +2,11 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Les diff\'erents types d'applications.}}{3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces diagrame cas d'utilisation.}}{7}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces diagrame cas d'utilisation.}}{6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces les interfaces et les liens de navigation }}{8}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Mod\'ele du domaine}}{9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture de Room.}}{10}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Interface d'accueil.}}{11}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Ajout d'un calendrier.}}{11}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Ajout d'un \'ev\'enement.}}{12}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture de Room.}}{12}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Interface d'accueil.}}{13}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ajout d'un calendrier.}}{14}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Ajout d'un \'ev\'enement.}}{15}

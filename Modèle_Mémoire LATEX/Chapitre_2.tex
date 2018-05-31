@@ -9,7 +9,7 @@ Texte ...
 
 
 \section{Spécification et analyse des besoins}
-Une phase décisive du processus de développement d'une application. Elle permet d'identifier les acteurs ainsi que formaliser les besoins fonctionnels et non fonctionnels, déduire les différents cas d'utilisation à partir des besoins fonctionnels et les détaillés. On conclut cette section avec des maquettes IHM et leurs liens de navigation.
+Une phase décisive du processus de développement d'une application. Elle permet d'identifier les acteurs ainsi que formaliser les besoins fonctionnels et non fonctionnels, déduire les différents cas d'utilisation à partir des besoins fonctionnels et les détaillés. On conclut cette section avec des maquettes IHM et leurs liens de navigation.puis on passeras a l'analyse des besoins pour formuler le modéle du domaine et le diagrammes des classes participentes 
 
 \subsection{Identification des acteurs}
 
@@ -32,39 +32,41 @@ L'application doit remplir des critères non fonctionnels comme:
 
 \end{description}
 
-
-La figure \ref{fig1} ...
+%La figure \ref{fig1} ...
 
 \begin{figure}[h!]
 	\centering
-		\includegraphics[]{images/diagrame de cas d'utilisation.PNG}
+		\includegraphics[width=18cm]{images/cas_dutilisation.PNG}
 	\caption{diagrame cas d'utilisation.}
 	\label{fig1}
 \end{figure}
 
+le diagramme de la figure \ref{fig1} représente les différents cas d’utilisation associer a l’utilisateur .ce dernier  peux librement gérer ses calendrier et ses événements .la suppression d’un calendrier peux être étendue par « transférer les événements »  .la gestion de d’un événement  inclut automatiquement «  la gestion de l’alerte ».
+\newpage
+\subsection{maquttage des interfaces graphiques}
 
-\subsection{Titre de la deuxième sous-section}
+%La figure \ref{fig2} ...
 
-Texte ...
+\begin{figure}[h!]
+	\centering
+		\includegraphics[scale=0.8]{images/ihm.PNG}
+	\caption{les interfaces et les liens de navigation }
+	\label{fig2}
+\end{figure}
+dans cette figure\ref{fig2} on représente les interfaces principale et les liens qui les relient ,vous remarquerait que nous avons essayé de rendre les interfaces aussi simple ,minimalistes  et intuitive que on a pus car nous estimons que ceci est capitale pour une utilisation fluide et rapide .
+
+\subsection{le modéle du domaine}
+La modélisation des besoins par des cas d'utilisation s'apparente à une analyse fonctionnelle classique. L'élaboration du modèle des classes du domaine permet d'opérer une transition vers une véritable modélisation objet. L'analyse du domaine est une étape totalement dissociée de l'analyse des besoins (sections . Elle peut être menée avant, en parallèle ou après cette dernière.\cite{2}
+ En analysant le domaine on peut concevoire le modele du domaine,qui represente les objets du monde réel dans ce domaine. Ses objets doivent contenire des attributs.il est impotant de ne pas modéliser un concepte par un attribut au lieu d'une classe et vis vers ca .
 
 
-%%%% Ajout d'un tableau %%%%
-\begin{table}[!h]
-		\small
-		\centering
-		\footnotesize{
-			\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|} %%% La taille des trois colonnes est égale à 4cm %%%
-				\hline
-				\rowcolor{lightgray} \textbf{Colonne 1} & \textbf{Colonne 2} & \textbf{Colonne 3} \\
-				\hline
-				Ligne 1 Colonne 1 & Ligne 1 Colonne 2 & Ligne 1 Colonne 3 \\
-				\hline
-				Ligne 2 Colonne 1	& etc. 							& etc. \\
-				\hline
-			\end{tabular}}
-		\caption{Titre du tableau.}	
-\end{table}
-	
+\begin{figure}[h!]
+	\centering
+		\includegraphics[scale=0.8]{images/mdd.jpg}
+	\caption{Modéle du domaine}
+	\label{fig2}
+\end{figure}
+
 
 \section{Conclusion}
 
