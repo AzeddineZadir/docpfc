@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.17)  30 MAY 2018 02:39
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.24)  27 MAY 2018 14:40
->>>>>>> 0e75e5e0b819accde95825f899032459819c6560
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.24)  31 MAY 2018 03:14
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -385,34 +381,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Chapitre 1.
-<<<<<<< HEAD
 [2
-=======
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
-(D:\miketex\tex\latex\base\omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-) (Chapitre_2.tex [2
->>>>>>> 0e75e5e0b819accde95825f899032459819c6560
 
 ]
 <images/types-d-application-mobile.jpg, id=47, 640.3925pt x 408.52625pt>
 File: images/types-d-application-mobile.jpg Graphic file (type jpg)
 <use images/types-d-application-mobile.jpg>
-Package pdftex.def Info: images/types-d-application-mobile.jpg  used on input l
-ine 40.
+Package pdftex.def Info: images/types-d-application-mobile.jpg  used on input line 40.
 (pdftex.def)             Requested size: 227.62204pt x 145.20549pt.
 
 
@@ -421,92 +396,312 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3 <./images/types-d-application-mobile.jpg>] [4]) (Chapitre_2.tex [5]
+[3 <./images/types-d-application-mobile.jpg>]) (Chapitre_2.tex [4]
 Chapitre 2.
-<images/MySQL.png, id=59, 1027.84pt x 531.9875pt>
-File: images/MySQL.png Graphic file (type png)
-<use images/MySQL.png>
-Package pdftex.def Info: images/MySQL.png  used on input line 22.
-(pdftex.def)             Requested size: 227.62204pt x 117.80876pt.
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ... décisive du processus de développement d’
+                                                  une application.elle nous ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...onctionnels .déduire les différents cas d’
+                                                  utilisation  a partir des ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 L’
+       application est supposer fournir une représentation simplifier de l’e...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...ournir une représentation simplifier de l’
+                                                  emploi du temps d’une pers...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...ntation simplifier de l’emploi du temps d’
+                                                  une personne (ex :étudiant...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...avons identifié un seule acteur qui est l’
+                                                  utilisateur lui-même .
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 Permettre a l’
+                   utilisateur d’ajouter des évènements et de les administre...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 Permettre a l’utilisateur d’
+                                 ajouter des évènements et de les administre...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...s il a définie des alerte  même lorsque l’
+                                                  application est arrêté .Av...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 L’
+       application dois remplir des critères non fonctionnels comme :
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...fiabilité :si application crache et que l’
+                                                  utilisateur na pas reçu l’...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...crache et que l’utilisateur na pas reçu l’
+                                                  alerte cela peux s’avérer ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...lisateur na pas reçu l’alerte cela peux s’
+                                                  avérer problématique .
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 	\item L’
+              utilisabilité :l’utilisateur dois pouvoir métriser le fonction...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 	\item L’utilisabilité :l’
+                               utilisateur dois pouvoir métriser le fonction...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ... pouvoir métriser le fonctionnements de l’
+                                                  application facilement et ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[5
+
+]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...plois du temps plusieurs fois par jour .l’
+                                                  application doit être acce...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...sible rapidement pour ne pas contrarier l’
+                                                  utilisateur .
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+! Too many }'s.
+l.33 \end{description}}
+                       
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+LaTeX Warning: File `images/diagrame de cas d'utilisation.PNG' not found on input line 40.
+
+<images/diagrame de cas d'utilisation.PNG, id=59, 965.5272pt x 657.1752pt>
+File: images/diagrame de cas d'utilisation.PNG Graphic file (type png)
+<use images/diagrame de cas d'utilisation.PNG>
+Package pdftex.def Info: images/diagrame de cas d'utilisation.PNG  used on input line 40.
+(pdftex.def)             Requested size: 965.52484pt x 657.1736pt.
+
+Overfull \hbox (465.04085pt too wide) in paragraph at lines 40--41
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 12.11203pt on input line 43.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 38.
-) (Chapitre_3.tex [6
-
- <./images/MySQL.png>] [7]
+(Font)              <5> on input line 56.
+) (Chapitre_3.tex [6] [7 <./images/diagrame de cas d'utilisation.PNG>]
 Chapitre 3.
+[8
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
-("D:\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-) (Chapitre_4.tex [8
-
-] [9]
-Chapitre 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-) (Chapitre_5.tex [10
-
-] [11]
-Chapitre 5.
-[12
-
-<<<<<<< HEAD
-] [13]
-<images/roomarchitecture.png, id=89, 602.25pt x 544.0325pt>
+]
+<images/roomarchitecture.png, id=71, 602.25pt x 544.0325pt>
 File: images/roomarchitecture.png Graphic file (type png)
 <use images/roomarchitecture.png>
-Package pdftex.def Info: images/roomarchitecture.png  used on input line 64.
+Package pdftex.def Info: images/roomarchitecture.png  used on input line 65.
 (pdftex.def)             Requested size: 227.62204pt x 205.62213pt.
+ [9]
 File: images/roomarchitecture.png Graphic file (type png)
 <use images/roomarchitecture.png>
-Package pdftex.def Info: images/roomarchitecture.png  used on input line 78.
+Package pdftex.def Info: images/roomarchitecture.png  used on input line 88.
 (pdftex.def)             Requested size: 227.62204pt x 205.62213pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (Conclusion_GÃ©nÃ©rale.tex [14 <./images/roomarchitecture.png>] [15]
-=======
-]
-File: images/MySQL.png Graphic file (type png)
-<use images/MySQL.png>
-Package pdftex.def Info: images/MySQL.png  used on input line 50.
-(pdftex.def)             Requested size: 227.62204pt x 117.80876pt.
-) (Conclusion_GÃ©nÃ©rale.tex [11] [12]
->>>>>>> 0e75e5e0b819accde95825f899032459819c6560
+File: images/roomarchitecture.png Graphic file (type png)
+<use images/roomarchitecture.png>
+Package pdftex.def Info: images/roomarchitecture.png  used on input line 97.
+(pdftex.def)             Requested size: 227.62204pt x 205.62213pt.
+[10 <./images/roomarchitecture.png>]
+File: images/roomarchitecture.png Graphic file (type png)
+<use images/roomarchitecture.png>
+Package pdftex.def Info: images/roomarchitecture.png  used on input line 107.
+(pdftex.def)             Requested size: 227.62204pt x 205.62213pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [11] (Conclusion_GÃ©nÃ©rale.tex [12]
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-<<<<<<< HEAD
-) (Bibliographie.tex [16
-
-]) (RÃ©sumÃ©.tex [17
-=======
 ) (Bibliographie.tex [13
 
 ]) (RÃ©sumÃ©.tex [14
->>>>>>> 0e75e5e0b819accde95825f899032459819c6560
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
@@ -518,47 +713,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[1]) (Main.aux) ) 
+[1]) (Main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 4136 strings out of 493305
- 57148 string characters out of 3144922
- 131993 words of memory out of 3000000
- 7534 multiletter control sequences out of 15000+200000
- 19379 words of font info for 42 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 41i,11n,43p,935b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
-ppen\ec\dpi600\ecbi1200.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\l
-jfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Salim\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\Salim\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\S
-alim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <
-C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm
-1200.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
-pi600\ecbx1200.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
-appen\ec\dpi600\ecbx2488.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9
-\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\Salim\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Salim\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk><D:/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi12.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Main.pdf (26 pages, 421624 bytes).
-PDF statistics:
- 580 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
- 4120 strings out of 493305
- 56411 string characters out of 3146228
- 132001 words of memory out of 3000000
+ 4113 strings out of 493305
+ 56522 string characters out of 3146228
+ 132014 words of memory out of 3000000
  7520 multiletter control sequences out of 15000+200000
  19379 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,43p,427b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,43p,730b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk> <C:\Users\silver-desk\
 AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\
 fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
@@ -572,10 +739,9 @@ cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\silver-
 jfour\jknappen\ec\dpi600\ecrm1440.pk><D:/miketex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/miketex/fonts/type1/publi
 c/amsfonts/cm/cmmi12.pfb><D:/miketex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/miketex/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb>
-Output written on Main.pdf (23 pages, 296459 bytes).
+Output written on Main.pdf (23 pages, 1791558 bytes).
 PDF statistics:
- 529 PDF objects out of 1000 (max. 8388607)
+ 559 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> 0e75e5e0b819accde95825f899032459819c6560
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
