@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.24)  31 MAY 2018 14:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.24)  1 JUN 2018 00:01
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -377,7 +377,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]) (DÃ©dicaces.tex) [1
 
-] (Main.toc [1
+] (Main.toc
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ...inpenc@undefined@ {latin1}interactions}{8}
+                                                  
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[1
 
 ])
 \tf@toc=\write4
@@ -393,12 +407,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@lot=\write6
 \openout6 = `Main.lot'.
 
-
-(Liste_des_Abreviations.tex (Main.nls [4
+ (Liste_des_Abreviations.tex (Main.nls [4
 
 ])) [5
 
-] (Introduction_GÃ©nÃ©rale.tex) (Chapitre_1.tex [1
+] (Introduction_GÃ©nÃ©rale.tex)
+(Chapitre_1.tex [1
 
 ]
 Chapitre 1.
@@ -419,20 +433,107 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3 <./images/types-d-application-mobile.jpg>]) (Chapitre_2.tex [4]
 Chapitre 2.
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 Les éléments de diagrammes de cas d’
+                                         utilisation sont :
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
 [5
 
 ]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 	\item Cas d’
+                  utilisation : est une unité cohérente représentant une fon...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 	\item Relations d’
+                        association : Une relation d'association est un chem...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+! Too many }'s.
+l.40 \end{itemize}}
+                   
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 ...uit, nous décrivons le diagramme de cas d’
+                                                  utilisation associé à l’ut...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 ...iagramme de cas d’utilisation associé à l’
+                                                  utilisateur de l’applicati...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 ...’utilisation associé à l’utilisateur de l’
+                                                  application à réaliser.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
 <images/cas_dutilisation.PNG, id=63, 923.6106pt x 631.158pt>
 File: images/cas_dutilisation.PNG Graphic file (type png)
 <use images/cas_dutilisation.PNG>
-Package pdftex.def Info: images/cas_dutilisation.PNG  used on input line 39.
+Package pdftex.def Info: images/cas_dutilisation.PNG  used on input line 53.
 (pdftex.def)             Requested size: 512.1496pt x 349.99829pt.
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 39--40
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 53--54
  [][] 
  []
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
@@ -440,8 +541,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 ...ref{fig1} représente les différents cas d’
-                                                  utilisation associer a l’u...
+l.62 ...uit jetable permettant aux utilisateurs d’
+                                                  avoir une vue concrète mai...
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -453,8 +554,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 ...différents cas d’utilisation associer a l’
-                                                  utilisateur .ce dernier  p...
+l.62 ...lication. On parle aussi de prototypage d’
+                                                  IHM (Interface Homme Machi...
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
@@ -466,70 +567,251 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 ...drier et ses événements .la suppression d’
-                                                  un calendrier peux être ét...
+l.62 ...t de bien cerner les fonctionnalités de l’
+                                                  application à réaliser .\c...
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 ...sférer les événements »  .la gestion de d’
-                                                  un événement  inclut autom...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 ...inclut automatiquement «  la gestion de l’
-                                                  alerte ».
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[6 <./images/cas_dutilisation.PNG>]
-<images/ihm.PNG, id=67, 597.432pt x 845.0772pt>
+<images/ihm.PNG, id=64, 597.432pt x 845.0772pt>
 File: images/ihm.PNG Graphic file (type png)
 <use images/ihm.PNG>
-Package pdftex.def Info: images/ihm.PNG  used on input line 52.
-(pdftex.def)             Requested size: 477.94624pt x 676.06268pt.
+Package pdftex.def Info: images/ihm.PNG  used on input line 66.
+(pdftex.def)             Requested size: 512.1496pt x 724.50853pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 66--67
+ [][] 
+ []
 
 
-LaTeX Warning: Float too large for page by 21.73647pt on input line 55.
+LaTeX Warning: Float too large for page by 70.18231pt on input line 69.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[6]
 <images/mdd.jpg, id=68, 568.1225pt x 387.4475pt>
 File: images/mdd.jpg Graphic file (type jpg)
 <use images/mdd.jpg>
-Package pdftex.def Info: images/mdd.jpg  used on input line 65.
-(pdftex.def)             Requested size: 454.4986pt x 309.95842pt.
+Package pdftex.def Info: images/mdd.jpg  used on input line 80.
+(pdftex.def)             Requested size: 397.68303pt x 271.2114pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (Chapitre_3.tex [7] [8 <./images/ihm.PNG>] [9 <./images/mdd.jpg>]
+[7 <./images/cas_dutilisation.PNG>]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 ...teront des actions de l'utilisateur sur l’
+                                                  IBM.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+! Too many }'s.
+l.96 \end{itemize}}
+                   
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 ...e de spécification de besoins, mettons l’
+                                                  accent maintenant sur une ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 ...hase fondamentale dans le cycle de vie d’
+                                                  un logiciel, la phase de c...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 ...par présenter les déférents diagrammes d’
+                                                  interaction système. Ensui...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105 \subsection{Diagramme d’interactions}
+                                           
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 ...rons encore les trois types de classes d’
+                                                  analyse, on représente les...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 L’
+        objectif de cette étape est de produire le diagramme de classes qui ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 ... diagramme de classes qui servira pour l’
+                                                  implémentation, Les diagra...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 ... pour l’implémentation, Les diagrammes d’
+                                                  interaction vont permettre...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 ...iagrammes d’interaction vont permettre d’
+                                                  élaborer le diagramme de c...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 ... niveau physique, le système est libre d’
+                                                  utiliser n’importe quelle ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 ...sique, le système est libre d’utiliser n’
+                                                  importe quelle technique d...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 ...quelle technique de stockage dès lors qu’
+                                                  il est possible de relier ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 ...ique. Les tables ne représentent donc qu’
+                                                  une abstraction de l’enreg...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 ...eprésentent donc qu’une abstraction de l’
+                                                  enregistrement physique de...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[8]) (Chapitre_3.tex [9] [10 <./images/ihm.PNG>] [11 <./images/mdd.jpg>]
 Chapitre 3.
-[10
+[12
 
 ]
-<images/roomarchitecture.png, id=82, 602.25pt x 544.0325pt>
+<images/roomarchitecture.png, id=88, 602.25pt x 544.0325pt>
 File: images/roomarchitecture.png Graphic file (type png)
 <use images/roomarchitecture.png>
 Package pdftex.def Info: images/roomarchitecture.png  used on input line 65.
 (pdftex.def)             Requested size: 227.62204pt x 205.62213pt.
- [11]
-<images/home.png, id=87, 1084.05pt x 1927.2pt>
+ [13]
+<images/home.png, id=93, 1084.05pt x 1927.2pt>
 File: images/home.png Graphic file (type png)
 <use images/home.png>
 Package pdftex.def Info: images/home.png  used on input line 88.
@@ -538,16 +820,16 @@ Package pdftex.def Info: images/home.png  used on input line 88.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/addcalendar.png, id=88, 1084.05pt x 1927.2pt>
+<images/addcalendar.png, id=94, 1084.05pt x 1927.2pt>
 File: images/addcalendar.png Graphic file (type png)
 <use images/addcalendar.png>
 Package pdftex.def Info: images/addcalendar.png  used on input line 97.
 (pdftex.def)             Requested size: 227.62204pt x 404.63573pt.
-[12 <./images/roomarchitecture.png>]
+[14 <./images/roomarchitecture.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/addevent.png, id=93, 1084.05pt x 1927.2pt>
+<images/addevent.png, id=99, 1084.05pt x 1927.2pt>
 File: images/addevent.png Graphic file (type png)
 <use images/addevent.png>
 Package pdftex.def Info: images/addevent.png  used on input line 107.
@@ -555,28 +837,53 @@ Package pdftex.def Info: images/addevent.png  used on input line 107.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (Conclusion_GÃ©nÃ©rale.tex [13 <./images/home.png>] [14 <./images/addcalendar.png>] [15 <./images/addevent.png>]
+) (Conclusion_GÃ©nÃ©rale.tex [15 <./images/home.png>] [16 <./images/addcalendar.png>] [17 <./images/addevent.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) (Bibliographie.tex [16
+) (Bibliographie.tex [18
 
 ]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.15 ...ra.free.fr/dev/fiches/fiche-c16-diagramme_
+                                                  classes_conception.pdf .
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.16 		
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 ...ph{UML 2 de l’apprentissage a la pratique }
-                                                  ,Publié le 31 octobre 2006...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
+! Missing } inserted.
+<inserted text> 
+                }
+l.16 		
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-) (RÃ©sumÃ©.tex [17
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.16 		
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+) (RÃ©sumÃ©.tex [19
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
@@ -594,10 +901,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4134 strings out of 493305
- 56890 string characters out of 3146228
- 132058 words of memory out of 3000000
- 7538 multiletter control sequences out of 15000+200000
+ 4136 strings out of 493305
+ 56896 string characters out of 3146228
+ 132067 words of memory out of 3000000
+ 7540 multiletter control sequences out of 15000+200000
  17071 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,43p,730b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -612,9 +919,9 @@ i600\ecrm2074.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
 rs\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk><D:/miketex/fonts/type1/public/am
 sfonts/cm/cmmi10.pfb><D:/miketex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/miketex/fonts/type1/public/amsfonts/cm/cm
 mi8.pfb><D:/miketex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/miketex/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Main.pdf (27 pages, 2481861 bytes).
+Output written on Main.pdf (29 pages, 2491945 bytes).
 PDF statistics:
- 571 PDF objects out of 1000 (max. 8388607)
+ 580 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
