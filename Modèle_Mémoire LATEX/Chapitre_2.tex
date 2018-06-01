@@ -9,14 +9,14 @@ Texte ...
 
 
 \section{Spécification et analyse des besoins}
-Une phase décisive du processus de développement d'une application. Elle permet d'identifier les acteurs ainsi que formaliser les besoins fonctionnels et non fonctionnels, déduire les différents cas d'utilisation à partir des besoins fonctionnels et les détaillés. On conclut cette section avec des maquettes IHM et leurs liens de navigation.puis on passeras a l'analyse des besoins pour formuler le modèle du domaine et le diagrammes des classes participantes 
+Une phase décisive du processus de développement d'une application. Elle permet d'identifier les acteurs ainsi que formaliser les besoins fonctionnels et non fonctionnels, déduire les différents cas d'utilisation à partir des besoins fonctionnels et les détaillés. On conclut cette section avec des maquettes IHM et leurs liens de navigation.puis on passeras a l'analyse des besoins pour formuler le modèle du domaine et le diagrammes des classes participantes.
 
 \subsection{Identification des besoins}
 
 \begin{description}
 
 \item[Besoins fonctionnels]
-Permettre a l'utilisateur d'ajouter des événements et de les administrer dans les calendriers qui leur correspondent  qu'il aura préalablement pris le soin de créer selon ses besoins. Il devra être rappelé et informé des événements pour lesquels il a préalablement défini les alertes,  même lorsque l'application n'est pas active. Avoir une représentation détaillées sur son emploi du temps général (tous les calendriers )voire qu'un seul. Adapter la représentation pour afficher une seule journée ,3 jours , une semaine. Permettre à l'utilisateur de modifier à tout moment les informations déjà saisies.
+Permettre a l'utilisateur d'ajouter des événements et de les administrer dans les calendriers qui leur correspondent  qu'il aura préalablement pris le soin de créer selon ses besoins. Il devra être rappelé et informé des événements pour lesquels il a préalablement défini les alertes,  même lorsque l'application n'est pas active. Avoir une représentation détaillées sur son emploi du temps général (tous les calendriers )voire qu'un seul. Adapter la représentation pour afficher une seule journée ,3 jours, une semaine. Permettre à l'utilisateur de modifier à tout moment les informations déjà saisies.
 
 \item[Besoin non fonctionnels]
 L'application doit remplir des critères non fonctionnels comme:
@@ -32,15 +32,15 @@ L'application doit remplir des critères non fonctionnels comme:
 \subsection{diagramme de cas d'utilisation}
 
 Les diagrammes de cas d'utilisation sont des diagrammes utilisés pour donner une vision globale du comportement fonctionnel d'une application. Ils permettent de recueillir, d'analyser et d'organiser les besoins. Il s'agit donc de la première étape UML d'analyse d'un système. 
-Les éléments de diagrammes de cas d’utilisation sont :
+Les éléments de diagrammes de cas d'utilisation sont :
 \begin{itemize}
 	\item Acteur : Un acteur est l'idéalisation d'un rôle joué par une personne externe, un processus ou une chose qui interagit avec un système. Il se représente par un petit bonhomme avec son nom inscrit dessous.
-	\item Cas d’utilisation : est une unité cohérente représentant une fonctionnalité visible de l'extérieur. Il réalise un service de bout en bout, avec un déclenchement, un déroulement et une fin, pour l'acteur qui l'initie. Un cas d'utilisation modélise donc un service rendu par le système, sans imposer le mode de réalisation de ce service. Il se représente par une ellipse contenant le nom du cas.
-	\item Relations d’association : Une relation d'association est un chemin de communication entre un acteur et un cas d'utilisation et est représenté par un trait continue \cite{3}.
-\end{itemize}}
+	\item Cas d'utilisation : est une unité cohérente représentant une fonctionnalité visible de l'extérieur. Il réalise un service de bout en bout, avec un déclenchement, un déroulement et une fin, pour l'acteur qui l'initie. Un cas d'utilisation modélise donc un service rendu par le système, sans imposer le mode de réalisation de ce service. Il se représente par une ellipse contenant le nom du cas.
+	\item Relations d'association : Une relation d'association est un chemin de communication entre un acteur et un cas d'utilisation et est représenté par un trait continue \cite{3}.
+\end{itemize}
 
 
-Dans ce qui suit, nous décrivons le diagramme de cas d’utilisation associé à l’utilisateur de l’application à réaliser.
+Dans ce qui suit, nous décrivons le diagramme de cas d'utilisation associé à l'utilisateur de l'application à réaliser.
 
 L'application est supposé fournir une représentation simplifiée de l'emploi du temps d'une personne (ex :étudiant). Suite à ça, nous avons identifié un seul acteur qui est l'utilisateur lui-même.
 
@@ -50,11 +50,11 @@ L'application est supposé fournir une représentation simplifiée de l'emploi du t
 
 %diagramme cas dutilisation 
 
-Le diagramme de la figure \ref{fig1} représente les différents cas d'utilisation associés à l'utilisateur. Ce dernier peut librement gérer ses calendriers et ses événements. La suppression d'un calendrier peut être étendue par « transférer les événements » . La gestion d'un événement inclut automatiquement «la gestion de l'alerte».
+Le diagramme de la figure \ref{fig1} représente les différents cas d'utilisation associés à l'utilisateur. Ce dernier peut librement gérer ses calendriers et ses événements. La suppression d'un calendrier peut être étendue par « transférer les événements ». La gestion d'un événement inclut automatiquement «la gestion de l'alerte».
 
 \subsection{Maquettes IHM et navigation }
 
-Une maquette est un produit jetable permettant aux utilisateurs d’avoir une vue concrète mais non définitive des interfaces de la future application. On parle aussi de prototypage d’IHM (Interface Homme Machine). Une maquette permet de bien cerner les fonctionnalités de l’application à réaliser .\cite{4}
+Une maquette est un produit jetable permettant aux utilisateurs d'avoir une vue concrète mais non définitive des interfaces de la future application. On parle aussi de prototypage d'IHM (Interface Homme Machine). Une maquette permet de bien cerner les fonctionnalités de l'application à réaliser.\cite{4}
 
 %fig ihm et navigation
 Dans cette figure\ref{fig2}, on présente les interfaces principales et les liens qui les relient, vous remarquerez que nous avons essayé de rendre les interfaces aussi simple, minimaliste et intuitive qu'on a pu car nous estimons que ceci est capitale pour une utilisation fluide et rapide.
@@ -72,33 +72,33 @@ Les règles :
 Pour compléter ce travail d'identification, nous allons ajouter des attributs et des opérations dans les classes d'analyse, ainsi que des associations entre elles.
 \begin{itemize}
 	\item Les contrôles vont seulement posséder des opérations. Ces opérations montrent la logique de l'application, les règles transverses à plusieurs entités, bref les comportements du système informatique.
-	\item Les dialogues vont posséder des attributs et des opérations. Les attributs représenteront des champs de saisie ou des résultats. Les résultats seront distingués en utilisant la notation de l'attribut dérivé. Les opérations représenteront des actions de l'utilisateur sur l’IBM.
-	\item les classes entités réaliser a partir du modelé du domaine 
-\end{itemize}}
+	\item Les dialogues vont posséder des attributs et des opérations. Les attributs représenteront des champs de saisie ou des résultats. Les résultats seront distingués en utilisant la notation de l'attribut dérivé. Les opérations représenteront des actions de l'utilisateur sur l'IHM.
+	\item les classes entités réalisées à partir du modèle du domaine 
+\end{itemize}
 
 
 
-\section{conception}
+\section{Conception}
 
-Après avoir tracé les grandes lignes de phase de spécification de besoins, mettons l’accent maintenant sur une phase fondamentale dans le cycle de vie d’un logiciel, la phase de conception. 
-Dans ce chapitre, nous commençons par présenter les déférents diagrammes d’interaction système. Ensuite élaborer le diagramme conceptuel. Enfin la phase de conception s'achèvera par construire les tables de modèle logique de données(MLD)
+Après avoir tracé les grandes lignes de phase de spécification de besoins, mettons l'accent maintenant sur une phase fondamentale dans le cycle de vie d'un logiciel, la phase de conception. 
+Dans ce chapitre, nous commençons par présenter les différents diagrammes d'interaction système. Ensuite élaborer le diagramme conceptuel. Enfin la phase de conception s'achèvera par construire les tables de modèle logique de données(MLD).
 
-\subsection{Diagramme d’interactions}
+\subsection{Diagramme d'interactions}
 
-Ces diagrammes permettent de modéliser comment les objets communiquent entre eux cite{5}. Pour cela, nous utiliserons encore les trois types de classes d’analyse, on représente les interactions dans un format où chaque nouvel objet est ajouté en haut à droite. On représente la ligne de vie de chaque objet par un trait pointillé vertical. Cette ligne de vie sert de point de départ ou d'arrivée à des messages représentés eux-mêmes par des flèches horizontales. Par convention, le temps coule de haut en bas. Il indique ainsi visuellement la séquence relative des envois et réceptions de messages.
+Ces diagrammes permettent de modéliser comment les objets communiquent entre eux cite{5}. Pour cela, nous utiliserons encore les trois types de classes d'analyse, on représente les interactions dans un format où chaque nouvel objet est ajouté en haut à droite. On représente la ligne de vie de chaque objet par un trait pointillé vertical. Cette ligne de vie sert de point de départ ou d'arrivée à des messages représentés eux-mêmes par des flèches horizontales. Par convention, le temps coule de haut en bas. Il indique ainsi visuellement la séquence relative des envois et réceptions de messages.
 
-nous avons décidé de d'inclure deux diagramme seulement qui concerne l'ajoute d'un événement et la suppression d'un calendrier
+nous avons décidé d'inclure deux diagrammes seulement qui concerne l'ajout d'un événement et la suppression d'un calendrier.
 
 %les diagrammes d'interaction 
 
 \subsection{Diagramme de classe ce conceptions}
-L’objectif de cette étape est de produire le diagramme de classes qui servira pour l’implémentation, Les diagrammes d’interaction vont permettre d’élaborer le diagramme de classes de conception, celui-ci est un document indispensable qui représente la vue de conception statique d'un système \cite{6}.  
+L'objectif de cette étape est de produire le diagramme de classes qui servira pour l'implémentation, Les diagrammes d'interaction vont permettre d'élaborer le diagramme de classes de conception, celui-ci est un document indispensable qui représente la vue de conception statique d'un système \cite{6}.  
 
 
 
 \subsection{Modèle relationnel}
 
-Le modèle relationnel représente la base de données comme un ensemble de tables, sans préjuger de la façon dont les informations sont stockées dans la machine. Les tables constituent donc la structure logique du modèle relationnel. Au niveau physique, le système est libre d’utiliser n’importe quelle technique de stockage dès lors qu’il est possible de relier ces structures à des tables au niveau logique. Les tables ne représentent donc qu’une abstraction de l’enregistrement physique des données en mémoire \cite{5}.
+Le modèle relationnel représente la base de données comme un ensemble de tables, sans préjuger de la façon dont les informations sont stockées dans la machine. Les tables constituent donc la structure logique du modèle relationnel. Au niveau physique, le système est libre d'utiliser n'importe quelle technique de stockage dès lors qu'il est possible de relier ces structures à des tables au niveau logique. Les tables ne représentent donc qu'une abstraction de l'enregistrement physique des données en mémoire \cite{5}.
 
 
 

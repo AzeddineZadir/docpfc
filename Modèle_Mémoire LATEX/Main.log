@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.24)  1 JUN 2018 01:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.17)  1 JUN 2018 16:35
 entering extended mode
 **./Main.tex
 (Main.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-(D:\miketex\tex\latex\base\report.cls
+("D:\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(D:\miketex\tex\latex\base\size12.clo
+("D:\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,30 +21,36 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (D:\miketex\tex\latex\base\inputenc.sty
+)
+("D:\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
- (D:\miketex\tex\latex\base\latin1.def
+
+("D:\MiKTeX 2.9\tex\latex\base\latin1.def"
 File: latin1.def 2015/03/17 v1.2c Input encoding file
 ))
-(D:\miketex\tex\latex\base\fontenc.sty
+("D:\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
- (D:\miketex\tex\latex\base\t1enc.def
+
+("D:\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) (D:\miketex\tex\generic\babel\babel.sty
+))
+("D:\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2018/02/14 3.18 The Babel package
 
-(D:\miketex\tex\generic\babel\switch.def
+("D:\MiKTeX 2.9\tex\generic\babel\switch.def"
 File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (D:\miketex\tex\generic\babel-french\francais.ldf
+("D:\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("D:\MiKTeX 2.9\tex\generic\babel-french\francais.ldf"
 Language: francais 2018/02/04 v3.4b French support from the babel system
 
 
@@ -52,14 +58,15 @@ Package francais.ldf Warning: Option `francais' for Babel is *deprecated*,
 (francais.ldf)                it might be removed sooner or later. Please
 (francais.ldf)                use `french' instead; reported on input line 31.
 
-(D:\miketex\tex\generic\babel-french\french.ldf
+("D:\MiKTeX 2.9\tex\generic\babel-french\french.ldf"
 Language: french 2018/02/04 v3.4b French support from the babel system
- (D:\miketex\tex\generic\babel\babel.def
+
+("D:\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 
-(D:\miketex\tex\generic\babel\txtbabel.def)
+("D:\MiKTeX 2.9\tex\generic\babel\txtbabel.def")
 \bbl@dirlevel=\count89
 )
 \l@acadian = a dialect from \language\l@french 
@@ -83,29 +90,33 @@ Package babel Info: Making ? an active character on input line 414.
 \leftmarginFB=\skip46
 \parindentFFN=\dimen105
 \FBfnindent=\skip47
-))) (D:\miketex\tex\latex\carlisle\scalefnt.sty)
-(D:\miketex\tex\latex\graphics\keyval.sty
+)))
+("D:\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
+("D:\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (D:\miketex\tex\latex\graphics\graphicx.sty
+)
+("D:\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(D:\miketex\tex\latex\graphics\graphics.sty
+("D:\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
- (D:\miketex\tex\latex\graphics\trig.sty
+
+("D:\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(D:\miketex\tex\latex\graphics-cfg\graphics.cfg
+("D:\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
- (D:\miketex\tex\latex\graphics-def\pdftex.def
+
+("D:\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
 )
-(D:\miketex\tex\latex\tools\layout.sty
+("D:\MiKTeX 2.9\tex\latex\tools\layout.sty"
 Package: layout 2014/10/28 v1.2c Show layout parameters
 \oneinch=\count98
 \cnt@paperwidth=\count99
@@ -138,16 +149,18 @@ Package: layout 2014/10/28 v1.2c Show layout parameters
 \PositionX=\count126
 \PositionY=\count127
 \ArrowLength=\count128
-) (D:\miketex\tex\latex\geometry\geometry.sty
+)
+("D:\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(D:\miketex\tex\generic\oberdiek\ifpdf.sty
+("D:\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-) (D:\miketex\tex\generic\oberdiek\ifvtex.sty
+)
+("D:\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(D:\miketex\tex\generic\ifxetex\ifxetex.sty
+("D:\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count129
@@ -162,12 +175,15 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen114
 \Gm@layoutvoffset=\dimen115
 \Gm@dimlist=\toks18
- (D:\miketex\tex\latex\geometry\geometry.cfg))
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+
+("D:\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("D:\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
+)
+("D:\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
 \f@nch@headwidth=\skip48
 \f@nch@O@elh=\skip49
 \f@nch@O@erh=\skip50
@@ -178,16 +194,18 @@ Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
 \f@nch@O@olf=\skip55
 \f@nch@O@orf=\skip56
 )
-(D:\miketex\tex\latex\graphics\color.sty
+("D:\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
- (D:\miketex\tex\latex\graphics-cfg\color.cfg
+
+("D:\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+("D:\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2018/05/02 v1.0c Color table columns (DPC)
- (D:\miketex\tex\latex\tools\array.sty
+
+("D:\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen116
 \extrarowheight=\dimen117
@@ -198,20 +216,49 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \everycr=\toks20
 \minrowclearance=\skip59
 )
-(D:\miketex\tex\latex\multirow\multirow.sty
+("D:\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip60
 \multirow@cntb=\count132
 \multirow@dima=\skip61
 \bigstrutjot=\dimen118
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty"
+)
+("D:\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty"
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
 \nomlabelwidth=\dimen119
 \nom@tempdim=\dimen120
 \nomitemsep=\skip62
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+("D:\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("D:\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip63
+\subfigcapskip=\skip64
+\subfigcaptopadj=\dimen121
+\subfigbottomskip=\skip65
+\subfigcapmargin=\dimen122
+\subfiglabelskip=\skip66
+\c@subfigure=\count133
+\c@lofdepth=\count134
+\c@subtable=\count135
+\c@lotdepth=\count136
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("D:\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip67
+\subfig@bottom=\skip68
+)
+("D:\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count137
+\float@exts=\toks21
+\float@box=\box26
+\@float@everytoks=\toks22
+\@floatcapt=\box27
 )
 \@nomenclaturefile=\write3
 \openout3 = `Main.nlo'.
@@ -221,55 +268,59 @@ Writing nomenclature file Main.nlo
 (Main.aux)
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Info: Redefining \degres on input line 39.
-LaTeX Info: Redefining \dots on input line 39.
-LaTeX Info: Redefining \up on input line 39.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Info: Redefining \degres on input line 40.
+LaTeX Info: Redefining \dots on input line 40.
+LaTeX Info: Redefining \up on input line 40.
+ ("D:\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count133
-\scratchdimen=\dimen121
-\scratchbox=\box26
-\nofMPsegments=\count134
-\nofMParguments=\count135
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count136
-\MPscratchDim=\dimen122
-\MPnumerator=\count137
-\makeMPintoPDFobject=\count138
-\everyMPtoPDFconversion=\toks22
-) (D:\miketex\tex\latex\oberdiek\epstopdf-base.sty
+\scratchcounter=\count138
+\scratchdimen=\dimen123
+\scratchbox=\box28
+\nofMPsegments=\count139
+\nofMParguments=\count140
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count141
+\MPscratchDim=\dimen124
+\MPnumerator=\count142
+\makeMPintoPDFobject=\count143
+\everyMPtoPDFconversion=\toks24
+) ("D:\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
- (D:\miketex\tex\generic\oberdiek\infwarerr.sty
+
+("D:\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(D:\miketex\tex\latex\oberdiek\grfext.sty
+("D:\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
- (D:\miketex\tex\generic\oberdiek\kvdefinekeys.sty
+
+("D:\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-(D:\miketex\tex\generic\oberdiek\ltxcmds.sty
+("D:\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))) (D:\miketex\tex\latex\oberdiek\kvoptions.sty
+)))
+("D:\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(D:\miketex\tex\generic\oberdiek\kvsetkeys.sty
+("D:\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
- (D:\miketex\tex\generic\oberdiek\etexcmds.sty
+
+("D:\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(D:\miketex\tex\generic\oberdiek\ifluatex.sty
+("D:\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -277,16 +328,20 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-))) (D:\miketex\tex\generic\oberdiek\pdftexcmds.sty
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
+)))
+("D:\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 *geometry* driver: auto-detecting
@@ -351,32 +406,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 62.
 [1
 
-{C:/Users/silver-desk/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/logo.jpg>]) (Remerciements.tex
-[1
+{C:/Users/Salim/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/lo
+go.jpg>]) (Remerciements.tex [1
 
 ]) (DÃ©dicaces.tex) [1
 
-] (Main.toc
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 ...inpenc@undefined@ {latin1}interactions}{7}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[1
+] (Main.toc [1
 
 ])
 \tf@toc=\write4
 \openout4 = `Main.toc'.
 
- [2] (Main.lof)
+
+[2] (Main.lof)
 \tf@lof=\write5
 \openout5 = `Main.lof'.
 
@@ -388,10 +430,10 @@ or \DeclareInputMath before using this key.
 
  (Liste_des_Abreviations.tex (Main.nls [4
 
-])) [5
+]))
+[5
 
-] (Introduction_GÃ©nÃ©rale.tex)
-(Chapitre_1.tex [1
+] (Introduction_GÃ©nÃ©rale.tex) (Chapitre_1.tex [1
 
 ]
 Chapitre 1.
@@ -401,7 +443,8 @@ Chapitre 1.
 <images/types-d-application-mobile.jpg, id=47, 640.3925pt x 408.52625pt>
 File: images/types-d-application-mobile.jpg Graphic file (type jpg)
 <use images/types-d-application-mobile.jpg>
-Package pdftex.def Info: images/types-d-application-mobile.jpg  used on input line 40.
+Package pdftex.def Info: images/types-d-application-mobile.jpg  used on input l
+ine 40.
 (pdftex.def)             Requested size: 227.62204pt x 145.20549pt.
 
 
@@ -412,134 +455,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3 <./images/types-d-application-mobile.jpg>]) (Chapitre_2.tex [4]
 Chapitre 2.
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 Les éléments de diagrammes de cas d’
-                                         utilisation sont :
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
 [5
 
 ]
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 	\item Cas d’
-                  utilisation : est une unité cohérente représentant une fon...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 	\item Relations d’
-                        association : Une relation d'association est un chem...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-! Too many }'s.
-l.40 \end{itemize}}
-                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 ...uit, nous décrivons le diagramme de cas d’
-                                                  utilisation associé à l’ut...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 ...iagramme de cas d’utilisation associé à l’
-                                                  utilisateur de l’applicati...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 ...’utilisation associé à l’utilisateur de l’
-                                                  application à réaliser.
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
 LaTeX Warning: Reference `fig1' on page 6 undefined on input line 53.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.57 ...uit jetable permettant aux utilisateurs d’
-                                                  avoir une vue concrète mai...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.57 ...lication. On parle aussi de prototypage d’
-                                                  IHM (Interface Homme Machi...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.57 ...t de bien cerner les fonctionnalités de l’
-                                                  application à réaliser .\c...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
 
 
 LaTeX Warning: Reference `fig2' on page 6 undefined on input line 60.
@@ -548,209 +468,7 @@ LaTeX Warning: Reference `fig2' on page 6 undefined on input line 60.
 
 LaTeX Warning: Reference `fig2' on page 7 undefined on input line 66.
 
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.75 ...teront des actions de l'utilisateur sur l’
-                                                  IBM.
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-! Too many }'s.
-l.77 \end{itemize}}
-                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.83 ...se de spécification de besoins, mettons l’
-                                                  accent maintenant sur une ...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.83 ...phase fondamentale dans le cycle de vie d’
-                                                  un logiciel, la phase de c...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 ... par présenter les déférents diagrammes d’
-                                                  interaction système. Ensui...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 \subsection{Diagramme d’interactions}
-                                          
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 ...erons encore les trois types de classes d’
-                                                  analyse, on représente les...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[7]
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95 L’
-       objectif de cette étape est de produire le diagramme de classes qui s...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95 ...e diagramme de classes qui servira pour l’
-                                                  implémentation, Les diagra...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95 ...a pour l’implémentation, Les diagrammes d’
-                                                  interaction vont permettre...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95 ...diagrammes d’interaction vont permettre d’
-                                                  élaborer le diagramme de c...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 ... niveau physique, le système est libre d’
-                                                  utiliser n’importe quelle ...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 ...sique, le système est libre d’utiliser n’
-                                                  importe quelle technique d...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 ...quelle technique de stockage dès lors qu’
-                                                  il est possible de relier ...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 ...ique. Les tables ne représentent donc qu’
-                                                  une abstraction de l’enreg...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 ...eprésentent donc qu’une abstraction de l’
-                                                  enregistrement physique de...
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-) (Chapitre_3.tex [8]
+[7]) (Chapitre_3.tex [8]
 Chapitre 3.
 [9
 
@@ -761,79 +479,42 @@ File: images/roomarchitecture.png Graphic file (type png)
 Package pdftex.def Info: images/roomarchitecture.png  used on input line 65.
 (pdftex.def)             Requested size: 227.62204pt x 205.62213pt.
  [10]
-<images/home.png, id=76, 1084.05pt x 1927.2pt>
-File: images/home.png Graphic file (type png)
-<use images/home.png>
-Package pdftex.def Info: images/home.png  used on input line 88.
-(pdftex.def)             Requested size: 227.60759pt x 227.60759pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/addcalendar.png, id=77, 1084.05pt x 1927.2pt>
+<images/homefloat.png, id=76, 203.25937pt x 361.35pt>
+File: images/homefloat.png Graphic file (type png)
+<use images/homefloat.png>
+Package pdftex.def Info: images/homefloat.png  used on input line 97.
+(pdftex.def)             Requested size: 121.95656pt x 216.81168pt.
+<images/homemenu.png, id=77, 203.25937pt x 361.35pt>
+File: images/homemenu.png Graphic file (type png)
+<use images/homemenu.png>
+Package pdftex.def Info: images/homemenu.png  used on input line 98.
+(pdftex.def)             Requested size: 121.95656pt x 216.81168pt.
+<images/homeoption.png, id=78, 203.25937pt x 361.35pt>
+File: images/homeoption.png Graphic file (type png)
+<use images/homeoption.png>
+Package pdftex.def Info: images/homeoption.png  used on input line 99.
+(pdftex.def)             Requested size: 121.95656pt x 216.81168pt.
+<images/addcalendar.png, id=79, 203.25937pt x 361.35pt>
 File: images/addcalendar.png Graphic file (type png)
 <use images/addcalendar.png>
-Package pdftex.def Info: images/addcalendar.png  used on input line 97.
-(pdftex.def)             Requested size: 227.62204pt x 404.63573pt.
-[11 <./images/roomarchitecture.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/addevent.png, id=83, 1084.05pt x 1927.2pt>
+Package pdftex.def Info: images/addcalendar.png  used on input line 110.
+(pdftex.def)             Requested size: 142.26378pt x 252.92122pt.
+ [11 <./images/roomarchitecture.png>]
+<images/addevent.png, id=85, 203.25937pt x 361.35pt>
 File: images/addevent.png Graphic file (type png)
 <use images/addevent.png>
-Package pdftex.def Info: images/addevent.png  used on input line 107.
-(pdftex.def)             Requested size: 227.62204pt x 404.63573pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (Conclusion_GÃ©nÃ©rale.tex [12 <./images/home.png>] [13 <./images/addcalendar.png>] [14 <./images/addevent.png>]
+Package pdftex.def Info: images/addevent.png  used on input line 120.
+(pdftex.def)             Requested size: 142.26378pt x 252.92122pt.
+ [12 <./images/homefloat.png> <./images/homemenu.png> <./images/homeoption.png>
+ <./images/addcalendar.png>])
+(Conclusion_GÃ©nÃ©rale.tex [13 <./images/addevent.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) (Bibliographie.tex [15
+) (Bibliographie.tex [14
 
-]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.15 ...ra.free.fr/dev/fiches/fiche-c16-diagramme_
-                                                  classes_conception.pdf .
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.16 		
-       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.16 		
-       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.16 		
-       
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-) (RÃ©sumÃ©.tex [16
+]) (RÃ©sumÃ©.tex [15
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
@@ -851,27 +532,33 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4120 strings out of 493305
- 56581 string characters out of 3146228
- 132017 words of memory out of 3000000
- 7528 multiletter control sequences out of 15000+200000
- 17071 words of font info for 39 fonts, out of 3000000 for 9000
+ 4356 strings out of 493305
+ 60074 string characters out of 3144922
+ 134960 words of memory out of 3000000
+ 7751 multiletter control sequences out of 15000+200000
+ 17834 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,43p,730b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk> <C:\Users\silver-desk\
-AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecti1200.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C
-:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\silver-desk\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
-i600\ecrm2074.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Use
-rs\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk><D:/miketex/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb><D:/miketex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/miketex/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb><D:/miketex/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Main.pdf (25 pages, 598859 bytes).
+ <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecbi1200.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecrm1000.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Salim\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\Salim\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Salim\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Us
+ers\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.
+pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecbx1440.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
+\ec\dpi600\ecrm2074.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\font
+s\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk><D:/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmmi10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Main.pdf (24 pages, 496443 bytes).
 PDF statistics:
- 562 PDF objects out of 1000 (max. 8388607)
+ 582 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
