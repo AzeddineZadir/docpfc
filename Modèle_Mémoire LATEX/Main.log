@@ -1,215 +1,614 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdfetex 2018.6.5)  5 JUN 2018 14:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.24)  5 JUN 2018 16:35
 entering extended mode
 **./Main.tex
 (Main.tex
-! Undefined control sequence.
-l.16 \documentclass
-                   [12pt]{report}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+(D:\miketex\tex\latex\base\report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(D:\miketex\tex\latex\base\size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (D:\miketex\tex\latex\base\inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+ (D:\miketex\tex\latex\base\latin1.def
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+))
+(D:\miketex\tex\latex\base\fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+ (D:\miketex\tex\latex\base\t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (D:\miketex\tex\generic\babel\babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
 
-! Undefined control sequence.
-l.17 \usepackage
-                [latin1]{inputenc}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.18 \usepackage
-                [T1]{fontenc}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.19 \usepackage
-                [francais]{babel}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.20 \usepackage
-                {graphicx}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.21 \usepackage
-                {layout}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.22 \usepackage
-                [top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.23 \usepackage
-                {url}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.24 \usepackage
-                {fancyhdr}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.25 \usepackage
-                {color}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.26 \usepackage
-                {colortbl}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.27 \usepackage
-                {multirow}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.28 \usepackage
-                {nomencl}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.29 \usepackage
-                {setspace}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.30 \usepackage
-                {subfigure}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.31 \usepackage
-                {float}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(D:\miketex\tex\generic\babel\switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (D:\miketex\tex\generic\babel-french\francais.ldf
+Language: francais 2018/02/04 v3.4b French support from the babel system
 
 
-Overfull \hbox (13.91278pt too wide) in paragraph at lines 16--32
-[]\tenrm [12pt]report [latin1]inputenc [T1]fontenc [franc-ais]babel graphicx lay-out [top=2cm, bot-tom=2cm, left=2cm,|
+Package francais.ldf Warning: Option `francais' for Babel is *deprecated*,
+(francais.ldf)                it might be removed sooner or later. Please
+(francais.ldf)                use `french' instead; reported on input line 31.
 
-\hbox(7.5+2.5)x469.75499, glue set - 1.0
-.\hbox(0.0+0.0)x20.0
-.\tenrm [
-.\tenrm 1
-.\tenrm 2
-.\tenrm p
-.etc.
+(D:\miketex\tex\generic\babel-french\french.ldf
+Language: french 2018/02/04 v3.4b French support from the babel system
+ (D:\miketex\tex\generic\babel\babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
 
-! Undefined control sequence.
-l.33 \makenomenclature
-                      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(D:\miketex\tex\generic\babel\txtbabel.def)
+\bbl@dirlevel=\count89
+)
+\l@acadian = a dialect from \language\l@french 
+\FB@nonchar=\count90
+Package babel Info: Making : an active character on input line 411.
+Package babel Info: Making ; an active character on input line 412.
+Package babel Info: Making ! an active character on input line 413.
+Package babel Info: Making ? an active character on input line 414.
+\FBguill@level=\count91
+\FB@everypar=\toks16
+\FB@Mht=\dimen104
+\mc@charclass=\count92
+\mc@charfam=\count93
+\mc@charslot=\count94
+\std@mcc=\count95
+\dec@mcc=\count96
+\c@FBcaption@count=\count97
+\listindentFB=\skip43
+\descindentFB=\skip44
+\labelwidthFB=\skip45
+\leftmarginFB=\skip46
+\parindentFFN=\dimen105
+\FBfnindent=\skip47
+))) (D:\miketex\tex\latex\carlisle\scalefnt.sty)
+(D:\miketex\tex\latex\graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (D:\miketex\tex\latex\graphics\graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-! Undefined control sequence.
-l.35 \definecolor
-                 {lightgray}{gray}{0.85}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(D:\miketex\tex\latex\graphics\graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (D:\miketex\tex\latex\graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(D:\miketex\tex\latex\graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (D:\miketex\tex\latex\graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
+)
+(D:\miketex\tex\latex\tools\layout.sty
+Package: layout 2014/10/28 v1.2c Show layout parameters
+\oneinch=\count98
+\cnt@paperwidth=\count99
+\cnt@paperheight=\count100
+\cnt@hoffset=\count101
+\cnt@voffset=\count102
+\cnt@textheight=\count103
+\cnt@textwidth=\count104
+\cnt@topmargin=\count105
+\cnt@oddsidemargin=\count106
+\cnt@evensidemargin=\count107
+\cnt@headheight=\count108
+\cnt@headsep=\count109
+\cnt@marginparsep=\count110
+\cnt@marginparwidth=\count111
+\cnt@marginparpush=\count112
+\cnt@footskip=\count113
+\fheight=\count114
+\ref@top=\count115
+\ref@hoffset=\count116
+\ref@voffset=\count117
+\ref@head=\count118
+\ref@body=\count119
+\ref@foot=\count120
+\ref@margin=\count121
+\ref@marginwidth=\count122
+\ref@marginpar=\count123
+\Interval=\count124
+\ExtraYPos=\count125
+\PositionX=\count126
+\PositionY=\count127
+\ArrowLength=\count128
+) (D:\miketex\tex\latex\geometry\geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
 
-! Undefined control sequence.
-l.36 \pagestyle
-               {fancy}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+(D:\miketex\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+) (D:\miketex\tex\generic\oberdiek\ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(D:\miketex\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count129
+\Gm@cntv=\count130
+\c@Gm@tempcnt=\count131
+\Gm@bindingoffset=\dimen108
+\Gm@wd@mp=\dimen109
+\Gm@odd@mp=\dimen110
+\Gm@even@mp=\dimen111
+\Gm@layoutwidth=\dimen112
+\Gm@layoutheight=\dimen113
+\Gm@layouthoffset=\dimen114
+\Gm@layoutvoffset=\dimen115
+\Gm@dimlist=\toks18
+ (D:\miketex\tex\latex\geometry\geometry.cfg))
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
+\f@nch@headwidth=\skip48
+\f@nch@O@elh=\skip49
+\f@nch@O@erh=\skip50
+\f@nch@O@olh=\skip51
+\f@nch@O@orh=\skip52
+\f@nch@O@elf=\skip53
+\f@nch@O@erf=\skip54
+\f@nch@O@olf=\skip55
+\f@nch@O@orf=\skip56
+)
+(D:\miketex\tex\latex\graphics\color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+ (D:\miketex\tex\latex\graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2018/05/02 v1.0c Color table columns (DPC)
+ (D:\miketex\tex\latex\tools\array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen116
+\extrarowheight=\dimen117
+\NC@list=\toks19
+\extratabsurround=\skip57
+\backup@length=\skip58
+)
+\everycr=\toks20
+\minrowclearance=\skip59
+)
+(D:\miketex\tex\latex\multirow\multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip60
+\multirow@cntb=\count132
+\multirow@dima=\skip61
+\bigstrutjot=\dimen118
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty"
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen119
+\nom@tempdim=\dimen120
+\nomitemsep=\skip62
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip63
+\subfigcapskip=\skip64
+\subfigcaptopadj=\dimen121
+\subfigbottomskip=\skip65
+\subfigcapmargin=\dimen122
+\subfiglabelskip=\skip66
+\c@subfigure=\count133
+\c@lofdepth=\count134
+\c@subtable=\count135
+\c@lotdepth=\count136
 
-! Undefined control sequence.
-l.38 \fancyhead
-               [L]{}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip67
+\subfig@bottom=\skip68
+) (D:\miketex\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count137
+\float@exts=\toks21
+\float@box=\box26
+\@float@everytoks=\toks22
+\@floatcapt=\box27
+)
+\@nomenclaturefile=\write3
+\openout3 = `Main.nlo'.
 
-! Undefined control sequence.
-l.40 \begin
-           {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! I can't find file `{Page_de_garde}'.
-l.43 \input{Page_de_garde}
-                          
-Please type another input file name
-! Emergency stop.
-l.43 \input{Page_de_garde}
-                          
-*** (job aborted, file error in nonstop mode)
+Writing nomenclature file Main.nlo
+(Main.aux)
+\openout1 = `Main.aux'.
 
-!  ==> Fatal error occurred, no output PDF file produced!
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Info: Redefining \degres on input line 40.
+LaTeX Info: Redefining \dots on input line 40.
+LaTeX Info: Redefining \up on input line 40.
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count138
+\scratchdimen=\dimen123
+\scratchbox=\box28
+\nofMPsegments=\count139
+\nofMParguments=\count140
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count141
+\MPscratchDim=\dimen124
+\MPnumerator=\count142
+\makeMPintoPDFobject=\count143
+\everyMPtoPDFconversion=\toks24
+) (D:\miketex\tex\latex\oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (D:\miketex\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(D:\miketex\tex\latex\oberdiek\grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ (D:\miketex\tex\generic\oberdiek\kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(D:\miketex\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))) (D:\miketex\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(D:\miketex\tex\generic\oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (D:\miketex\tex\generic\oberdiek\etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(D:\miketex\tex\generic\oberdiek\ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (D:\miketex\tex\generic\oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=681.15898pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(Page_de_garde.tex
+<images/logo.jpg, id=1, 312.41719pt x 133.24782pt>
+File: images/logo.jpg Graphic file (type jpg)
+<use images/logo.jpg>
+Package pdftex.def Info: images/logo.jpg  used on input line 18.
+(pdftex.def)             Requested size: 170.71652pt x 72.81277pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 28--30
+ [][] 
+ []
+
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 31--31
+ [][] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 42.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 42.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 62.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 62.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 62.
+[1
+
+{C:/Users/silver-desk/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/logo.jpg>]) (Remerciements.tex
+[1
+
+]) (DÃ©dicaces.tex) [1
+
+] (Main.toc [1
+
+])
+\tf@toc=\write4
+\openout4 = `Main.toc'.
+
+ [2] (Main.lof)
+\tf@lof=\write5
+\openout5 = `Main.lof'.
+
+ [3
+
+] (Main.lot)
+\tf@lot=\write6
+\openout6 = `Main.lot'.
+
+ (Liste_des_Abreviations.tex (Main.nls [4
+
+]))
+[5
+
+] (Introduction_GÃ©nÃ©rale.tex) (Chapitre_1.tex [1
+
+]
+Chapitre 1.
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...tion mobile pour la gestion du temps de l’
+                                                  étudiant .elle sera capabl...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...ésentation  simple et compréhensible de l’
+                                                  emploi du temps comme les ...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...ibuer a résoudre ses problèmes afin que l’
+                                                  étudiant soit plus product...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[2
+
+]
+
+LaTeX Warning: Citation `1' on page 3 undefined on input line 33.
+
+
+LaTeX Warning: Citation `2' on page 3 undefined on input line 36.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+<images/types-d-application-mobile.jpg, id=50, 640.3925pt x 408.52625pt>
+File: images/types-d-application-mobile.jpg Graphic file (type jpg)
+<use images/types-d-application-mobile.jpg>
+Package pdftex.def Info: images/types-d-application-mobile.jpg  used on input line 58.
+(pdftex.def)             Requested size: 227.62204pt x 145.20549pt.
+) [4 <./images/types-d-application-mobile.jpg>] (Chapitre_2.tex [5]
+Chapitre 2.
+[6
+
+]
+
+LaTeX Warning: Citation `3' on page 7 undefined on input line 39.
+
+
+LaTeX Warning: Reference `fig1' on page 7 undefined on input line 53.
+
+
+LaTeX Warning: Citation `4' on page 7 undefined on input line 57.
+
+
+LaTeX Warning: Reference `fig2' on page 7 undefined on input line 60.
+
+[7]
+
+LaTeX Warning: Citation `2' on page 8 undefined on input line 63.
+
+
+LaTeX Warning: Reference `fig2' on page 8 undefined on input line 66.
+
+[8]
+
+LaTeX Warning: Citation `5' on page 9 undefined on input line 96.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 ...ins puis la réalisation des diagrammes d’
+                                                  interaction et diagramme d...
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+) (Chapitre_3.tex [9]
+Chapitre 3.
+[10
+
+]
+<images/roomarchitecture.png, id=74, 602.25pt x 544.0325pt>
+File: images/roomarchitecture.png Graphic file (type png)
+<use images/roomarchitecture.png>
+Package pdftex.def Info: images/roomarchitecture.png  used on input line 65.
+(pdftex.def)             Requested size: 227.62204pt x 205.62213pt.
+ [11]
+
+LaTeX Warning: Reference `homefloat' on page 12 undefined on input line 84.
+
+
+LaTeX Warning: Reference `homemenu' on page 12 undefined on input line 84.
+
+
+LaTeX Warning: Reference `homeoption' on page 12 undefined on input line 84.
+
+<images/homefloat.png, id=80, 203.25937pt x 361.35pt>
+File: images/homefloat.png Graphic file (type png)
+<use images/homefloat.png>
+Package pdftex.def Info: images/homefloat.png  used on input line 97.
+(pdftex.def)             Requested size: 121.95656pt x 216.81168pt.
+<images/homemenu.png, id=81, 203.25937pt x 361.35pt>
+File: images/homemenu.png Graphic file (type png)
+<use images/homemenu.png>
+Package pdftex.def Info: images/homemenu.png  used on input line 98.
+(pdftex.def)             Requested size: 121.95656pt x 216.81168pt.
+<images/homeoption.png, id=82, 203.25937pt x 361.35pt>
+File: images/homeoption.png Graphic file (type png)
+<use images/homeoption.png>
+Package pdftex.def Info: images/homeoption.png  used on input line 99.
+(pdftex.def)             Requested size: 121.95656pt x 216.81168pt.
+
+LaTeX Warning: Reference `addcalendar' on page 12 undefined on input line 107.
+
+<images/addcalendar.png, id=83, 203.25937pt x 361.35pt>
+File: images/addcalendar.png Graphic file (type png)
+<use images/addcalendar.png>
+Package pdftex.def Info: images/addcalendar.png  used on input line 110.
+(pdftex.def)             Requested size: 142.26378pt x 252.92122pt.
+[12 <./images/roomarchitecture.png>]
+<images/addevent.png, id=88, 203.25937pt x 361.35pt>
+File: images/addevent.png Graphic file (type png)
+<use images/addevent.png>
+Package pdftex.def Info: images/addevent.png  used on input line 120.
+(pdftex.def)             Requested size: 142.26378pt x 252.92122pt.
+ [13 <./images/homefloat.png> <./images/homemenu.png> <./images/homeoption.png> <./images/addcalendar.png>]) (Conclusion
+_GÃ©nÃ©rale.tex [14 <./images/addevent.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+) (Bibliographie.tex [15
+
+]) (RÃ©sumÃ©.tex [16
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+[1]) (Main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4356 strings out of 493305
+ 59853 string characters out of 3146228
+ 134807 words of memory out of 3000000
+ 7751 multiletter control sequences out of 15000+200000
+ 17834 words of font info for 40 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,11n,43p,730b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk> <C:\Users\silver-desk\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecbx1728.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C
+:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\silver-desk\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
+i600\ecbx1440.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Use
+rs\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\silver-desk\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk><D:/miketex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/
+miketex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/miketex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/miketex/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Main.pdf (25 pages, 499106 bytes).
+PDF statistics:
+ 588 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+
