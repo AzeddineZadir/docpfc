@@ -15,7 +15,7 @@
 \contentsline {part}{Table des figures}{iii}
 \contentsline {part}{Liste des tableaux}{iv}
 \contentsline {part}{Liste des abr\'eviations}{v}
-\contentsline {part}{Introduction g\'en\'erale}{1}
+\contentsline {part}{Introduction G\'en\'erale}{1}
 \contentsline {chapter}{\numberline {1}Contexte et probl\'ematique}{3}
 \contentsline {section}{\numberline {1.1}Introduction}{3}
 \contentsline {section}{\numberline {1.2}Contexte du projet}{3}
@@ -55,5 +55,4 @@
 \contentsline {section}{\numberline {3.8}Conclusion}{19}
 \contentsline {part}{Conclusion g\'en\'erale et perspectives}{20}
 \contentsline {part}{Bibliographie}{21}
-\contentsline {chapter}{\numberline {4}Annexe}{22}
 \contentsline {paragraph}{}{1}
