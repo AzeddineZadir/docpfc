@@ -4,11 +4,9 @@
 
 
 \section{Introduction}
-
-
+Dans ce chapitre nous allons aborder la spécification et et l'analyse des besoins de notre application(besoins fonctionnels,digramme cas d'utilisation ,maquette IHM et naviagation ,modèle du domaine ). suite a ca  nous allons cocevoir notre application en utilisant les différents diagrammes UML et on conclut ce chapitre avec un passage au modèle relationnel qui va nous permettre d'implémenter notre base de données.
 \section{Spécification et analyse des besoins}
-Une phase décisive du processus de développement d'une application. Elle permet d'identifier les acteurs ainsi que formaliser les besoins fonctionnels et non fonctionnels, déduire les différents cas d'utilisation à partir des besoins fonctionnels et les détaillés. On conclut cette section avec des maquettes IHM et leurs liens de navigation.puis on passeras a l'analyse des besoins pour formuler le modèle du domaine et le diagrammes des classes participantes.
-
+Une phase décisive du processus de développement d'une application. Elle permet d'identifier les acteurs ainsi que formaliser les besoins fonctionnels et non fonctionnels, déduire les différents cas d'utilisation à partir des besoins fonctionnels et les détaillés. 
 \subsection{Identification des besoins}
 
 \begin{description}
@@ -82,6 +80,7 @@ Dans la figure \ref{domaine}, on a établit le modèle du domaine de l'application
 
 \subsection{Diagramme des classes participantes}
 Autrement dit les DCP, ils décrivent chaque  cas d'utilisation c'est confrontation des diagrammes de cas d'utilisation ,des interfaces graphiques et du modèle du domaine, les trois principales classes d'analyse et leurs relations.
+
 Les règles :
 Pour compléter ce travail d'identification, nous allons ajouter des attributs et des opérations dans les classes d'analyse, ainsi que des associations entre elles.
 \begin{itemize}
@@ -95,7 +94,7 @@ Pour compléter ce travail d'identification, nous allons ajouter des attributs et
 \section{Conception}
 
 Après avoir tracé les grandes lignes de phase de spécification de besoins, mettons l'accent maintenant sur une phase fondamentale dans le cycle de vie d'un logiciel, la phase de conception. 
-Dans ce chapitre, nous commençons par présenter les différents diagrammes d'interaction système. Ensuite élaborer le diagramme conceptuel. Enfin la phase de conception s'achèvera par construire les tables de modèle logique de données(MLD).
+Dans cette section, nous  présenter les différents diagrammes d'interaction. Ensuite élaborer le modele relationel .
 
 \subsection{Diagramme d'interactions}
 
@@ -117,11 +116,6 @@ nous avons décidé d'inclure deux diagrammes seulement qui concerne l'ajout d'un 
 	\label{suppressioncalendrier}
 \end{figure}
 
-\subsection{Diagramme de classe ce conceptions}
-L'objectif de cette étape est de produire le diagramme de classes qui servira pour l'implémentation, Les diagrammes d'interaction vont permettre d'élaborer le diagramme de classes de conception, celui-ci est un document indispensable qui représente la vue de conception statique d'un système \cite{6}.  
-
-
-
 \subsection{Modèle relationnel}
 
 Le modèle relationnel représente la base de données comme un ensemble de tables, sans préjuger de la façon dont les informations sont stockées dans la machine. Les tables constituent donc la structure logique du modèle relationnel. Au niveau physique, le système est libre d'utiliser n'importe quelle technique de stockage dès lors qu'il est possible de relier ces structures à des tables au niveau logique. Les tables ne représentent donc qu'une abstraction de l'enregistrement physique des données en mémoire \cite{5}.
@@ -135,5 +129,4 @@ Dans notre contexte, nous avons établi ce schéma:
 \end{itemize}
 
 \section{Conclusion}
-
-Texte ...
+Dans ce présent chapitre nous avons modélisé et concrètement définit les solutions satisfaisant les exigences établit. Ceci est fait par une spécification et une analyse des besoins puis la réalisation des diagrammes d’interaction et diagramme de classes conception dans la phase de conception. Dans le chapitre suivant, nous allons entamer la réalisation de notre application en implémentant les solutions proposées dans ce chapitre.
