@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.17)  1 JUN 2018 16:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.17)  5 JUN 2018 16:08
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -268,21 +268,21 @@ Writing nomenclature file Main.nlo
 (Main.aux)
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Info: Redefining \degres on input line 40.
-LaTeX Info: Redefining \dots on input line 40.
-LaTeX Info: Redefining \up on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Info: Redefining \degres on input line 41.
+LaTeX Info: Redefining \dots on input line 41.
+LaTeX Info: Redefining \up on input line 41.
  ("D:\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count138
@@ -458,63 +458,87 @@ Chapitre 2.
 [5
 
 ]
+<images/cas_utilisation.JPG, id=59, 623.32875pt x 454.69875pt>
+File: images/cas_utilisation.JPG Graphic file (type jpg)
+<use images/cas_utilisation.JPG>
+Package pdftex.def Info: images/cas_utilisation.JPG  used on input line 47.
+(pdftex.def)             Requested size: 426.79134pt x 311.33493pt.
+ [6]
+<images/ihm.png, id=63, 597.432pt x 845.0772pt>
+File: images/ihm.png Graphic file (type png)
+<use images/ihm.png>
+Package pdftex.def Info: images/ihm.png  used on input line 64.
+(pdftex.def)             Requested size: 426.79134pt x 603.72272pt.
+ [7 <./images/cas_utilisation.JPG>] [8 <./images/ihm.png>]
+<images/mdd.jpg, id=70, 568.1225pt x 387.4475pt>
+File: images/mdd.jpg Graphic file (type jpg)
+<use images/mdd.jpg>
+Package pdftex.def Info: images/mdd.jpg  used on input line 78.
+(pdftex.def)             Requested size: 426.79134pt x 291.07559pt.
+ [9 <./images/mdd.jpg>]
+<images/ajout_event.JPG, id=74, 633.11531pt x 401.24907pt>
+File: images/ajout_event.JPG Graphic file (type jpg)
+<use images/ajout_event.JPG>
+Package pdftex.def Info: images/ajout_event.JPG  used on input line 109.
+(pdftex.def)             Requested size: 426.79134pt x 270.49469pt.
 
-LaTeX Warning: Reference `fig1' on page 6 undefined on input line 53.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Warning: Reference `fig2' on page 6 undefined on input line 60.
+<images/ajouter_calendrier.JPG, id=75, 573.64313pt x 414.79968pt>
+File: images/ajouter_calendrier.JPG Graphic file (type jpg)
+<use images/ajouter_calendrier.JPG>
+Package pdftex.def Info: images/ajouter_calendrier.JPG  used on input line 115.
 
-[6]
-
-LaTeX Warning: Reference `fig2' on page 7 undefined on input line 66.
-
-[7]) (Chapitre_3.tex [8]
+(pdftex.def)             Requested size: 398.33858pt x 288.04126pt.
+[10] [11 <./images/ajout_event.JPG> <./images/ajouter_calendrier.JPG>])
+(Chapitre_3.tex [12]
 Chapitre 3.
-[9
+[13
 
 ]
-<images/roomarchitecture.png, id=71, 602.25pt x 544.0325pt>
+<images/roomarchitecture.png, id=89, 602.25pt x 544.0325pt>
 File: images/roomarchitecture.png Graphic file (type png)
 <use images/roomarchitecture.png>
 Package pdftex.def Info: images/roomarchitecture.png  used on input line 65.
 (pdftex.def)             Requested size: 227.62204pt x 205.62213pt.
- [10]
-<images/homefloat.png, id=76, 203.25937pt x 361.35pt>
+ [14]
+<images/homefloat.png, id=94, 203.25937pt x 361.35pt>
 File: images/homefloat.png Graphic file (type png)
 <use images/homefloat.png>
 Package pdftex.def Info: images/homefloat.png  used on input line 97.
 (pdftex.def)             Requested size: 121.95656pt x 216.81168pt.
-<images/homemenu.png, id=77, 203.25937pt x 361.35pt>
+<images/homemenu.png, id=95, 203.25937pt x 361.35pt>
 File: images/homemenu.png Graphic file (type png)
 <use images/homemenu.png>
 Package pdftex.def Info: images/homemenu.png  used on input line 98.
 (pdftex.def)             Requested size: 121.95656pt x 216.81168pt.
-<images/homeoption.png, id=78, 203.25937pt x 361.35pt>
+<images/homeoption.png, id=96, 203.25937pt x 361.35pt>
 File: images/homeoption.png Graphic file (type png)
 <use images/homeoption.png>
 Package pdftex.def Info: images/homeoption.png  used on input line 99.
 (pdftex.def)             Requested size: 121.95656pt x 216.81168pt.
-<images/addcalendar.png, id=79, 203.25937pt x 361.35pt>
+<images/addcalendar.png, id=97, 203.25937pt x 361.35pt>
 File: images/addcalendar.png Graphic file (type png)
 <use images/addcalendar.png>
 Package pdftex.def Info: images/addcalendar.png  used on input line 110.
 (pdftex.def)             Requested size: 142.26378pt x 252.92122pt.
- [11 <./images/roomarchitecture.png>]
-<images/addevent.png, id=85, 203.25937pt x 361.35pt>
+ [15 <./images/roomarchitecture.png>]
+<images/addevent.png, id=102, 203.25937pt x 361.35pt>
 File: images/addevent.png Graphic file (type png)
 <use images/addevent.png>
 Package pdftex.def Info: images/addevent.png  used on input line 120.
 (pdftex.def)             Requested size: 142.26378pt x 252.92122pt.
- [12 <./images/homefloat.png> <./images/homemenu.png> <./images/homeoption.png>
+ [16 <./images/homefloat.png> <./images/homemenu.png> <./images/homeoption.png>
  <./images/addcalendar.png>])
-(Conclusion_Générale.tex [13 <./images/addevent.png>]
+(Conclusion_Générale.tex [17 <./images/addevent.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) (Bibliographie.tex [14
+) (Bibliographie.tex [18
 
-]) (Résumé.tex [15
+]) (Résumé.tex [19
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
@@ -526,39 +550,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[1]) (Main.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[1]) (Main.aux) ) 
 Here is how much of TeX's memory you used:
- 4356 strings out of 493305
- 60074 string characters out of 3144922
- 134960 words of memory out of 3000000
- 7751 multiletter control sequences out of 15000+200000
+ 4385 strings out of 493305
+ 60721 string characters out of 3144922
+ 135012 words of memory out of 3000000
+ 7774 multiletter control sequences out of 15000+200000
  17834 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,43p,730b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ecbi1200.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecrm1000.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Salim\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\Salim\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Salim\
-AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Us
-ers\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.
-pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecbx1440.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
-\ec\dpi600\ecrm2074.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk><D:/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Main.pdf (24 pages, 496443 bytes).
+ 41i,12n,43p,730b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
+ppen\ec\dpi600\ecbi1200.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\l
+jfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\Salim\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Salim\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\S
+alim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <
+C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx
+1200.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
+pi600\ecbx2488.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ecbx1440.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9
+\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Salim\AppData\Local\
+MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk><D:/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Main.pdf (28 pages, 1128510 bytes).
 PDF statistics:
- 582 PDF objects out of 1000 (max. 8388607)
+ 603 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

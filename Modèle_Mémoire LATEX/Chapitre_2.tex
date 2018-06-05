@@ -5,8 +5,6 @@
 
 \section{Introduction}
 
-Texte ...
-
 
 \section{Spécification et analyse des besoins}
 Une phase décisive du processus de développement d'une application. Elle permet d'identifier les acteurs ainsi que formaliser les besoins fonctionnels et non fonctionnels, déduire les différents cas d'utilisation à partir des besoins fonctionnels et les détaillés. On conclut cette section avec des maquettes IHM et leurs liens de navigation.puis on passeras a l'analyse des besoins pour formuler le modèle du domaine et le diagrammes des classes participantes.
@@ -18,7 +16,7 @@ Une phase décisive du processus de développement d'une application. Elle permet 
 \item[Besoins fonctionnels]
 Permettre a l'utilisateur d'ajouter des événements et de les administrer dans les calendriers qui leur correspondent  qu'il aura préalablement pris le soin de créer selon ses besoins. Il devra être rappelé et informé des événements pour lesquels il a préalablement défini les alertes,  même lorsque l'application n'est pas active. Avoir une représentation détaillées sur son emploi du temps général (tous les calendriers )voire qu'un seul. Adapter la représentation pour afficher une seule journée ,3 jours, une semaine. Permettre à l'utilisateur de modifier à tout moment les informations déjà saisies.
 
-\item[Besoin non fonctionnels]
+\item[Besoins non fonctionnels]
 L'application doit remplir des critères non fonctionnels comme:
 \begin{itemize}
 	\item La fiabilité: Si application crache et que l'utilisateur n'a pas reçu l'alerte, Cela peut s'avérer problématique.
@@ -29,7 +27,7 @@ L'application doit remplir des critères non fonctionnels comme:
 \end{description}
 
 
-\subsection{diagramme de cas d'utilisation}
+\subsection{Diagramme de cas d'utilisation}
 
 Les diagrammes de cas d'utilisation sont des diagrammes utilisés pour donner une vision globale du comportement fonctionnel d'une application. Ils permettent de recueillir, d'analyser et d'organiser les besoins. Il s'agit donc de la première étape UML d'analyse d'un système. 
 Les éléments de diagrammes de cas d'utilisation sont :
@@ -41,39 +39,55 @@ Les éléments de diagrammes de cas d'utilisation sont :
 
 
 Dans ce qui suit, nous décrivons le diagramme de cas d'utilisation associé à l'utilisateur de l'application à réaliser.
-
 L'application est supposé fournir une représentation simplifiée de l'emploi du temps d'une personne (ex :étudiant). Suite à ça, nous avons identifié un seul acteur qui est l'utilisateur lui-même.
 
 
-
+\begin{figure}[H]
+	\centering
+		\includegraphics[width=15cm]{images/cas_utilisation.JPG}
+	\caption{Diagramme de cas d'utilisation.}
+	\label{casutilisation}
+\end{figure}
 
 
 %diagramme cas dutilisation 
 
-Le diagramme de la figure \ref{fig1} représente les différents cas d'utilisation associés à l'utilisateur. Ce dernier peut librement gérer ses calendriers et ses événements. La suppression d'un calendrier peut être étendue par « transférer les événements ». La gestion d'un événement inclut automatiquement «la gestion de l'alerte».
+Le diagramme de la figure \ref{casutilisation} représente les différents cas d'utilisation associés à l'utilisateur. Ce dernier peut librement gérer ses calendriers et ses événements. La suppression d'un calendrier peut être étendue par « transférer les événements ». La gestion d'un événement inclut automatiquement «la gestion de l'alerte».
 
 \subsection{Maquettes IHM et navigation }
 
 Une maquette est un produit jetable permettant aux utilisateurs d'avoir une vue concrète mais non définitive des interfaces de la future application. On parle aussi de prototypage d'IHM (Interface Homme Machine). Une maquette permet de bien cerner les fonctionnalités de l'application à réaliser.\cite{4}
 
 %fig ihm et navigation
-Dans cette figure\ref{fig2}, on présente les interfaces principales et les liens qui les relient, vous remarquerez que nous avons essayé de rendre les interfaces aussi simple, minimaliste et intuitive qu'on a pu car nous estimons que ceci est capitale pour une utilisation fluide et rapide.
+\begin{figure}[H]
+	\centering
+		\includegraphics[width=15cm]{images/ihm.png}
+	\caption{Maquette IHM et navigation}
+	\label{ihmnavig}
+\end{figure}
+Dans cette figure\ref{ihmnavig}, on présente les interfaces principales et les liens qui les relient, vous remarquerez que nous avons essayé de rendre les interfaces aussi simple, minimaliste et intuitive qu'on a pu car nous estimons que ceci est capitale pour une utilisation fluide et rapide.
 
 \subsection{Le modèle du domaine}
 La modélisation des besoins par des cas d'utilisation s'apparente à une analyse fonctionnelle classique. L'élaboration du modèle des classes du domaine permet d'opérer une transition vers une véritable modélisation objet. L'analyse du domaine est une étape totalement dissociée de l'analyse des besoins (sections . Elle peut être menée avant, en parallèle ou après cette dernière.\cite{2}
  En analysant le domaine on peut concevoir le modèle du domaine qui représente les objets du monde réel dans ce domaine. Ces objets doivent contenir des attributs. Il est important de ne pas modéliser un concept par un attribut au lieu d'une classe et vice versa .
 
-Dans la figure \ref{fig2}, on a établit le modèle du domaine de l'application à réaliser.
+Dans la figure \ref{domaine}, on a établit le modèle du domaine de l'application à réaliser.
 %fig mdd
+\begin{figure}[H]
+	\centering
+		\includegraphics[width=15cm]{images/mdd.jpg}
+	\caption{Modèle du domaine.}
+	\label{domaine}
+\end{figure}
 
 \subsection{Diagramme des classes participantes}
-Autrement dit les DCP .ils décrivent chaque  cas d'utilisation c'est confrontation des diagrammes de cas d'utilisation ,des interfaces graphiques et du modèle du domaine , les trois principales classes d'analyse et leurs relations.
+Autrement dit les DCP, ils décrivent chaque  cas d'utilisation c'est confrontation des diagrammes de cas d'utilisation ,des interfaces graphiques et du modèle du domaine, les trois principales classes d'analyse et leurs relations.
 Les règles :
 Pour compléter ce travail d'identification, nous allons ajouter des attributs et des opérations dans les classes d'analyse, ainsi que des associations entre elles.
 \begin{itemize}
 	\item Les contrôles vont seulement posséder des opérations. Ces opérations montrent la logique de l'application, les règles transverses à plusieurs entités, bref les comportements du système informatique.
 	\item Les dialogues vont posséder des attributs et des opérations. Les attributs représenteront des champs de saisie ou des résultats. Les résultats seront distingués en utilisant la notation de l'attribut dérivé. Les opérations représenteront des actions de l'utilisateur sur l'IHM.
-	\item les classes entités réalisées à partir du modèle du domaine 
+	\item les classes entités réalisées à partir du modèle du domaine. 
 \end{itemize}
 
 
@@ -90,6 +104,18 @@ Ces diagrammes permettent de modéliser comment les objets communiquent entre eux
 nous avons décidé d'inclure deux diagrammes seulement qui concerne l'ajout d'un événement et la suppression d'un calendrier.
 
 %les diagrammes d'interaction 
+\begin{figure}[h!]
+	\centering
+		\includegraphics[width=15cm]{images/ajout_event.JPG}
+	\caption{Diagramme d'interaction <<Ajout événement >>.}
+	\label{ajoutevent}
+\end{figure}
+\begin{figure}[H]
+	\centering
+		\includegraphics[width=14cm]{images/ajouter_calendrier.JPG}
+	\caption{Diagramme d'interaction <<Suppression d'un calendrier>>.}
+	\label{suppressioncalendrier}
+\end{figure}
 
 \subsection{Diagramme de classe ce conceptions}
 L'objectif de cette étape est de produire le diagramme de classes qui servira pour l'implémentation, Les diagrammes d'interaction vont permettre d'élaborer le diagramme de classes de conception, celui-ci est un document indispensable qui représente la vue de conception statique d'un système \cite{6}.  
@@ -101,7 +127,12 @@ L'objectif de cette étape est de produire le diagramme de classes qui servira po
 Le modèle relationnel représente la base de données comme un ensemble de tables, sans préjuger de la façon dont les informations sont stockées dans la machine. Les tables constituent donc la structure logique du modèle relationnel. Au niveau physique, le système est libre d'utiliser n'importe quelle technique de stockage dès lors qu'il est possible de relier ces structures à des tables au niveau logique. Les tables ne représentent donc qu'une abstraction de l'enregistrement physique des données en mémoire \cite{5}.
 
 
-
+Dans notre contexte, nous avons établi ce schéma:
+\begin{itemize}
+ \item Calendrier(\textbf{\underline{id\_calendrier}},titre,visibilité,couleur,description).
+ \item Événement(\textbf{\underline{id\_evenement}}, titre, jour, heure\_debut, heure\_fin, lieu, description, récurrence,\textbf{\#id\_calendrier},\textbf{\#id\_alerte}).
+ \item Alerte(\textbf{\underline{id\_alerte}}, heure\_declenchement, titre, description, état).
+\end{itemize}
 
 \section{Conclusion}
 
