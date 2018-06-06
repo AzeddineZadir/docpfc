@@ -1,17 +1,18 @@
 \babel@toc {french}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Les diff\'erents types d'applications.}}{5}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Les diff\'erents types d'applications.\cite {}}}{5}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de cas d'utilisation.}}{9}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Maquette IHM et navigation}}{10}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Mod\`ele du domaine.}}{11}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagramme d'interaction <<Ajout \'ev\'enement >>.}}{13}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagramme d'interaction <<Suppression d'un calendrier>>.}}{13}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Mod\`ele du domaine.}}{12}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagramme d'interaction <<Ajout \'ev\'enement >>.}}{13}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagramme d'interaction <<Suppression d'un calendrier>>.}}{14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture de Room.}}{17}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Interface d'accueil}}{18}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Bouton flottant}}}{18}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Bouton menu}}}{18}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Bouton option}}}{18}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Ajout d'un calendrier.}}{18}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Ajout d'un \'ev\'enement.}}{19}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture de Room.}}{18}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Interface d'accueil}}{19}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Bouton flottant}}}{19}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Bouton menu}}}{19}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Bouton option}}}{19}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ajout d'un calendrier.}}{19}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Ajout d'un \'ev\'enement.}}{20}
