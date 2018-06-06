@@ -1,3 +1,5 @@
 \nomenclatureentry{a\textbf{UML}@[{\textbf{UML}}]\begingroup Unified Modeling Language\nomeqref {0}|nompageref}{iv}
 \nomenclatureentry{a\textbf{UP}@[{\textbf{UP}}]\begingroup Unified Process\nomeqref {0}|nompageref}{iv}
 \nomenclatureentry{a\textbf{SE}@[{\textbf{SE}}]\begingroup Système d'Exploitation\nomeqref {0}|nompageref}{iv}
+\nomenclatureentry{a\textbf{DCP}@[{\textbf{DCP}}]\begingroup Diagramme de Classe Participante\nomeqref {0}|nompageref}{iv}
+\nomenclatureentry{a\textbf{DAO}@[{\textbf{DAO}}]\begingroup Data Acces Object\nomeqref {0}|nompageref}{iv}

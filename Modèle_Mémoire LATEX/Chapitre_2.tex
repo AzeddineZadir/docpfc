@@ -70,6 +70,9 @@ La modélisation des besoins par des cas d'utilisation s'apparente à une analyse 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 La Figure \ref{domaine} détaille le modèle du domaine de l'application à réaliser.
 %fig mdd
+\\
+\\
+\\
 \begin{figure}[H]
 	\centering
 		\includegraphics[width=15cm]{images/mdd.PNG}
@@ -77,11 +80,15 @@ La Figure \ref{domaine} détaille le modèle du domaine de l'application à réalise
 	\label{domaine}
 \end{figure}
 
+\newpage
 \subsection{Diagramme des classes participantes (DCP)}
-%%Ce diagramme décrit chaque cas d'utilisation c'est confrontation des diagrammes de cas d'utilisation, des interfaces graphiques et du modèle du domaine, les trois principales classes d'analyse et leurs relations.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Les règles :
+
+Le diagramme de classes participantes est particulièrement important puisqu'il effectue la jonction entre, d'une part, les cas d'utilisation, le modèle du domaine et la maquette , et d'autre part, les diagrammes de conception logicielle. 
+
+Il n'est pas souhaitable que les utilisateurs interagissent directement avec les instances des classes du domaine par le biais de l'interface graphique. En effet, le modèle du domaine doit être indépendant des utilisateurs et de l'interface graphique. De même, l'interface graphique du logiciel doit pouvoir évoluer sans répercussion sur le cœur de l'application. C'est le principe fondamental du découpage en couches d'une application. Ainsi, le diagramme de classes participantes modélise trois types de classes d'analyse, les dialogues, les contrôles et les entités ainsi que leurs relations.\cite{2}
+
 Pour compléter ce travail d'identification, nous ajouterons des attributs et des opérations dans les classes d'analyse, ainsi que des associations entre elles.
+
 \begin{itemize}
 	\item Les contrôles ne possèdent que des opérations. Ces opérations montrent la logique de l'application, les règles transverses à plusieurs entités, simplement dit les comportements du système informatique.
 	\item Les dialogues possèdent des attributs et des opérations. Les attributs représenteront des champs de saisie ou des résultats. Les résultats seront distingués en utilisant la notation de l'attribut dérivé. Les opérations représenteront des actions de l'utilisateur sur l'IHM.
@@ -126,7 +133,7 @@ Par soucis de brièveté, nous n'incluons deux diagrammes: Celui de l'ajout d'un é
 \newpage
 \subsection{Modèle relationnel}
 
-Le modèle relationnel représente la base de données comme un ensemble de tables, sans préjugés de la façon dont les informations sont stockées dans la machine. Les tables constituent donc la structure logique du modèle relationnel. Au niveau physique, le système est libre d'utiliser n'importe quelle technique de stockage dès lors qu'il est possible de relier ces structures à des tables au niveau logique. Les tables ne représentent donc qu'une abstraction de l'enregistrement physique des données en mémoire \cite{5}.
+Le modèle relationnel représente la base de données comme un ensemble de tables, sans préjugés de la façon dont les informations sont stockées dans la machine. Les tables constituent donc la structure logique du modèle relationnel. Au niveau physique, le système est libre d'utiliser n'importe quelle technique de stockage dès lors qu'il est possible de relier ces structures à des tables au niveau logique. Les tables ne représentent donc qu'une abstraction de l'enregistrement physique des données en mémoire \cite{6}.
 
 
 Dans notre contexte, nous avons établi ce schéma:

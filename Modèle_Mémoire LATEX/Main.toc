@@ -10,7 +10,6 @@
 \contentsline {paragraph}{}{1}
 \contentsline {paragraph}{}{1}
 \contentsline {paragraph}{}{1}
-\contentsline {paragraph}{}{1}
 \contentsline {part}{Table des mati\`eres}{i}
 \contentsline {part}{Table des figures}{iii}
 \contentsline {part}{Liste des tableaux}{iv}
@@ -21,38 +20,37 @@
 \contentsline {section}{\numberline {1.2}Contexte du projet}{3}
 \contentsline {section}{\numberline {1.3}Probl\'ematique}{3}
 \contentsline {section}{\numberline {1.4}UML}{4}
-\contentsline {paragraph}{E}{4}
 \contentsline {section}{\numberline {1.5}Application mobile}{4}
 \contentsline {section}{\numberline {1.6}Cahier des charges}{5}
-\contentsline {section}{\numberline {1.7}Conclusion}{6}
-\contentsline {chapter}{\numberline {2}Sp\'ecification des besoins et conception}{7}
-\contentsline {section}{\numberline {2.1}Introduction}{7}
-\contentsline {section}{\numberline {2.2}Sp\'ecification et analyse des besoins}{7}
-\contentsline {subsection}{\numberline {2.2.1}Identification des besoins}{7}
-\contentsline {subsection}{\numberline {2.2.2}Diagramme de cas d'utilisation}{8}
+\contentsline {section}{\numberline {1.7}Conclusion}{5}
+\contentsline {chapter}{\numberline {2}Sp\'ecification des besoins et conception}{6}
+\contentsline {section}{\numberline {2.1}Introduction}{6}
+\contentsline {section}{\numberline {2.2}Sp\'ecification et analyse des besoins}{6}
+\contentsline {subsection}{\numberline {2.2.1}Identification des besoins}{6}
+\contentsline {subsection}{\numberline {2.2.2}Diagramme de cas d'utilisation}{7}
 \contentsline {subsection}{\numberline {2.2.3}Maquettes IHM et navigation }{9}
 \contentsline {subsection}{\numberline {2.2.4}Le mod\`ele du domaine}{11}
-\contentsline {subsection}{\numberline {2.2.5}Diagramme des classes participantes}{11}
-\contentsline {section}{\numberline {2.3}Conception}{12}
-\contentsline {subsection}{\numberline {2.3.1}Diagramme d'interactions}{12}
-\contentsline {subsection}{\numberline {2.3.2}Mod\`ele relationnel}{14}
-\contentsline {section}{\numberline {2.4}Conclusion}{14}
-\contentsline {chapter}{\numberline {3}Impl\'ementation}{16}
-\contentsline {section}{\numberline {3.1}Introduction}{16}
-\contentsline {section}{\numberline {3.2}Environnement de d\'eveloppement}{16}
-\contentsline {subsection}{\numberline {3.2.1}Android Studio}{16}
-\contentsline {subsection}{\numberline {3.2.2}Git et GitHub}{16}
-\contentsline {section}{\numberline {3.3}Outils de d\'eveloppement}{16}
-\contentsline {subsection}{\numberline {3.3.1}SDK de Android}{16}
-\contentsline {subsection}{\numberline {3.3.2}JDK}{17}
-\contentsline {section}{\numberline {3.4}Langage de programmation}{17}
-\contentsline {section}{\numberline {3.5}Persistance des donn\'ees}{17}
-\contentsline {section}{\numberline {3.6}Librairies utilis\'ees}{18}
-\contentsline {section}{\numberline {3.7}Pr\'esentation des interfaces}{18}
-\contentsline {subsection}{\numberline {3.7.1}Interface d'accueil}{18}
-\contentsline {subsection}{\numberline {3.7.2}Interface d'ajout d'un calendrier}{19}
-\contentsline {subsection}{\numberline {3.7.3}Interface d'ajout d'\'ev\'enement}{20}
-\contentsline {section}{\numberline {3.8}Conclusion}{20}
-\contentsline {part}{Conclusion g\'en\'erale et perspectives}{21}
-\contentsline {part}{Bibliographie}{22}
+\contentsline {subsection}{\numberline {2.2.5}Diagramme des classes participantes (DCP)}{12}
+\contentsline {section}{\numberline {2.3}Conception}{14}
+\contentsline {subsection}{\numberline {2.3.1}Diagramme d'interactions}{14}
+\contentsline {subsection}{\numberline {2.3.2}Mod\`ele relationnel}{17}
+\contentsline {section}{\numberline {2.4}Conclusion}{17}
+\contentsline {chapter}{\numberline {3}Impl\'ementation}{18}
+\contentsline {section}{\numberline {3.1}Introduction}{18}
+\contentsline {section}{\numberline {3.2}Environnement de d\'eveloppement}{18}
+\contentsline {subsection}{\numberline {3.2.1}Android Studio}{18}
+\contentsline {subsection}{\numberline {3.2.2}Git et GitHub}{18}
+\contentsline {section}{\numberline {3.3}Outils de d\'eveloppement}{19}
+\contentsline {subsection}{\numberline {3.3.1}SDK de Android}{19}
+\contentsline {subsection}{\numberline {3.3.2}JDK}{19}
+\contentsline {section}{\numberline {3.4}Langage de programmation}{19}
+\contentsline {section}{\numberline {3.5}Persistance des donn\'ees}{19}
+\contentsline {section}{\numberline {3.6}Librairies utilis\'ees}{20}
+\contentsline {section}{\numberline {3.7}Pr\'esentation des interfaces}{21}
+\contentsline {subsection}{\numberline {3.7.1}Interface d'accueil}{21}
+\contentsline {subsection}{\numberline {3.7.2}Interface Calendrier}{21}
+\contentsline {subsection}{\numberline {3.7.3}Interface d'ajout d'\'ev\'enement}{22}
+\contentsline {section}{\numberline {3.8}Conclusion}{23}
+\contentsline {part}{Conclusion g\'en\'erale et perspectives}{24}
+\contentsline {part}{Bibliographie}{25}
 \contentsline {paragraph}{}{1}
