@@ -53,7 +53,7 @@ Le diagramme de la Figure \ref{casutilisation} représente les différents cas d'u
 
 \subsection{Maquettes IHM et navigation }
 
-Une maquette est un produit jetable permettant aux utilisateurs d'avoir une vue concrète mais non définitive des interfaces de la future application. On parle aussi de prototypage d'IHM (Interface Homme Machine). Une maquette permet de bien cerner les fonctionnalités de l'application à réaliser.\cite{4}
+Une maquette est un produit jetable permettant aux utilisateurs d'avoir une vue concrète mais non définitive des interfaces de la future application. On parle aussi de prototypage d'IHM (Interface Homme Machine). Une maquette permet de bien cerner les fonctionnalités de l'application à réaliser.\cite{5}
 
 %fig ihm et navigation
 \begin{figure}[H]
@@ -65,7 +65,7 @@ Une maquette est un produit jetable permettant aux utilisateurs d'avoir une vue 
 La Figure \ref{ihmnavig} présente les interfaces principales et les liens qui les relient. Nous remarquons que ces interfaces sont simples, minimalistes, et intuitives, ce qui à notre sens, est capital pour une utilisation fluide et rapide.
 
 \subsection{Le modèle du domaine}
-La modélisation des besoins par des cas d'utilisation s'apparente à une analyse fonctionnelle classique. L'élaboration du modèle des classes du domaine permet d'opérer une transition vers une véritable modélisation objet. L'analyse du domaine est une étape totalement dissociée de l'analyse des besoins. Elle peut être menée avant, en parallèle ou après cette dernière.\cite{2}
+La modélisation des besoins par des cas d'utilisation s'apparente à une analyse fonctionnelle classique. L'élaboration du modèle des classes du domaine permet d'opérer une transition vers une véritable modélisation objet. L'analyse du domaine est une étape totalement dissociée de l'analyse des besoins. Elle peut être menée avant, en parallèle ou après cette dernière.\cite{3}
  En analysant le domaine, on peut concevoir ce modèle qui représente les objets du monde réel. Ces objets doivent contenir des attributs.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 La Figure \ref{domaine} détaille le modèle du domaine de l'application à réaliser.
@@ -85,7 +85,7 @@ La Figure \ref{domaine} détaille le modèle du domaine de l'application à réalise
 
 Le diagramme de classes participantes est particulièrement important puisqu'il effectue la jonction entre, d'une part, les cas d'utilisation, le modèle du domaine et la maquette , et d'autre part, les diagrammes de conception logicielle. 
 
-Il n'est pas souhaitable que les utilisateurs interagissent directement avec les instances des classes du domaine par le biais de l'interface graphique. En effet, le modèle du domaine doit être indépendant des utilisateurs et de l'interface graphique. De même, l'interface graphique du logiciel doit pouvoir évoluer sans répercussion sur le cœur de l'application. C'est le principe fondamental du découpage en couches d'une application. Ainsi, le diagramme de classes participantes modélise trois types de classes d'analyse, les dialogues, les contrôles et les entités ainsi que leurs relations.\cite{2}
+Il n'est pas souhaitable que les utilisateurs interagissent directement avec les instances des classes du domaine par le biais de l'interface graphique. En effet, le modèle du domaine doit être indépendant des utilisateurs et de l'interface graphique. De même, l'interface graphique du logiciel doit pouvoir évoluer sans répercussion sur le cœur de l'application. C'est le principe fondamental du découpage en couches d'une application. Ainsi, le diagramme de classes participantes modélise trois types de classes d'analyse, les dialogues, les contrôles et les entités ainsi que leurs relations.\cite{3}
 
 Pour compléter ce travail d'identification, nous ajouterons des attributs et des opérations dans les classes d'analyse, ainsi que des associations entre elles.
 
@@ -111,7 +111,7 @@ Après avoir tracé les grandes lignes de phase de spécification de besoins, metto
 Dans cette section, nous présenterons les différents diagrammes d'interaction. Et élaborerons le modèle relationnel.
 \subsection{Diagramme d'interactions}
 
-Ces diagrammes permettent de modéliser comment les objets communiquent entre eux \cite{5}. Pour cela, nous utiliserons encore les trois types de classes d'analyse. L'on représente les interactions dans un format où chaque nouvel objet est ajouté en haut à droite. On représente la ligne de vie de chaque objet par un trait pointillé vertical. Cette ligne de vie sert de point de départ ou d'arrivée à des messages représentés eux-mêmes par des flèches horizontales. Par convention, le temps coule de haut en bas. Il indique ainsi visuellement la séquence relative des envois et réceptions de messages.
+Ces diagrammes permettent de modéliser comment les objets communiquent entre eux \cite{6}. Pour cela, nous utiliserons encore les trois types de classes d'analyse. L'on représente les interactions dans un format où chaque nouvel objet est ajouté en haut à droite. On représente la ligne de vie de chaque objet par un trait pointillé vertical. Cette ligne de vie sert de point de départ ou d'arrivée à des messages représentés eux-mêmes par des flèches horizontales. Par convention, le temps coule de haut en bas. Il indique ainsi visuellement la séquence relative des envois et réceptions de messages.
 
 Par soucis de brièveté, nous n'incluons deux diagrammes: Celui de l'ajout d'un événement, et celui de la suppression d'un calendrier.
 
@@ -133,7 +133,7 @@ Par soucis de brièveté, nous n'incluons deux diagrammes: Celui de l'ajout d'un é
 \newpage
 \subsection{Modèle relationnel}
 
-Le modèle relationnel représente la base de données comme un ensemble de tables, sans préjugés de la façon dont les informations sont stockées dans la machine. Les tables constituent donc la structure logique du modèle relationnel. Au niveau physique, le système est libre d'utiliser n'importe quelle technique de stockage dès lors qu'il est possible de relier ces structures à des tables au niveau logique. Les tables ne représentent donc qu'une abstraction de l'enregistrement physique des données en mémoire \cite{6}.
+Le modèle relationnel représente la base de données comme un ensemble de tables, sans préjugés de la façon dont les informations sont stockées dans la machine. Les tables constituent donc la structure logique du modèle relationnel. Au niveau physique, le système est libre d'utiliser n'importe quelle technique de stockage dès lors qu'il est possible de relier ces structures à des tables au niveau logique. Les tables ne représentent donc qu'une abstraction de l'enregistrement physique des données en mémoire \cite{7}.
 
 
 Dans notre contexte, nous avons établi ce schéma:
