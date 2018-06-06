@@ -5,7 +5,7 @@
 
 \section{Introduction}
 
-Dans ce chapitre, nous étudions la spécification et l'analyse des besoins de notre application(besoins fonctionnels, digramme cas d'utilisation, maquette IHM et navigation, modèle du domaine ). Et nous concevrons notre application en utilisant les différents diagrammes UML et nous terminerons par le passage au modèle relationnel qui nous permettra d'implémenter notre base de données.
+Dans ce chapitre, nous étudions la spécification et l'analyse des besoins de notre application(besoins fonctionnels, digramme cas d'utilisation, maquette IHM et navigation, modèle du domaine). Et nous concevrons notre application en utilisant les différents diagrammes UML et nous terminerons par le passage au modèle relationnel qui nous permettra d'implémenter notre base de données.
 
 \section{Spécification et analyse des besoins}
 C'est une phase décisive du processus de développement d'une application. Elle permet d'identifier les acteurs, de formaliser les besoins fonctionnels et non fonctionnels, et de déduire les différents cas d'utilisation à partir des besoins fonctionnels. 
@@ -37,21 +37,18 @@ Les éléments d'un diagramme de cas d'utilisation sont:
 	\item[Acteur: ] Un acteur est l'idéalisation d'un rôle joué par une personne externe, un processus ou une chose qui interagit avec un système. On le représente par un petit bonhomme avec son nom inscrit en dessous.
 	\item[Cas d'utilisation: ]est une unité cohérente représentant une fonctionnalité visible de l'extérieur. Il réalise un service de bout en bout, avec un déclenchement, un déroulement et une fin, pour l'acteur qui l'initie. Un cas d'utilisation modélise donc un service rendu par le système, sans imposer le mode de réalisation de ce service. On se représente par une ellipse contenant le nom du cas.
 	\item[Relations d'association: ]Une relation d'association est un chemin de communication entre un acteur et un cas d'utilisation et est représenté par un trait continu.
-\end{description}
-
-
-Dans ce qui suit, nous décrivons le diagramme de cas d'utilisation de l'utilisateur(unique acteur) de l'application.
-
+\end{description}Dans ce qui suit, nous décrivons le diagramme de cas d'utilisation de l'utilisateur(unique acteur) de l'application.
+\newpage
+\begin{landscape}
 \begin{figure}[H]
 	\centering
-		\includegraphics[scale=0.8]{images/cas_utilisation.JPG}
+		\includegraphics[width=21cm]{images/cas_utilisation.PNG}
 	\caption{Diagramme de cas d'utilisation.}
 	\label{casutilisation}
 \end{figure}
-
+\end{landscape}
 
 %diagramme cas dutilisation 
-
 Le diagramme de la Figure \ref{casutilisation} représente les différents cas d'utilisation associés à l'utilisateur. Ce dernier peut librement gérer ses calendriers et ses événements. La suppression d'un calendrier peut être étendue par un« transférer les événements ». La gestion d'un événement inclut automatiquement «la gestion de l'alerte».
 
 \subsection{Maquettes IHM et navigation }
@@ -61,21 +58,21 @@ Une maquette est un produit jetable permettant aux utilisateurs d'avoir une vue 
 %fig ihm et navigation
 \begin{figure}[H]
 	\centering
-		\includegraphics[width=15cm]{images/ihm.png}
+		\includegraphics[width=14cm]{images/ihm.png}
 	\caption{Maquette IHM et navigation}
 	\label{ihmnavig}
 \end{figure}
-La Figure\ref{ihmnavig}, on présente les interfaces principales et les liens qui les relient. Nous remarquons que ces interfaces sont simples, minimalistes, et intuitives, ce qui à notre sens, est capital pour une utilisation fluide et rapide.
+La Figure \ref{ihmnavig} présente les interfaces principales et les liens qui les relient. Nous remarquons que ces interfaces sont simples, minimalistes, et intuitives, ce qui à notre sens, est capital pour une utilisation fluide et rapide.
 
 \subsection{Le modèle du domaine}
 La modélisation des besoins par des cas d'utilisation s'apparente à une analyse fonctionnelle classique. L'élaboration du modèle des classes du domaine permet d'opérer une transition vers une véritable modélisation objet. L'analyse du domaine est une étape totalement dissociée de l'analyse des besoins. Elle peut être menée avant, en parallèle ou après cette dernière.\cite{2}
- %%En analysant le domaine on peut concevoir le modèle du domaine qui représente les objets du monde réel dans ce domaine. Ces objets doivent contenir des attributs.
+ En analysant le domaine, on peut concevoir ce modèle qui représente les objets du monde réel. Ces objets doivent contenir des attributs.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 La Figure \ref{domaine} détaille le modèle du domaine de l'application à réaliser.
 %fig mdd
 \begin{figure}[H]
 	\centering
-		\includegraphics[width=15cm]{images/mdd.jpg}
+		\includegraphics[width=15cm]{images/mdd.PNG}
 	\caption{Modèle du domaine.}
 	\label{domaine}
 \end{figure}
@@ -91,14 +88,14 @@ Pour compléter ce travail d'identification, nous ajouterons des attributs et des
 	\item les classes entités réalisées à partir du modèle du domaine. 
 \end{itemize}
 
-
+\begin{landscape}
 \begin{figure}[H]
 	\centering
-		\includegraphics[width=20cm]{images/dcp_ajout_evenement.JPG}
+		\includegraphics[width=20cm]{images/dcp_ajout_evenement.PNG}
 	\caption{Diagramme de classes participantes <<Ajout événement>>.}
 	\label{domaine}
 \end{figure}
-
+\end{landscape}
 
 %la 2em section 
 \section{Conception}
@@ -111,19 +108,21 @@ Ces diagrammes permettent de modéliser comment les objets communiquent entre eux
 
 Par soucis de brièveté, nous n'incluons deux diagrammes: Celui de l'ajout d'un événement, et celui de la suppression d'un calendrier.
 
-%les diagrammes d'interaction 
+%les diagrammes d'interaction
+\begin{landscape} 
 \begin{figure}[h!]
 	\centering
-		\includegraphics[scale=0.8]{images/ajout_event.JPG}
+		\includegraphics[scale=0.8]{images/ajout_event.PNG}
 	\caption{Diagramme d'interaction <<Ajout événement >>.}
 	\label{ajoutevent}
 \end{figure}
 \begin{figure}[H]
 	\centering
-		\includegraphics[scale=0.9]{images/suppression_calendrier.JPG}
+		\includegraphics[scale=0.8]{images/suppression_calendrier.PNG}
 	\caption{Diagramme d'interaction <<Suppression d'un calendrier>>.}
 	\label{suppressioncalendrier}
 \end{figure}
+\end{landscape}
 \newpage
 \subsection{Modèle relationnel}
 
@@ -133,7 +132,7 @@ Le modèle relationnel représente la base de données comme un ensemble de tables,
 Dans notre contexte, nous avons établi ce schéma:
 \begin{itemize}
  \item Calendrier(\textbf{\underline{id\_calendrier}},titre,visibilité,couleur,description).
- \item Événement(\textbf{\underline{id\_evenement}}, titre, jour, heure\_debut, heure\_fin, lieu, description, récurrence,\textbf{\it{\#id\_calendrier}},\it{\textbf{\#id\_alerte}}).
+ \item Événement(\textbf{\underline{id\_evenement}}, titre, jour, heure\_debut, heure\_fin, lieu, description, récurrence,\it{\#id\_calendrier},\it{\#id\_alerte}).
  \item Alerte(\textbf{\underline{id\_alerte}}, heure\_declenchement, titre, description, état).
 \end{itemize}
 

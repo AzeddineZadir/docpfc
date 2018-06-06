@@ -18,7 +18,7 @@ Android Studio est un environnement de développement intégré(EDI) permettant de 
 \subsection{Git et GitHub}
 
 Git est un logiciel libre de gestion de versions, sous licence GPL2. 
-GitHub est un service web de gestion et d'hébergement de projet de développement logiciel utilisant le logiciel Git(qui, pour l'anecdote, a été racheté par le 4 de ce mois par Microsoft).
+GitHub est un service web de gestion et d'hébergement de projet de développement logiciel utilisant le logiciel Git(qui, pour l'anecdote, a été racheté le 4 de ce mois par Microsoft).
 
 Cet outil a été un véritable atout pour notre projet. Il nous a permis de travailler de manière collaborative, sur un code source unique, et de suivre l'évolution du travail de chacun en temps réel. Le lecteur peut accéder et suivre l'évolution de notre dépôt en visitant le lien ci-dessous: 
 \url{https://github.com/silvermoon06/prototypapp}   
@@ -26,7 +26,7 @@ Cet outil a été un véritable atout pour notre projet. Il nous a permis de travai
 \section{Outils de développement}
 \subsection{SDK de Android}
 
-Le SDK (Software Developpement Kit) d'Android est un ensemble d'outils de développement essentiel au développement d'application mobile sous Android, il inclut de différents outils tel qu'un débogueur, un émulateur basé sur QEMU et un ensemble de bibliothèques logicielles auxquels vient s'ajouter une documentation des plus riches.  
+Le SDK (Software Developpement Kit) d'Android est un ensemble d'outils de développement essentiel au développement d'application mobile Android, il inclut de différents outils tel qu'un débogueur, un émulateur basé sur QEMU et un ensemble de bibliothèques logicielles auxquels vient s'ajouter une documentation des plus riches.  
 
 \subsection{JDK}
 
@@ -48,10 +48,10 @@ c'est-à-dire qu'il est possible d'exécuter les programmes écrits en Java sous n'
 Comme nous l'avons vu durant les chapitres précédents, il est primordial de stocker en permanence les données. Ceci dit, une base de données locale est suffisante dans notre contexte.
 \begin{description}
 
-%%%%%%%%%%%DEFINITION A REFAIRE%%%%%%%%%%%
-\item[SQLite] est un SGBD local qui propose un moteur de base de données relationnelles accessible par SQL.
 
-\item[Room] est une librairie de base de données développée par Google. Elle est une couche d'abstraction à SQLite. En effet, Room facilite la gestion de la base de données, de sa création à la lecture des données en passant par leur mise à jour de manière fluide tout en exploitant toute la puissance de SQLite. Son principal atout est de détecter les erreurs de SQL à la compilation du code. Elle offre aussi la possibilité d'exécuter les requêtes SQL dans différents Threads évitant ainsi de se surcharger le Thread principal, Elle permet aussi de mettre en cache des données lors de l'absence d'une connexion 
+\item[SQLite] est un SGBD local qui propose un moteur de base de données relationnelles accessible par SQL. À la différence d'autres SGBD, il ne reproduit pas le schéma habituel client-serveur, il est directement intégré aux programmes.
+
+\item[Room] est une librairie de base de données développée par Google. Elle est une couche d'abstraction à SQLite. En effet, Room facilite la gestion de la base de données, de sa création à la lecture des données en passant par leur mise à jour de manière fluide en exploitant toute la puissance de SQLite. Son principal atout est de détecter les erreurs de SQL à la compilation du code. Elle offre aussi la possibilité d'exécuter les requêtes SQL dans différents Threads évitant ainsi de se surcharger le Thread principal. Elle permet aussi de mettre en cache des données lors de l'absence d'une connexion 
 Internet. Elle est composée de:
  \begin{description}
 \item[Entités: ]Les entités est l'ensemble de classes qui, au niveau SQLite, correspondent à des tables SQL dans la base de données.  
@@ -66,7 +66,7 @@ La figure suivante résume l'architecture de Room
 \begin{figure}[h!]
 	\centering
 		\includegraphics[width=8cm]{images/roomarchitecture.png}
-	\caption{Architecture de Room.}
+	\caption{Architecture de Room \cite{8}.}
 	\label{roomarchitecture}
 \end{figure}
 %%%%%  REFERENCE %%%%
@@ -95,7 +95,7 @@ Il est à noter que les librairies utilisées sont libres, open-source, et disponi
 %\end{minipage}
 
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 	
 	\subfigure[Vue Aujourd'hui]{\label{homeaujourdhui}\includegraphics[width=5cm]{images/vue_ajourdui.png}}
@@ -108,7 +108,7 @@ Il est à noter que les librairies utilisées sont libres, open-source, et disponi
 
 
 \subsection{Interface Calendrier}
-La figure \ref{addcalendar} représente la liste des calendriers dont un par défaut (Mon calendrier) qui est créé automatiquement lors de l'installation de l'application. Nous avons également d'autres calendriers qui ont été ajoutés par l'utilisateur, ces derniers peuvent être modifiés ou supprimés en appuyant sur le bouton (XXX) qui lui est associé. En appuyant sur l'un des calendriers, l'utilisateur est redirigé vers la vue calendrier contenant seulement les événements qui lui sont affectés. Pour ajouter un calendrier, il suffit d'appuyer sur le bouton '+' pour être redirigé vers l'interface d'ajout d'un calendrier.  
+La figure \ref{addcalendar} représente la liste des calendriers dont un par défaut (Mon calendrier) qui est créé automatiquement lors de l'installation de l'application. Nous avons également d'autres calendriers qui ont été ajoutés par l'utilisateur, ces derniers peuvent être modifiés ou supprimés en appuyant sur le bouton qui lui est associé. En appuyant sur l'un des calendriers, l'utilisateur est redirigé vers la vue calendrier contenant seulement les événements qui lui sont affectés. Pour ajouter un calendrier, il suffit d'appuyer sur le bouton '+' pour être redirigé vers l'interface d'ajout d'un calendrier.  
 
 \begin{figure}[H]
 	\centering
@@ -119,7 +119,7 @@ La figure \ref{addcalendar} représente la liste des calendriers dont un par défa
 
 \subsection{Interface d'ajout d'événement}	
 
-La figure ci-dessous représente l'interface d'ajout d'un événement. L'utilisateur est invité à remplir les champs, à choisir à quel calendrier appartient-il et enfin à décider à quel moment il souhaite être alerté, désactiver l'alerte complètement l'alerte, sinon.
+La figure ci-dessous représente l'interface d'ajout d'un événement. L'utilisateur est invité à remplir les champs, à choisir à quel calendrier appartient-il et enfin à décider à quel moment il souhaite être alerté, désactiver complètement l'alerte, sinon.
 \begin{figure}[H]
 	\centering
 		\includegraphics[width=5cm]{images/addevent.png}
@@ -128,4 +128,4 @@ La figure ci-dessous représente l'interface d'ajout d'un événement. L'utilisateu
 \end{figure}
 \section{Conclusion}
 
-Dans ce dernier chapitre, nous avons revu notre environnements de développement et décrit les outils utilisés notamment GitHub qui a été un outil clé pour notre travail collaboratif. Nous avons également vu les différents langages de programmation. Concernant la base de données, Room a été un véritable atout avec sa facilité à gérer et à implémenter la base de données. Un gain de temps que l'on attribue, aussi, aux différentes librairies. Enfin, nous avons vu les différentes interfaces principales qui composent notre application.
+Dans ce dernier chapitre, nous avons revu notre environnement de développement et décrit les outils utilisés notamment GitHub qui a été un outil clé pour notre travail collaboratif. Nous avons également vu les différents langages de programmation. Concernant la base de données, Room a été un véritable atout avec sa facilité à gérer et à implémenter la base de données. Un gain de temps que l'on attribue, aussi, aux différentes librairies. Enfin, nous avons vu les différentes interfaces principales qui composent notre application.
