@@ -141,8 +141,7 @@ Le modèle relationnel représente la base de données comme un ensemble de tables,
 Dans notre contexte, nous avons établi ce schéma:
 \begin{itemize}
  \item Calendrier(\textbf{\underline{id\_calendrier}},titre,visibilité,couleur,description).
- \item Événement(\textbf{\underline{id\_evenement}}, titre, jour, heure\_debut, heure\_fin, lieu, description, récurrence,\it{\#id\_calendrier},\it{\#id\_alerte}).
- \item Alerte(\textbf{\underline{id\_alerte}}, heure\_declenchement, titre, description, état).
+ \item Événement(\textbf{\underline{id\_evenement}}, titre, jour, heure\_debut, heure\_fin, lieu, description, récurrence,\it{\#id\_calendrier},heure\_declenchement, état).
 \end{itemize}
 
 \section{Conclusion}

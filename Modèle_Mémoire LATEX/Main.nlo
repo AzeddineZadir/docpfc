@@ -1,5 +1,14 @@
-\nomenclatureentry{a\textbf{UML}@[{\textbf{UML}}]\begingroup Unified Modeling Language\nomeqref {0}|nompageref}{iv}
-\nomenclatureentry{a\textbf{UP}@[{\textbf{UP}}]\begingroup Unified Process\nomeqref {0}|nompageref}{iv}
-\nomenclatureentry{a\textbf{SE}@[{\textbf{SE}}]\begingroup Système d'Exploitation\nomeqref {0}|nompageref}{iv}
-\nomenclatureentry{a\textbf{DCP}@[{\textbf{DCP}}]\begingroup Diagramme de Classe Participante\nomeqref {0}|nompageref}{iv}
-\nomenclatureentry{a\textbf{DAO}@[{\textbf{DAO}}]\begingroup Data Acces Object\nomeqref {0}|nompageref}{iv}
+\nomenclatureentry{a\textbf{UML}@[{\textbf{UML}}]\begingroup Unified Modeling Language\nomeqref {0}|nompageref}{iii}
+\nomenclatureentry{a\textbf{SE}@[{\textbf{SE}}]\begingroup Système d'Exploitation\nomeqref {0}|nompageref}{iii}
+\nomenclatureentry{a\textbf{IHM}@[{\textbf{IHM}}]\begingroup Interactions homme-machine\nomeqref {0}|nompageref}{iii}
+\nomenclatureentry{a\textbf{HTML}@[{\textbf{HTML}}]\begingroup HyperText Markup Language \nomeqref {0}|nompageref}{iii}
+\nomenclatureentry{a\textbf{CSS}@[{\textbf{CSS}}]\begingroup Cascading Style Sheets \nomeqref {0}|nompageref}{iii}
+\nomenclatureentry{a\textbf{iOS}@[{\textbf{iOS}}]\begingroup iPhone Operating System \nomeqref {0}|nompageref}{iii}
+\nomenclatureentry{a\textbf{SDK}@[{\textbf{SDK}}]\begingroup Software Developpement Kit \nomeqref {0}|nompageref}{iii}
+\nomenclatureentry{a\textbf{JDK}@[{\textbf{JDK}}]\begingroup Java Developement Kit\nomeqref {0}|nompageref}{iii}
+\nomenclatureentry{a\textbf{JVM}@[{\textbf{JVM}}]\begingroup Java Virtual Machine \nomeqref {0}|nompageref}{iii}
+\nomenclatureentry{a\textbf{XML}@[{\textbf{XML}}]\begingroup Extensible Markup Language \nomeqref {0}|nompageref}{iii}
+\nomenclatureentry{a\textbf{SQL}@[{\textbf{SQL}}]\begingroup Structured Query Language\nomeqref {0}|nompageref}{iii}
+\nomenclatureentry{a\textbf{DAO}@[{\textbf{DAO}}]\begingroup Data Access Objects \nomeqref {0}|nompageref}{iii}
+\nomenclatureentry{a\textbf{SGBD}@[{\textbf{SGBD}}]\begingroup Système de Gestion de Base de Données\nomeqref {0}|nompageref}{iii}
+\nomenclatureentry{a\textbf{DCP}@[{\textbf{DCP}}]\begingroup Diagramme de Classe Participante\nomeqref {0}|nompageref}{iii}
