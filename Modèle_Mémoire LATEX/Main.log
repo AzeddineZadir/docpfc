@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.17)  7 JUN 2018 15:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.7)  7 JUN 2018 23:24
 entering extended mode
 **./Main.tex
 (Main.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-("D:\MiKTeX 2.9\tex\latex\base\report.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-("D:\MiKTeX 2.9\tex\latex\base\size12.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,36 +21,32 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("D:\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("D:\MiKTeX 2.9\tex\latex\base\latin1.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
 File: latin1.def 2015/03/17 v1.2c Input encoding file
-))
-("D:\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-("D:\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
-("D:\MiKTeX 2.9\tex\generic\babel\babel.sty"
+)) ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2018/02/14 3.18 The Babel package
 
-("D:\MiKTeX 2.9\tex\generic\babel\switch.def"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
 File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("D:\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
 )
-("D:\MiKTeX 2.9\tex\generic\babel-french\francais.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel-french\francais.ldf"
 Language: francais 2018/02/04 v3.4b French support from the babel system
 
 
@@ -58,15 +54,14 @@ Package francais.ldf Warning: Option `francais' for Babel is *deprecated*,
 (francais.ldf)                it might be removed sooner or later. Please
 (francais.ldf)                use `french' instead; reported on input line 31.
 
-("D:\MiKTeX 2.9\tex\generic\babel-french\french.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel-french\french.ldf"
 Language: french 2018/02/04 v3.4b French support from the babel system
 
-("D:\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
-
-("D:\MiKTeX 2.9\tex\generic\babel\txtbabel.def")
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\txtbabel.def")
 \bbl@dirlevel=\count89
 )
 \l@acadian = a dialect from \language\l@french 
@@ -90,33 +85,30 @@ Package babel Info: Making ? an active character on input line 414.
 \leftmarginFB=\skip46
 \parindentFFN=\dimen105
 \FBfnindent=\skip47
-)))
-("D:\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
-("D:\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+))) ("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-("D:\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("D:\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-("D:\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("D:\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("D:\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
 )
-("D:\MiKTeX 2.9\tex\latex\tools\layout.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\layout.sty"
 Package: layout 2014/10/28 v1.2c Show layout parameters
 \oneinch=\count98
 \cnt@paperwidth=\count99
@@ -149,18 +141,16 @@ Package: layout 2014/10/28 v1.2c Show layout parameters
 \PositionX=\count126
 \PositionY=\count127
 \ArrowLength=\count128
-)
-("D:\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
-
-("D:\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-("D:\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("D:\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count129
@@ -176,14 +166,12 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen115
 \Gm@dimlist=\toks18
 
-("D:\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("D:\MiKTeX 2.9\tex\latex\url\url.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("D:\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
 \f@nch@headwidth=\skip48
 \f@nch@O@elh=\skip49
 \f@nch@O@erh=\skip50
@@ -194,18 +182,17 @@ s
 \f@nch@O@olf=\skip55
 \f@nch@O@orf=\skip56
 )
-("D:\MiKTeX 2.9\tex\latex\graphics\color.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("D:\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-("D:\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2018/05/02 v1.0c Color table columns (DPC)
-
-("D:\MiKTeX 2.9\tex\latex\tools\array.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen116
 \extrarowheight=\dimen117
@@ -215,24 +202,23 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 )
 \everycr=\toks20
 \minrowclearance=\skip59
-)
-("D:\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip60
 \multirow@cntb=\count132
 \multirow@dima=\skip61
 \bigstrutjot=\dimen118
 )
-("D:\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty"
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
 \nomlabelwidth=\dimen119
 \nom@tempdim=\dimen120
 \nomitemsep=\skip62
 )
-("D:\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-("D:\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip63
 \subfigcapskip=\skip64
@@ -248,22 +234,21 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-("D:\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
 \subfig@top=\skip67
 \subfig@bottom=\skip68
 )
-("D:\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count137
 \float@exts=\toks21
 \float@box=\box26
 \@float@everytoks=\toks22
 \@floatcapt=\box27
-)
-("D:\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-("D:\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@pps=\count138
 \c@@ppsavesec=\count139
@@ -300,7 +285,7 @@ LaTeX Font Info:    ... okay on input line 44.
 LaTeX Info: Redefining \degres on input line 44.
 LaTeX Info: Redefining \dots on input line 44.
 LaTeX Info: Redefining \up on input line 44.
- ("D:\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count141
 \scratchdimen=\dimen123
@@ -313,31 +298,31 @@ LaTeX Info: Redefining \up on input line 44.
 \MPnumerator=\count145
 \makeMPintoPDFobject=\count146
 \everyMPtoPDFconversion=\toks24
-) ("D:\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("D:\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("D:\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("D:\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("D:\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("D:\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("D:\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("D:\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("D:\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -346,19 +331,16 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("D:\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
-)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 *geometry* driver: auto-detecting
@@ -413,8 +395,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 61.
  [1
 
-{C:/Users/Salim/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/lo
-go.jpg>]) (Remerciements.tex [1
+{C:/Users/silver-desk/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/logo.jpg>])
+(Remerciements.tex [1
 
 ]) (Main.toc [1
 
@@ -422,8 +404,7 @@ go.jpg>]) (Remerciements.tex [1
 \tf@toc=\write5
 \openout5 = `Main.toc'.
 
- [2]
-(Main.lof)
+ [2] (Main.lof)
 \tf@lof=\write6
 \openout6 = `Main.lof'.
 
@@ -453,8 +434,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 <images/types-d-application-mobile.jpg, id=42, 640.3925pt x 408.52625pt>
 File: images/types-d-application-mobile.jpg Graphic file (type jpg)
 <use images/types-d-application-mobile.jpg>
-Package pdftex.def Info: images/types-d-application-mobile.jpg  used on input l
-ine 57.
+Package pdftex.def Info: images/types-d-application-mobile.jpg  used on input line 57.
 (pdftex.def)             Requested size: 426.79134pt x 272.26497pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -508,8 +488,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--83
 <images/dcp_ajout_evenement.JPG, id=77, 727.0362pt x 358.4592pt>
 File: images/dcp_ajout_evenement.JPG Graphic file (type jpg)
 <use images/dcp_ajout_evenement.JPG>
-Package pdftex.def Info: images/dcp_ajout_evenement.JPG  used on input line 103
-.
+Package pdftex.def Info: images/dcp_ajout_evenement.JPG  used on input line 103.
 (pdftex.def)             Requested size: 727.03442pt x 358.45831pt.
 
 Overfull \hbox (45.87544pt too wide) in paragraph at lines 103--104
@@ -529,8 +508,7 @@ Package pdftex.def Info: images/ajout_event.PNG  used on input line 124.
 <images/suppression_calendrier.PNG, id=86, 864.831pt x 589.2414pt>
 File: images/suppression_calendrier.PNG Graphic file (type png)
 <use images/suppression_calendrier.PNG>
-Package pdftex.def Info: images/suppression_calendrier.PNG  used on input line 
-130.
+Package pdftex.def Info: images/suppression_calendrier.PNG  used on input line 130.
 (pdftex.def)             Requested size: 691.86574pt x 471.39375pt.
 
 Overfull \hbox (10.70676pt too wide) in paragraph at lines 130--131
@@ -542,13 +520,13 @@ Overfull \hbox (10.70676pt too wide) in paragraph at lines 130--131
  <./images/ajout_event.PNG>]
 Overfull \vbox (1.23698pt too high) has occurred while \output is active []
 
-
-[16 <./images/suppression_calendrier.PNG>]) (Chapitre_3.tex [17
+ [16 <./images/suppression_calendrier.PNG>])
+(Chapitre_3.tex [17
 
 ]
 Chapitre 3.
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 24.
-("D:\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [18
 
@@ -579,48 +557,37 @@ File: images/ajout_calendrier.png Graphic file (type png)
 <use images/ajout_calendrier.png>
 Package pdftex.def Info: images/ajout_calendrier.png  used on input line 115.
 (pdftex.def)             Requested size: 142.26378pt x 252.91203pt.
- [21 <./images/vue_ajourdui.png (PNG copy)> <./images/vue_3jrs.png (PNG copy)> 
-<./images/vue_7jrs.png (PNG copy)>]
+ [21 <./images/vue_ajourdui.png (PNG copy)> <./images/vue_3jrs.png (PNG copy)> <./images/vue_7jrs.png (PNG copy)>]
 <images/addevent.png, id=119, 203.25937pt x 361.35pt>
 File: images/addevent.png Graphic file (type png)
 <use images/addevent.png>
 Package pdftex.def Info: images/addevent.png  used on input line 125.
 (pdftex.def)             Requested size: 142.26378pt x 252.92122pt.
-) [22 <./images/ajout_calendrier.png (PNG copy)> <./images/addevent.png>] (Conc
-lusion_GÃ©nÃ©rale.tex [23])
-(Bibliographie.tex [24
+) [22 <./images/ajout_calendrier.png (PNG copy)> <./images/addevent.png>] (Conclusion_GÃ©nÃ©rale.tex [23]) (Bibliographi
+e.tex [24
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
-[]\T1/cmr/m/sc/12 Digitalsobe\T1/cmr/m/n/12 , \T1/cmr/m/it/12 Sta-tis-tiques d'
-uti-li-sa-tion mo-bile ?\T1/cmr/m/n/12 , $\T1/cmtt/m/n/12 https : / / fr . digi
-talsobe . com /
+[]\T1/cmr/m/sc/12 Digitalsobe\T1/cmr/m/n/12 , \T1/cmr/m/it/12 Sta-tis-tiques d'uti-li-sa-tion mo-bile ?\T1/cmr/m/n/12 , 
+$\T1/cmtt/m/n/12 https : / / fr . digitalsobe . com /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
-[]\T1/cmr/m/sc/12 Taktil Com-mu-ni-ca-tion\T1/cmr/m/n/12 , \T1/cmr/m/it/12 Ap-p
-li-ca-tion mo-bile dé-fi-ni-tion et ty-po-lo-
+[]\T1/cmr/m/sc/12 Taktil Com-mu-ni-ca-tion\T1/cmr/m/n/12 , \T1/cmr/m/it/12 Ap-pli-ca-tion mo-bile dé-fi-ni-tion et ty-po
+-lo-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
-\T1/cmr/m/it/12 gie\T1/cmr/m/n/12 , $\T1/cmtt/m/n/12 https : / / www . taktilco
-mmunication . com / blog / applications-[]mobile /
- []
-
-
-Underfull \hbox (badness 1845) in paragraph at lines 15--16
-[] \T1/cmr/m/sc/12 ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !Au-teur\T1/cm
-r/m/n/12 , \T1/cmr/m/it/12 Titre ! ! ! ! ! ! ! ! ! ! ! ! ! ! !\T1/cmr/m/n/12 , 
-$\T1/cmtt/m/n/12 http : / / niedercorn . free . fr /
+\T1/cmr/m/it/12 gie\T1/cmr/m/n/12 , $\T1/cmtt/m/n/12 https : / / www . taktilcommunication . com / blog / applications-[
+]mobile /
  []
 
 
 Underfull \hbox (badness 1527) in paragraph at lines 17--18
-[]\T1/cmr/m/sc/12 Rim Chaa-bane\T1/cmr/m/n/12 , \T1/cmr/m/it/12 Le mo-dèle de d
-on-nées re-la-tion-nel\T1/cmr/m/n/12 , $\T1/cmtt/m/n/12 http : / / www . ai . u
-niv-[]paris8 . fr /
+[]\T1/cmr/m/sc/12 Rim Chaa-bane\T1/cmr/m/n/12 , \T1/cmr/m/it/12 Le mo-dèle de don-nées re-la-tion-nel\T1/cmr/m/n/12 , $\
+T1/cmtt/m/n/12 http : / / www . ai . univ-[]paris8 . fr /
  []
 
 ) (Annexe.tex [25
@@ -646,8 +613,7 @@ File: images/menu_droite.png Graphic file (type png)
 <use images/menu_droite.png>
 Package pdftex.def Info: images/menu_droite.png  used on input line 28.
 (pdftex.def)             Requested size: 142.26378pt x 252.91693pt.
-) (RÃ©sumÃ©.tex
-[28
+) (RÃ©sumÃ©.tex [28
 
  <./images/menu_lateral.png (PNG copy)> <./images/menu_droite.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
@@ -666,32 +632,27 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  4544 strings out of 493305
- 63496 string characters out of 3144922
+ 64976 string characters out of 3138857
  136622 words of memory out of 3000000
  7921 multiletter control sequences out of 15000+200000
  18147 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,43p,822b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-ecbi1200.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\ecrm1000.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\Salim\AppData\Local\MiKTeX
-\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Salim\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\Salim\
-AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Us
-ers\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.
-pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecbx1200.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
-\ec\dpi600\ecbx1440.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\Salim\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Salim\AppData\Local\MiKTe
-X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk><D:/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb>
-Output written on Main.pdf (35 pages, 3018342 bytes).
+ <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1200.pk> <C:\Users\silver-desk\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\eccc1200.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C
+:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\silver-desk\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
+i600\ecbx1200.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Use
+rs\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk> <C:\Users\silver-desk\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\l
+jfour\jknappen\ec\dpi600\ecrm1440.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+Output written on Main.pdf (35 pages, 3018165 bytes).
 PDF statistics:
- 736 PDF objects out of 1000 (max. 8388607)
+ 735 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
