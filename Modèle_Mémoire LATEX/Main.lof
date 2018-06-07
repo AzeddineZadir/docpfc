@@ -1,13 +1,13 @@
 \babel@toc {french}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Les diff\'erents types d'applications.\cite {4}}}{5}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Les diff\'erents types d'applications \cite {4}.}}{5}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme de cas d'utilisation.}}{8}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Maquette IHM et navigation}}{10}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Mod\`ele du domaine.}}{11}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagramme de classes participantes <<Ajout \'ev\'enement>>.}}{13}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagramme d'interaction <<Ajout \'ev\'enement >>.}}{15}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagramme d'interaction <<Suppression d'un calendrier>>.}}{16}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagramme de classes participantes << Ajout \'ev\'enement >>.}}{13}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagramme d'interaction << Ajout \'ev\'enement >>.}}{15}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagramme d'interaction << Suppression d'un calendrier >>.}}{16}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Architecture de Room \cite {9}.}}{20}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Interface d'accueil}}{21}
@@ -16,7 +16,7 @@
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Vue une semaine}}}{21}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Interface calendrier.}}{22}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Ajout d'un \'ev\'enement.}}{22}
-\contentsline {figure}{\numberline {5}{\ignorespaces Diagramme d'interaction <<Modifier \'ev\'enement>>.}}{27}
+\contentsline {figure}{\numberline {5}{\ignorespaces Diagramme d'interaction << Modifier \'ev\'enement >>.}}{27}
 \contentsline {figure}{\numberline {6}{\ignorespaces Les menus lat\'eraux}}{28}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Menu lat\'eral}}}{28}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Menu Option}}}{28}
