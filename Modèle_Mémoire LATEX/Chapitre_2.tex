@@ -19,7 +19,7 @@ Permettre à l'utilisateur d'ajouter des événements et de les administrer dans de
 \item[Besoins non fonctionnels]
 L'application doit remplir des critères non fonctionnels comme:
 \begin{itemize}
-	\item La fiabilité: L'utilisateur devra recevoir des les alertes programmées même si l'application cesse de fonctionner.
+	\item La fiabilité: L'utilisateur devra recevoir les alertes programmées même si l'application cesse de fonctionner.
 	\item L'utilisabilité: L'utilisateur doit pouvoir maîtriser le fonctionnement de l'application facilement et rapidement.
 	\item Performance : On est amené à vérifier notre emploi du temps plusieurs fois par jour. L'application doit être rapidement accessible pour ne pas contrarier l'utilisateur.
 \end{itemize}
@@ -35,7 +35,7 @@ Les éléments d'un diagramme de cas d'utilisation sont:
 
 
 	\item[Acteur: ] Un acteur est l'idéalisation d'un rôle joué par une personne externe, un processus ou une chose qui interagit avec un système. On le représente par un petit bonhomme avec son nom inscrit en dessous.
-	\item[Cas d'utilisation: ]est une unité cohérente représentant une fonctionnalité visible de l'extérieur. Il réalise un service de bout en bout, avec un déclenchement, un déroulement et une fin, pour l'acteur qui l'initie. Un cas d'utilisation modélise donc un service rendu par le système, sans imposer le mode de réalisation de ce service. On se représente par une ellipse contenant le nom du cas.
+	\item[Cas d'utilisation: ]est une unité cohérente représentant une fonctionnalité visible de l'extérieur. Il réalise un service de bout en bout, avec un déclenchement, un déroulement et une fin, pour l'acteur qui l'initie. Un cas d'utilisation modélise donc un service rendu par le système, sans imposer le mode de réalisation de ce service. On le représente par une ellipse contenant le nom du cas.
 	\item[Relations d'association: ]Une relation d'association est un chemin de communication entre un acteur et un cas d'utilisation et est représenté par un trait continu.
 \end{description}Dans ce qui suit, nous décrivons le diagramme de cas d'utilisation de l'utilisateur (unique acteur) de l'application.
 \newpage
@@ -94,7 +94,7 @@ Pour compléter ce travail d'identification, nous ajouterons des attributs et des
 \begin{itemize}
 	\item Les contrôles ne possèdent que des opérations. Ces opérations montrent la logique de l'application, les règles transverses à plusieurs entités, simplement dit les comportements du système informatique.
 	\item Les dialogues possèdent des attributs et des opérations. Les attributs représenteront des champs de saisie ou des résultats. Les résultats seront distingués en utilisant la notation de l'attribut dérivé. Les opérations représenteront des actions de l'utilisateur sur l'IHM.
-	\item les classes entités réalisées à partir du modèle du domaine. 
+	\item Les classes entités réalisées à partir du modèle du domaine. 
 \end{itemize}
 
 \begin{landscape}
@@ -109,13 +109,13 @@ Pour compléter ce travail d'identification, nous ajouterons des attributs et des
 %la 2em section 
 \section{Conception}
 
-Après avoir tracé les grandes lignes de phase de spécification de besoins, mettons l'accent maintenant sur une phase fondamentale dans le cycle de vie d'un logiciel: la phase de conception. 
+Après avoir tracé les grandes lignes de la phase de spécification de besoins, mettons l'accent maintenant sur une phase fondamentale dans le cycle de vie d'un logiciel: la phase de conception. 
 Dans cette section, nous présenterons les différents diagrammes d'interaction. Et élaborerons le modèle relationnel.
 \subsection{Diagramme d'interactions}
 
 Ces diagrammes permettent de modéliser comment les objets communiquent entre eux \cite{6}. Pour cela, nous utiliserons encore les trois types de classes d'analyse. L'on représente les interactions dans un format où chaque nouvel objet est ajouté en haut à droite. On représente la ligne de vie de chaque objet par un trait pointillé vertical. Cette ligne de vie sert de point de départ ou d'arrivée à des messages représentés eux-mêmes par des flèches horizontales. Par convention, le temps coule de haut en bas. Il indique ainsi visuellement la séquence relative des envois et réceptions de messages.
 
-Par soucis de brièveté, nous n'incluons deux diagrammes: Celui de l'ajout d'un événement, et celui de la suppression d'un calendrier.
+Par soucis de brièveté, nous n'incluons que deux diagrammes: Celui de l'ajout d'un événement, et celui de la suppression d'un calendrier.
 
 %les diagrammes d'interaction
 \begin{landscape} 
@@ -153,8 +153,8 @@ Dans notre contexte, nous avons obtenu le schéma relationnel suivant:
 \item Alerte (\textbf{\underline{id\_alerte}},heure\_déclenchement, délai,\#\textit{id\_evenement})
 -----------------------------------------------------------------------------------------------------------
 
-\item Calendrier(\textbf{\underline{id\_calendrier}},titre,visibilité,couleur,description).
- \item Événement(\textbf{\underline{id\_evenement}}, titre, jour, heure\_debut, heure\_fin, lieu, description, récurrence,\textit{\#id\_calendrier},heure\_déclenchement,délai).
+\item Calendrier(\textbf{\underline{id\_calendrier}}, titre, visibilité, couleur, description).
+ \item Événement(\textbf{\underline{id\_evenement}}, titre, jour, heure\_debut, heure\_fin, lieu, description, récurrence,\textit{\#id\_calendrier}, heure\_déclenchement, délai).
 \end{itemize}
 \section{Conclusion}
-Dans le présent chapitre, nous avons modélisé et définit des solutions satisfaisants aux exigences établies. Ceci est fait, par une spécification et une analyse des besoins puis la réalisation des diagrammes d'interaction et diagramme de classes conception dans la phase de conception. Le prochain chapitre sera consacré à la réalisation de notre application e l'implémentant les solutions proposées.
+Dans le présent chapitre, nous avons modélisé et définit des solutions satisfaisants aux exigences établies. Ceci est fait, par une spécification et une analyse des besoins puis la réalisation des diagrammes d'interaction et diagramme de classes conception dans la phase de conception. Le prochain chapitre sera consacré à la réalisation de notre application en implémentant les solutions proposées.
