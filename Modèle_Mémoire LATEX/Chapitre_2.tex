@@ -148,13 +148,9 @@ Les règles utilisées pour le passage du modèle du domaine vers le modèle relatio
 
 Dans notre contexte, nous avons obtenu le schéma relationnel suivant:
 \begin{itemize}
- \item Calendrier(\textbf{\underline{id\_calendrier}},titre,visibilité,couleur,description).
+ \item Calendrier(\textbf{\underline{id\_calendrier}}, titre, visibilité, couleur, description).
  \item Événement(\textbf{\underline{id\_evenement}}, titre, jour, heure\_debut, heure\_fin, lieu, description, récurrence,\textit{\#id\_calendrier}).
-\item Alerte (\textbf{\underline{id\_alerte}},heure\_déclenchement, délai,\#\textit{id\_evenement})
------------------------------------------------------------------------------------------------------------
-
-\item Calendrier(\textbf{\underline{id\_calendrier}}, titre, visibilité, couleur, description).
- \item Événement(\textbf{\underline{id\_evenement}}, titre, jour, heure\_debut, heure\_fin, lieu, description, récurrence,\textit{\#id\_calendrier}, heure\_déclenchement, délai).
+\item Alerte (\textbf{\underline{id\_alerte}}, heure\_déclenchement, délai,\#\textit{id\_evenement})
 \end{itemize}
 \section{Conclusion}
 Dans le présent chapitre, nous avons modélisé et définit des solutions satisfaisants aux exigences établies. Ceci est fait, par une spécification et une analyse des besoins puis la réalisation des diagrammes d'interaction et diagramme de classes conception dans la phase de conception. Le prochain chapitre sera consacré à la réalisation de notre application en implémentant les solutions proposées.
