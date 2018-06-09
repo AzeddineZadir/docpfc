@@ -35,7 +35,7 @@ L'application doit remplir des critères non fonctionnels comme:
 
 \subsection{Diagramme de cas d'utilisation}
 
-Les diagrammes de cas d'utilisation sont des diagrammes utilisés pour donner une vision globale du comportement fonctionnel d'une application. Ils permettent de recueillir, d'analyser, et d'organiser les besoins. Il s'agit donc de la première étape UML d'analyse d'un système \cite{3}. 
+Les diagrammes de cas d'utilisation sont des diagrammes utilisés pour donner une vision globale du comportement fonctionnel d'une application. Ils permettent de recueillir, d'analyser, et d'organiser les besoins. Il s'agit donc de la première étape UML d'analyse d'un système \cite{4}. 
 Les éléments d'un diagramme de cas d'utilisation sont:
 \begin{description}
 
@@ -59,7 +59,7 @@ Le diagramme de la Figure \ref{casutilisation} représente les différents cas d'u
 
 \subsection{Maquettes IHM et navigation }
 
-Une maquette est un produit jetable permettant aux utilisateurs d'avoir une vue concrète mais non définitive des interfaces de la future application. On parle aussi de prototypage d'IHM (Interface Homme Machine). Une maquette permet de bien cerner les fonctionnalités de l'application à réaliser \cite{5}.\\
+Une maquette est un produit jetable permettant aux utilisateurs d'avoir une vue concrète mais non définitive des interfaces de la future application. On parle aussi de prototypage d'IHM (Interface Homme Machine). Une maquette permet de bien cerner les fonctionnalités de l'application à réaliser \cite{6}.\\
 
 %fig ihm et navigation
 \begin{figure}[H]
@@ -74,7 +74,7 @@ La Figure \ref{ihmnavig} présente les interfaces principales et les liens qui le
 
 \newpage
 \subsection{Le modèle du domaine}
-La modélisation des besoins par des cas d'utilisation s'apparente à une analyse fonctionnelle classique. L'élaboration du modèle des classes du domaine permet d'opérer une transition vers une véritable modélisation objet. L'analyse du domaine est une étape totalement dissociée de l'analyse des besoins. Elle peut être menée avant, en parallèle, ou après cette dernière \cite{3}.
+La modélisation des besoins par des cas d'utilisation s'apparente à une analyse fonctionnelle classique. L'élaboration du modèle des classes du domaine permet d'opérer une transition vers une véritable modélisation objet. L'analyse du domaine est une étape totalement dissociée de l'analyse des besoins. Elle peut être menée avant, en parallèle, ou après cette dernière \cite{4}.
  En analysant le domaine, on peut concevoir ce modèle qui représente les objets du monde réel. Ces objets doivent contenir des attributs.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 La Figure \ref{domaine} détaille le modèle du domaine de l'application à réaliser.
@@ -84,7 +84,7 @@ La Figure \ref{domaine} détaille le modèle du domaine de l'application à réalise
 \\
 \begin{figure}[H]
 	\centering
-		\includegraphics[width=15cm]{images/mdd.JPG}
+		\includegraphics[width=15cm]{images/mdd.PNG}
 	\caption{Modèle du domaine.}
 	\label{domaine}
 \end{figure}
@@ -94,7 +94,7 @@ La Figure \ref{domaine} détaille le modèle du domaine de l'application à réalise
 
 Le diagramme de classes participantes est particulièrement important puisqu'il effectue la jonction entre, d'une part, les cas d'utilisation, le modèle du domaine et la maquette , et d'autre part, les diagrammes de conception logicielle. 
 
-Il n'est pas souhaitable que les utilisateurs interagissent directement avec les instances des classes du domaine par le biais de l'interface graphique. En effet, le modèle du domaine doit être indépendant des utilisateurs et de l'interface graphique. De même, l'interface graphique du logiciel doit pouvoir évoluer sans répercussion sur le c\oe ur de l'application. C'est le principe fondamental du découpage en couches d'une application. Ainsi, le diagramme de classes participantes modélise trois types de classes d'analyse, les dialogues, les contrôles, et les entités, ainsi que leurs relations \cite{3}.
+Il n'est pas souhaitable que les utilisateurs interagissent directement avec les instances des classes du domaine par le biais de l'interface graphique. En effet, le modèle du domaine doit être indépendant des utilisateurs et de l'interface graphique. De même, l'interface graphique du logiciel doit pouvoir évoluer sans répercussion sur le c\oe ur de l'application. C'est le principe fondamental du découpage en couches d'une application. Ainsi, le diagramme de classes participantes modélise trois types de classes d'analyse, les dialogues, les contrôles, et les entités, ainsi que leurs relations \cite{4}.
 
 Pour compléter ce travail d'identification, nous ajouterons des attributs et des opérations dans les classes d'analyse, ainsi que des associations entre elles.
 
@@ -120,7 +120,7 @@ Après avoir tracé les grandes lignes de la phase de spécification de besoins, me
 Dans cette section, nous présenterons les différents diagrammes d'interaction, et élaborerons le modèle relationnel.
 \subsection{Diagramme d'interactions}
 
-Ces diagrammes permettent de modéliser comment les objets communiquent entre eux \cite{6}. Pour cela, nous utiliserons encore les trois types de classes d'analyse. L'on représente les interactions dans un format où chaque nouvel objet est ajouté en haut à droite. On représente la ligne de vie de chaque objet par un trait pointillé vertical. Cette ligne de vie sert de point de départ ou d'arrivée à des messages représentés eux-mêmes par des flèches horizontales. Par convention, le temps coule de haut en bas. Il indique ainsi visuellement la séquence relative des envois et réceptions de messages.
+Ces diagrammes permettent de modéliser comment les objets communiquent entre eux \cite{7}. Pour cela, nous utiliserons encore les trois types de classes d'analyse. L'on représente les interactions dans un format où chaque nouvel objet est ajouté en haut à droite. On représente la ligne de vie de chaque objet par un trait pointillé vertical. Cette ligne de vie sert de point de départ ou d'arrivée à des messages représentés eux-mêmes par des flèches horizontales. Par convention, le temps coule de haut en bas. Il indique ainsi visuellement la séquence relative des envois et réceptions de messages.
 
 Par soucis de brièveté, nous n'incluons que deux diagrammes: celui de l'ajout d'un événement, et celui de la suppression d'un calendrier.
 \newpage
@@ -142,10 +142,10 @@ Par soucis de brièveté, nous n'incluons que deux diagrammes: celui de l'ajout d'
 \newpage
 \subsection{Modèle relationnel}
 
-Le modèle relationnel représente la base de données comme un ensemble de tables, sans préjugés de la façon dont les informations sont stockées dans la machine. Les relations constituent donc la structure logique du modèle relationnel. Au niveau physique, le système est libre d'utiliser n'importe quelle technique de stockage dès lors qu'il est possible de relier ces structures à des relations au niveau logique. Les relations ne représentent donc qu'une abstraction de l'enregistrement physique des données en mémoire \cite{7}.
+Le modèle relationnel représente la base de données comme un ensemble de tables, sans préjugés de la façon dont les informations sont stockées dans la machine. Les relations constituent donc la structure logique du modèle relationnel. Au niveau physique, le système est libre d'utiliser n'importe quelle technique de stockage dès lors qu'il est possible de relier ces structures à des relations au niveau logique. Les relations ne représentent donc qu'une abstraction de l'enregistrement physique des données en mémoire \cite{8}.
 
 
-Les règles utilisées pour le passage du modèle du domaine vers le modèle relationnel sont \cite{8}:
+Les règles utilisées pour le passage du modèle du domaine vers le modèle relationnel sont \cite{9}:
 
 \begin{itemize}
 	\item Composition: La clé primaire des relations déduites des classes composantes doit contenir l'identifiant de la classe composite (quelles que soient les multiplicités).
