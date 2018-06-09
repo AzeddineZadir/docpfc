@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.7)  7 JUN 2018 23:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.7)  9 JUN 2018 23:19
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -447,78 +447,73 @@ Chapitre 2.
 <images/cas_utilisation.PNG, id=57, 824.3598pt x 613.3314pt>
 File: images/cas_utilisation.PNG Graphic file (type png)
 <use images/cas_utilisation.PNG>
-Package pdftex.def Info: images/cas_utilisation.PNG  used on input line 45.
+Package pdftex.def Info: images/cas_utilisation.PNG  used on input line 51.
 (pdftex.def)             Requested size: 597.50787pt x 444.57433pt.
  [8
 
  <./images/cas_utilisation.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-<images/ihm.png, id=63, 597.432pt x 845.0772pt>
+<images/ihm.png, id=63, 2489.3pt x 3521.155pt>
 File: images/ihm.png Graphic file (type png)
 <use images/ihm.png>
-Package pdftex.def Info: images/ihm.png  used on input line 63.
-(pdftex.def)             Requested size: 398.33858pt x 563.47798pt.
+Package pdftex.def Info: images/ihm.png  used on input line 67.
+(pdftex.def)             Requested size: 398.33858pt x 563.45004pt.
 [9
 
 ] [10 <./images/ihm.png>]
-<images/mdd.JPG, id=70, 528.5346pt x 367.1316pt>
-File: images/mdd.JPG Graphic file (type jpg)
-<use images/mdd.JPG>
-Package pdftex.def Info: images/mdd.JPG  used on input line 80.
-(pdftex.def)             Requested size: 426.79134pt x 296.45624pt.
+<images/mdd.PNG, id=71, 820.56563pt x 555.57562pt>
+File: images/mdd.PNG Graphic file (type png)
+<use images/mdd.PNG>
+Package pdftex.def Info: images/mdd.PNG  used on input line 87.
+(pdftex.def)             Requested size: 426.79134pt x 288.96031pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--83
+Underfull \hbox (badness 10000) in paragraph at lines 77--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--83
+Underfull \hbox (badness 10000) in paragraph at lines 77--90
 
  []
 
-[11 <./images/mdd.JPG>] [12]
-<images/dcp_ajout_evenement.JPG, id=77, 727.0362pt x 358.4592pt>
-File: images/dcp_ajout_evenement.JPG Graphic file (type jpg)
-<use images/dcp_ajout_evenement.JPG>
-Package pdftex.def Info: images/dcp_ajout_evenement.JPG  used on input line 103.
-(pdftex.def)             Requested size: 727.03442pt x 358.45831pt.
 
-Overfull \hbox (45.87544pt too wide) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 77--90
+
+ []
+
+[11 <./images/mdd.PNG>] [12]
+<images/dcp_ajout_evenement.PNG, id=79, 1136.0844pt x 608.9952pt>
+File: images/dcp_ajout_evenement.PNG Graphic file (type png)
+<use images/dcp_ajout_evenement.PNG>
+Package pdftex.def Info: images/dcp_ajout_evenement.PNG  used on input line 110.
+(pdftex.def)             Requested size: 795.25366pt x 426.29373pt.
+
+Overfull \hbox (114.09468pt too wide) in paragraph at lines 110--111
  [][] 
  []
 
 [13
 
- <./images/dcp_ajout_evenement.JPG>] [14
+ <./images/dcp_ajout_evenement.PNG>] [14
 
 ]
-<images/ajout_event.PNG, id=85, 670.6656pt x 458.6736pt>
+<images/ajout_event.PNG, id=88, 837.88031pt x 609.02531pt>
 File: images/ajout_event.PNG Graphic file (type png)
 <use images/ajout_event.PNG>
-Package pdftex.def Info: images/ajout_event.PNG  used on input line 124.
-(pdftex.def)             Requested size: 536.5332pt x 366.93936pt.
-<images/suppression_calendrier.PNG, id=86, 864.831pt x 589.2414pt>
+Package pdftex.def Info: images/ajout_event.PNG  used on input line 131.
+(pdftex.def)             Requested size: 569.05511pt x 413.62062pt.
+<images/suppression_calendrier.PNG, id=89, 815.2056pt x 597.9138pt>
 File: images/suppression_calendrier.PNG Graphic file (type png)
 <use images/suppression_calendrier.PNG>
-Package pdftex.def Info: images/suppression_calendrier.PNG  used on input line 130.
-(pdftex.def)             Requested size: 691.86574pt x 471.39375pt.
-
-Overfull \hbox (10.70676pt too wide) in paragraph at lines 130--131
- [][] 
- []
-
-[15
+Package pdftex.def Info: images/suppression_calendrier.PNG  used on input line 137.
+(pdftex.def)             Requested size: 652.16536pt x 478.33168pt.
+ [15
 
  <./images/ajout_event.PNG>]
-Overfull \vbox (1.23698pt too high) has occurred while \output is active []
+Overfull \vbox (8.17491pt too high) has occurred while \output is active []
 
  [16 <./images/suppression_calendrier.PNG>])
 (Chapitre_3.tex [17
@@ -531,61 +526,71 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [18
 
 ] [19]
-<images/roomarchitecture.png, id=106, 602.25pt x 544.0325pt>
+<images/roomarchitecture.png, id=108, 602.25pt x 544.0325pt>
 File: images/roomarchitecture.png Graphic file (type png)
 <use images/roomarchitecture.png>
 Package pdftex.def Info: images/roomarchitecture.png  used on input line 68.
 (pdftex.def)             Requested size: 227.62204pt x 205.62213pt.
- [20 <./images/roomarchitecture.png>]
-<images/vue_ajourdui.png, id=111, 542.025pt x 963.6pt>
+
+
+LaTeX Warning: Citation `10' on page 20 undefined on input line 69.
+
+[20 <./images/roomarchitecture.png>]
+<images/vue_ajourdui.png, id=113, 542.025pt x 963.6pt>
 File: images/vue_ajourdui.png Graphic file (type png)
 <use images/vue_ajourdui.png>
 Package pdftex.def Info: images/vue_ajourdui.png  used on input line 101.
 (pdftex.def)             Requested size: 142.26378pt x 252.91203pt.
-<images/vue_3jrs.png, id=112, 542.025pt x 963.6pt>
+<images/vue_3jrs.png, id=114, 542.025pt x 963.6pt>
 File: images/vue_3jrs.png Graphic file (type png)
 <use images/vue_3jrs.png>
 Package pdftex.def Info: images/vue_3jrs.png  used on input line 102.
 (pdftex.def)             Requested size: 142.26378pt x 252.91203pt.
-<images/vue_7jrs.png, id=113, 542.025pt x 963.6pt>
+<images/vue_7jrs.png, id=115, 542.025pt x 963.6pt>
 File: images/vue_7jrs.png Graphic file (type png)
 <use images/vue_7jrs.png>
 Package pdftex.def Info: images/vue_7jrs.png  used on input line 103.
 (pdftex.def)             Requested size: 142.26378pt x 252.91203pt.
-<images/ajout_calendrier.png, id=114, 542.025pt x 963.6pt>
+<images/ajout_calendrier.png, id=116, 542.025pt x 963.6pt>
 File: images/ajout_calendrier.png Graphic file (type png)
 <use images/ajout_calendrier.png>
 Package pdftex.def Info: images/ajout_calendrier.png  used on input line 115.
 (pdftex.def)             Requested size: 142.26378pt x 252.91203pt.
  [21 <./images/vue_ajourdui.png (PNG copy)> <./images/vue_3jrs.png (PNG copy)> <./images/vue_7jrs.png (PNG copy)>]
-<images/addevent.png, id=119, 203.25937pt x 361.35pt>
+<images/addevent.png, id=121, 722.7pt x 1284.8pt>
 File: images/addevent.png Graphic file (type png)
 <use images/addevent.png>
 Package pdftex.def Info: images/addevent.png  used on input line 125.
-(pdftex.def)             Requested size: 142.26378pt x 252.92122pt.
-) [22 <./images/ajout_calendrier.png (PNG copy)> <./images/addevent.png>] (Conclusion_GÃ©nÃ©rale.tex [23]) (Bibliographi
-e.tex [24
+(pdftex.def)             Requested size: 142.26378pt x 252.91693pt.
+) [22 <./images/ajout_calendrier.png (PNG copy)> <./images/addevent.png (PNG copy)>]
+(Conclusion_GÃ©nÃ©rale.tex [23]) (Bibliographie.tex [24
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
+[]\T1/cmr/m/sc/12 Wikipedia\T1/cmr/m/n/12 , \T1/cmr/m/it/12 No-mo-pho-bie\T1/cmr/m/n/12 , $\T1/cmtt/m/n/12 https : / / f
+r . wikipedia . org / wiki / Nomophobie$\T1/cmr/m/n/12 , consulté le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 []\T1/cmr/m/sc/12 Digitalsobe\T1/cmr/m/n/12 , \T1/cmr/m/it/12 Sta-tis-tiques d'uti-li-sa-tion mo-bile ?\T1/cmr/m/n/12 , 
 $\T1/cmtt/m/n/12 https : / / fr . digitalsobe . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 []\T1/cmr/m/sc/12 Taktil Com-mu-ni-ca-tion\T1/cmr/m/n/12 , \T1/cmr/m/it/12 Ap-pli-ca-tion mo-bile dé-fi-ni-tion et ty-po
 -lo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 \T1/cmr/m/it/12 gie\T1/cmr/m/n/12 , $\T1/cmtt/m/n/12 https : / / www . taktilcommunication . com / blog / applications-[
 ]mobile /
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 17--18
+Underfull \hbox (badness 1527) in paragraph at lines 18--19
 []\T1/cmr/m/sc/12 Rim Chaa-bane\T1/cmr/m/n/12 , \T1/cmr/m/it/12 Le mo-dèle de don-nées re-la-tion-nel\T1/cmr/m/n/12 , $\
 T1/cmtt/m/n/12 http : / / www . ai . univ-[]paris8 . fr /
  []
@@ -595,20 +600,20 @@ T1/cmtt/m/n/12 http : / / www . ai . univ-[]paris8 . fr /
 ] [26
 
 ]
-<images/modifier_event.PNG, id=137, 761.244pt x 584.9052pt>
+<images/modifier_event.PNG, id=138, 855.195pt x 616.704pt>
 File: images/modifier_event.PNG Graphic file (type png)
 <use images/modifier_event.PNG>
 Package pdftex.def Info: images/modifier_event.PNG  used on input line 13.
-(pdftex.def)             Requested size: 597.50787pt x 459.12482pt.
+(pdftex.def)             Requested size: 597.50787pt x 430.88058pt.
  [27
 
  <./images/modifier_event.PNG>]
-<images/menu_lateral.png, id=142, 722.7pt x 1284.8pt>
+<images/menu_lateral.png, id=143, 722.7pt x 1284.8pt>
 File: images/menu_lateral.png Graphic file (type png)
 <use images/menu_lateral.png>
 Package pdftex.def Info: images/menu_lateral.png  used on input line 27.
 (pdftex.def)             Requested size: 142.26378pt x 252.91693pt.
-<images/menu_droite.png, id=143, 722.7pt x 1284.8pt>
+<images/menu_droite.png, id=144, 722.7pt x 1284.8pt>
 File: images/menu_droite.png Graphic file (type png)
 <use images/menu_droite.png>
 Package pdftex.def Info: images/menu_droite.png  used on input line 28.
@@ -627,14 +632,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
 [1]) (Main.aux)
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4544 strings out of 493305
- 64976 string characters out of 3138857
+ 4542 strings out of 493305
+ 64953 string characters out of 3138857
  136622 words of memory out of 3000000
- 7921 multiletter control sequences out of 15000+200000
+ 7920 multiletter control sequences out of 15000+200000
  18147 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,43p,822b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -650,9 +658,9 @@ rs\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2
 cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\silver-desk\AppData\Local\MiKTeX\2.9\fonts\pk\l
 jfour\jknappen\ec\dpi600\ecrm1440.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
-Output written on Main.pdf (35 pages, 3018165 bytes).
+Output written on Main.pdf (35 pages, 3155334 bytes).
 PDF statistics:
- 735 PDF objects out of 1000 (max. 8388607)
+ 739 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
