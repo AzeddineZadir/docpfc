@@ -13,7 +13,7 @@ C'est une phase décisive du processus de développement d'une application. Elle p
 
 \begin{description}
 
-\item[Besoins fonctionnels]
+\item[Besoins fonctionnels: ]L'application doit répondre aux besoins fonctionnels qui sont:
 \begin{itemize}
 	
 
@@ -22,7 +22,7 @@ C'est une phase décisive du processus de développement d'une application. Elle p
 \item Avoir une représentation détaillée de son emploi du temps général (tous les calendriers) ou d'un seul calendrier à la fois (Exemple: limiter l'affichage aux activités sportives). 
 \item Adapter la représentation pour afficher une seule journée, 3 jours, une semaine, et finalement permettre à l'utilisateur de modifier à tout moment les informations déjà saisies.
 \end{itemize}
-\item[Besoins non fonctionnels]
+\item[Besoins non fonctionnels: ]
 L'application doit remplir des critères non fonctionnels comme:
 \begin{itemize}
 	\item La fiabilité: L'utilisateur devra recevoir les alertes programmées même si l'application cesse de fonctionner.
@@ -40,8 +40,8 @@ Les éléments d'un diagramme de cas d'utilisation sont:
 \begin{description}
 
 
-	\item[Acteur: ] Un acteur est l'idéalisation d'un rôle joué par une personne externe, un processus ou une chose qui interagit avec un système. On le représente par un petit bonhomme avec son nom inscrit en dessous.
-	\item[Cas d'utilisation: ]est une unité cohérente représentant une fonctionnalité visible de l'extérieur. Il réalise un service de bout en bout, avec un déclenchement, un déroulement, et une fin, pour l'acteur qui l'initie. Un cas d'utilisation modélise, donc, un service rendu par le système, sans imposer le mode de réalisation de ce service. On le représente par une ellipse contenant le nom du cas.
+	\item[Acteur: ]Un acteur est l'idéalisation d'un rôle joué par une personne externe, un processus ou une chose qui interagit avec un système. On le représente par un petit bonhomme avec son nom inscrit en dessous.
+	\item[Cas d'utilisation: ]Est une unité cohérente représentant une fonctionnalité visible de l'extérieur. Il réalise un service de bout en bout, avec un déclenchement, un déroulement, et une fin, pour l'acteur qui l'initie. Un cas d'utilisation modélise, donc, un service rendu par le système, sans imposer le mode de réalisation de ce service. On le représente par une ellipse contenant le nom du cas.
 	\item[Relations d'association: ]Une relation d'association est un chemin de communication entre un acteur et un cas d'utilisation et est représenté par un trait continu.
 \end{description}Dans ce qui suit, nous décrivons le diagramme de cas d'utilisation de l'utilisateur (unique acteur) de l'application.
 \newpage
@@ -55,7 +55,7 @@ Les éléments d'un diagramme de cas d'utilisation sont:
 \end{landscape}
 
 %diagramme cas dutilisation 
-Le diagramme de la Figure \ref{casutilisation} représente les différents cas d'utilisation associés à l'utilisateur. Ce dernier peut librement gérer ses calendriers et ses événements. La suppression d'un calendrier peut être étendue par un « transférer les événements ». La gestion d'un événement inclut automatiquement « la gestion de l'alerte ».
+Le diagramme de la Figure \ref{casutilisation} représente les différents cas d'utilisation associés à l'utilisateur. Ce dernier peut librement gérer ses calendriers et ses événements. La suppression d'un calendrier peut être étendue par un « transférer les événements ». La gestion d'un événement inclut automatiquement la « gestion de l'alerte ».
 
 \subsection{Maquettes IHM et navigation }
 
@@ -92,7 +92,7 @@ La Figure \ref{domaine} détaille le modèle du domaine de l'application à réalise
 \newpage
 \subsection{Diagramme des classes participantes (DCP)}
 
-Le diagramme de classes participantes est particulièrement important puisqu'il effectue la jonction entre, d'une part, les cas d'utilisation, le modèle du domaine et la maquette , et d'autre part, les diagrammes de conception logicielle. 
+Le diagramme de classes participantes est particulièrement important puisqu'il effectue la jonction entre, d'une part, les cas d'utilisation, le modèle du domaine et la maquette, et d'autre part, les diagrammes de conception logicielle. 
 
 Il n'est pas souhaitable que les utilisateurs interagissent directement avec les instances des classes du domaine par le biais de l'interface graphique. En effet, le modèle du domaine doit être indépendant des utilisateurs et de l'interface graphique. De même, l'interface graphique du logiciel doit pouvoir évoluer sans répercussion sur le c\oe ur de l'application. C'est le principe fondamental du découpage en couches d'une application. Ainsi, le diagramme de classes participantes modélise trois types de classes d'analyse, les dialogues, les contrôles, et les entités, ainsi que leurs relations \cite{4}.
 
@@ -107,7 +107,7 @@ Pour compléter ce travail d'identification, nous ajouterons des attributs et des
 \begin{landscape}
 \begin{figure}[H]
 	\centering
-		\includegraphics[scale=0.7]{images/dcp_ajout_evenement.PNG}
+		\includegraphics[scale=0.6]{images/dcp_ajout_evenement.PNG}
 	\caption{Diagramme de classes participantes << Ajout événement >>.}
 	\label{dcp}
 \end{figure}
@@ -157,7 +157,7 @@ Dans notre contexte, nous avons obtenu le schéma relationnel suivant:
 \begin{itemize}
  \item Calendrier(\textbf{\underline{id\_calendrier}}, titre, visibilité, couleur, description).
  \item Événement(\textbf{\underline{id\_evenement}}, titre, jour, heure\_debut, heure\_fin, lieu, description, récurrence,\textit{\#id\_calendrier}).
-\item Alerte (\textbf{\underline{id\_alerte}}, heure\_déclenchement, délai,\#\textit{id\_evenement})
+\item Alerte (\textbf{\underline{id\_alerte}}, état, heure\_déclenchement, \#\textit{id\_evenement})
 \end{itemize}
 \section{Conclusion}
 Dans ce présent chapitre, nous avons modélisé et définit des solutions satisfaisant aux exigences établies. Ceci est fait par une spécification et une analyse des besoins, puis la réalisation des diagrammes d'interaction et de classes conception dans la phase de conception. Le prochain chapitre sera consacré à la réalisation de notre application en implémentant les solutions proposées.

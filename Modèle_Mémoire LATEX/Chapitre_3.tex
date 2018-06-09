@@ -26,7 +26,7 @@ Cet outil a été un véritable atout pour notre projet. Il nous a permis de travai
 \section{Outils de développement}
 \subsection{SDK de Android}
 
-Le SDK (Software Developpement Kit) d'Android est un ensemble d'outils de développement essentiel au développement d'application mobile Android. Il inclut différents outils tel qu'un débogueur, un émulateur basé sur QEMU et un ensemble de bibliothèques logicielles auxquels vient s'ajouter une documentation des plus riches.  
+Le SDK (Software Developpement Kit) d'Android est un ensemble d'outils de développement essentiel au développement d'application mobile Android. Il inclut différents outils tel qu'un débogueur, un émulateur basé sur QEMU, et un ensemble de bibliothèques logicielles auxquels vient s'ajouter une documentation des plus riches.  
 
 \subsection{JDK}
 
@@ -38,7 +38,7 @@ Le JDK (Java Developement Kit) est un ensemble d'outils et de bibliothèques logi
 \begin{description}
 
 
- \item[Java] est un puissant langage de programmation orienté objet. Il a la particularité d'être portable 
+ \item[Java] est un puissant langage de programmation orienté objet. Il a la particularité d'être portable, 
 c'est-à-dire qu'il est possible d'exécuter les programmes écrits en Java sous n'importe quel système d'exploitation grâce a la JVM incluse dans le JDK.
 
 
@@ -51,7 +51,7 @@ Comme nous l'avons vu durant les chapitres précédents, il est primordial de stoc
 
 \item[SQLite] est un SGBD local qui propose un moteur de base de données relationnelles accessible par SQL. À la différence d'autres SGBD, il ne reproduit pas le schéma habituel client-serveur, il est directement intégré aux programmes.
 
-\item[Room] est une librairie de base de données développée par Google. C'est une couche d'abstraction à SQLite. En effet, Room facilite la gestion de la base de données, de sa création à la lecture des données en passant par leur mise à jour de manière fluide en exploitant toute la puissance SQLite. Son principal atout est de détecter les erreurs de SQL à la compilation du code. Elle offre aussi la possibilité d'exécuter les requêtes SQL dans différents threads évitant ainsi de se surcharger le thread principal. Elle permet aussi de mettre en cache des données lors de l'absence d'une connexion 
+\item[Room] est une librairie de base de données développée par Google. C'est une couche d'abstraction à SQLite. En effet, Room facilite la gestion de la base de données, de sa création à la lecture des données en passant par leur mise à jour de manière fluide en exploitant toute la puissance de SQLite. Son principal atout est de détecter les erreurs SQL à la compilation du code. Elle offre aussi la possibilité d'exécuter les requêtes SQL dans différents threads évitant ainsi de se surcharger le thread principal. Elle permet aussi de mettre en cache des données lors de l'absence d'une connexion 
 Internet. Elle est composée de:
  \begin{description}
 \item[Entités: ]Les entités sont l'ensemble de classes qui, au niveau SQLite, correspondent à des tables SQL dans la base de données.  
@@ -84,7 +84,7 @@ Il est à noter que les librairies utilisées sont libres, open-source, et disponi
 \section{Présentation des interfaces}
 
 \subsection{Interface d'accueil}
- Ce premier écran (Figure \ref{home}) présente l'interface d'accueil. C'est la première interface affichée à l'utilisateur au lancement de l'application. Son principal composant est une vue calendrier qui regroupe les différents événements préalablement ajoutés par l'utilisateur. Chaque événement est affiché avec la couleur du calendrier auquel il appartient. Aussi, nous avons un bouton flottant '+' qui permet d'ajouter des événements, un menu latéral pour naviguer entre les différentes activités de l'application, et enfin un menu qui ouvre une liste déroulante pour changer le type du calendrier (jour/3jours/semaine).
+ Ce premier écran (Figure \ref{home}) présente l'interface d'accueil. C'est la première interface affichée à l'utilisateur au lancement de l'application. Son principal composant est une vue calendrier qui regroupe les différents événements préalablement ajoutés par l'utilisateur. Chaque événement est affiché avec la couleur du calendrier auquel il appartient. Aussi, nous avons un bouton flottant '+' qui permet d'ajouter des événements, un menu latéral pour naviguer entre les différentes activités de l'application, et enfin un menu qui ouvre une liste déroulante pour changer le type du calendrier (jour/3 jours/semaine).
 
 
 %\begin{figure}[h]
@@ -108,7 +108,7 @@ Il est à noter que les librairies utilisées sont libres, open-source, et disponi
 
 
 \subsection{Interface Calendrier}
-La figure \ref{addcalendar} représente la liste des calendriers dont un par défaut (Mon calendrier) qui est créé automatiquement lors de l'installation de l'application. Nous avons également d'autres calendriers qui ont été ajoutés par l'utilisateur. Ces derniers peuvent être modifiés ou supprimés en appuyant sur le bouton qui leur sont associés. En appuyant sur l'un des calendriers, l'utilisateur est redirigé vers la vue globale contenant seulement les événements qui lui sont affectés. Pour ajouter un calendrier, il suffit d'appuyer sur le bouton '+' pour être redirigé vers l'interface d'ajout d'un calendrier.  
+La figure \ref{addcalendar} représente la liste des calendriers dont un par défaut (Mon calendrier) qui est créé automatiquement lors de l'installation de l'application. Nous avons également d'autres calendriers qui ont été ajoutés par l'utilisateur. Ces derniers peuvent être modifiés ou supprimés en appuyant sur le bouton en forme de crayon qui leur sont associés. En appuyant sur l'un des calendriers, l'utilisateur est redirigé vers la vue globale contenant seulement les événements qui lui sont affectés. Pour ajouter un calendrier, il suffit d'appuyer sur le bouton '+' pour être redirigé vers l'interface d'ajout d'un calendrier.  
 
 \begin{figure}[H]
 	\centering
