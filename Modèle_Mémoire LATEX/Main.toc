@@ -53,5 +53,8 @@
 \contentsline {section}{\numberline {3.8}Conclusion}{23}
 \contentsline {part}{Conclusion g\'en\'erale et perspectives}{24}
 \contentsline {part}{Bibliographie}{25}
+\contentsline {chapter}{\numberline {A}}{26}
+\contentsline {section}{\numberline {A.1}Diagramme d'interaction << Modifier \'ev\'enement >>}{26}
+\contentsline {section}{\numberline {A.2}Interfaces de l'application}{28}
 \contentsline {paragraph}{}{1}
 \contentsline {paragraph}{}{1}
