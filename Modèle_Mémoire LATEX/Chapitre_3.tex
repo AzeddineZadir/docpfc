@@ -20,13 +20,13 @@ Android Studio est un environnement de développement intégré (EDI) permettant de
 Git est un logiciel libre de gestion de versions, sous licence GPL2. 
 GitHub est un service web de gestion et d'hébergement de projet de développement logiciel utilisant le logiciel Git (qui, pour l'anecdote, a été racheté le 4 de ce mois par Microsoft).
 
-Cet outil a été un véritable atout pour notre projet. Il nous a permis de travailler de manière collaborative, sur un code source unique, et de suivre l'évolution du travail de chacun en temps réel. Le lecteur peut accéder et suivre l'évolution de notre dépôt en visitant le lien ci-dessous: 
+Cet outil a été un véritable atout pour notre projet. Il nous a permis de travailler de manière collaborative, sur un code source unique, et de suivre l'évolution du travail de chacun en temps réel. Le lecteur peut accéder et suivre l'évolution de notre dépôt en visitant le lien suivant: 
 \url{https://github.com/silvermoon06/prototypapp}   
 
 \section{Outils de développement}
 \subsection{SDK de Android}
 
-Le SDK (Software Developpement Kit) d'Android est un ensemble d'outils de développement essentiel au développement d'application mobile Android, il inclut différents outils tel qu'un débogueur, un émulateur basé sur QEMU et un ensemble de bibliothèques logicielles auxquels vient s'ajouter une documentation des plus riches.  
+Le SDK (Software Developpement Kit) d'Android est un ensemble d'outils de développement essentiel au développement d'application mobile Android. Il inclut différents outils tel qu'un débogueur, un émulateur basé sur QEMU et un ensemble de bibliothèques logicielles auxquels vient s'ajouter une documentation des plus riches.  
 
 \subsection{JDK}
 
@@ -42,7 +42,7 @@ Le JDK (Java Developement Kit) est un ensemble d'outils et de bibliothèques logi
 c'est-à-dire qu'il est possible d'exécuter les programmes écrits en Java sous n'importe quel système d'exploitation grâce a la JVM incluse dans le JDK.
 
 
-\item[XML] eXtensible Markup Language (Langage de balisage extensible en français) est un métalangage informatique de balisage générique. Il permet de structurer des données grâce à des balises et est utilisé essentiellement pour décrire les interfaces graphiques Android et autres fichiers de données globales. 
+\item[XML] eXtensible Markup Language (Langage de balisage extensible) est un métalangage informatique de balisage générique. Il permet de structurer des données grâce à des balises et est utilisé essentiellement pour décrire les interfaces graphiques Android et autres fichiers de données globales. 
 \end{description}
 \section{Persistance des données}
 Comme nous l'avons vu durant les chapitres précédents, il est primordial de stocker en permanence les données. Ceci dit, une base de données locale est suffisante dans notre contexte.
@@ -51,11 +51,11 @@ Comme nous l'avons vu durant les chapitres précédents, il est primordial de stoc
 
 \item[SQLite] est un SGBD local qui propose un moteur de base de données relationnelles accessible par SQL. À la différence d'autres SGBD, il ne reproduit pas le schéma habituel client-serveur, il est directement intégré aux programmes.
 
-\item[Room] est une librairie de base de données développée par Google. Elle est une couche d'abstraction à SQLite. En effet, Room facilite la gestion de la base de données, de sa création à la lecture des données en passant par leur mise à jour de manière fluide en exploitant toute la puissance de SQLite. Son principal atout est de détecter les erreurs de SQL à la compilation du code. Elle offre aussi la possibilité d'exécuter les requêtes SQL dans différents Threads évitant ainsi de se surcharger le Thread principal. Elle permet aussi de mettre en cache des données lors de l'absence d'une connexion 
+\item[Room] est une librairie de base de données développée par Google. C'est une couche d'abstraction à SQLite. En effet, Room facilite la gestion de la base de données, de sa création à la lecture des données en passant par leur mise à jour de manière fluide en exploitant toute la puissance SQLite. Son principal atout est de détecter les erreurs de SQL à la compilation du code. Elle offre aussi la possibilité d'exécuter les requêtes SQL dans différents threads évitant ainsi de se surcharger le thread principal. Elle permet aussi de mettre en cache des données lors de l'absence d'une connexion 
 Internet. Elle est composée de:
  \begin{description}
-\item[Entités: ]Les entités est l'ensemble de classes qui, au niveau SQLite, correspondent à des tables SQL dans la base de données.  
-\item[DAOs (Data Access Objects): ]Ce sont des interfaces qui ont pour rôle de gérer toutes les requêtes SQL, elles agissent comme un intermédiaire entre la base de données et le reste de l'application. Chaque entité doit avoir son propre DAO.  
+\item[Entités: ]Les entités sont l'ensemble de classes qui, au niveau SQLite, correspondent à des tables SQL dans la base de données.  
+\item[DAOs (Data Access Objects): ]Ce sont des interfaces qui ont pour rôle de gérer toutes les requêtes SQL. Elles agissent comme un intermédiaire entre la base de données et le reste de l'application. Chaque entité doit avoir son propre DAO.  
 \item[Base de données: ]Elle contient toutes les tables et toutes les données stockées.
  \end{description}
 
@@ -74,9 +74,9 @@ La figure suivante résume l'architecture de Room.
 
 \begin{description}
 
-\item[WeekView] est une librairie qui affiche la vue d'un calendrier. Elle a été utile pour l'affichage des événements sur un calendrier, elle implémente également plusieurs fonctionnalités rendant ainsi l'application plus intuitive.
+\item[WeekView] est une librairie qui affiche la vue d'un calendrier. Elle nous a été utile pour l'affichage des événements sur un calendrier. Elle implémente également plusieurs fonctionnalités rendant ainsi l'application plus intuitive.
 
-\item[ColorPicker] est comme son nom l'indique, une librairie qui permet de choisir une ou plusieurs couleurs.
+\item[ColorPicker] est, comme son nom l'indique, une librairie qui permet de choisir une ou plusieurs couleurs.
 
 \end{description}
 Il est à noter que les librairies utilisées sont libres, open-source, et disponibles sur GitHub. 
@@ -84,7 +84,7 @@ Il est à noter que les librairies utilisées sont libres, open-source, et disponi
 \section{Présentation des interfaces}
 
 \subsection{Interface d'accueil}
- Cette première figure présente l'interface d'accueil. C'est la première interface affichée à l'utilisateur au lancement de l'application. Son principal composant est une vue calendrier qui regroupe les différents événements préalablement ajoutés par l'utilisateur. Chaque événement est affiché avec la couleur du calendrier auquel il appartient. Aussi, nous avons un bouton flottant '+' qui permet d'ajouter des événements, un menu latéral pour naviguer entre les différentes activités de l'application, et enfin un menu qui ouvre une liste déroulante pour changer le type du calendrier.
+ Ce premier écran (Figure \ref{home}) présente l'interface d'accueil. C'est la première interface affichée à l'utilisateur au lancement de l'application. Son principal composant est une vue calendrier qui regroupe les différents événements préalablement ajoutés par l'utilisateur. Chaque événement est affiché avec la couleur du calendrier auquel il appartient. Aussi, nous avons un bouton flottant '+' qui permet d'ajouter des événements, un menu latéral pour naviguer entre les différentes activités de l'application, et enfin un menu qui ouvre une liste déroulante pour changer le type du calendrier (jour/3jours/semaine).
 
 
 %\begin{figure}[h]
@@ -108,7 +108,7 @@ Il est à noter que les librairies utilisées sont libres, open-source, et disponi
 
 
 \subsection{Interface Calendrier}
-La figure \ref{addcalendar} représente la liste des calendriers dont un par défaut (Mon calendrier) qui est créé automatiquement lors de l'installation de l'application. Nous avons également d'autres calendriers qui ont été ajoutés par l'utilisateur, ces derniers peuvent être modifiés ou supprimés en appuyant sur le bouton qui lui est associé. En appuyant sur l'un des calendriers, l'utilisateur est redirigé vers la vue globale contenant seulement les événements qui lui sont affectés. Pour ajouter un calendrier, il suffit d'appuyer sur le bouton '+' pour être redirigé vers l'interface d'ajout d'un calendrier.  
+La figure \ref{addcalendar} représente la liste des calendriers dont un par défaut (Mon calendrier) qui est créé automatiquement lors de l'installation de l'application. Nous avons également d'autres calendriers qui ont été ajoutés par l'utilisateur. Ces derniers peuvent être modifiés ou supprimés en appuyant sur le bouton qui leur sont associés. En appuyant sur l'un des calendriers, l'utilisateur est redirigé vers la vue globale contenant seulement les événements qui lui sont affectés. Pour ajouter un calendrier, il suffit d'appuyer sur le bouton '+' pour être redirigé vers l'interface d'ajout d'un calendrier.  
 
 \begin{figure}[H]
 	\centering
@@ -119,7 +119,7 @@ La figure \ref{addcalendar} représente la liste des calendriers dont un par défa
 
 \subsection{Interface d'ajout d'événement}	
 
-La figure ci-dessous représente l'interface d'ajout d'un événement. L'utilisateur est invité à remplir les champs, à choisir à quel calendrier appartient-il et enfin à décider à quel moment il souhaite être alerté, désactiver complètement l'alerte, sinon.
+La figure ci-dessous représente l'interface d'ajout d'un événement. L'utilisateur est invité à remplir les champs, à choisir à quel calendrier appartient-il et enfin à décider à quel moment il souhaite être alerté, ou à désactiver complètement l'alerte, sinon.
 \begin{figure}[H]
 	\centering
 		\includegraphics[width=5cm]{images/addevent.png}
@@ -128,4 +128,4 @@ La figure ci-dessous représente l'interface d'ajout d'un événement. L'utilisateu
 \end{figure}
 \section{Conclusion}
 
-Dans ce dernier chapitre, nous avons revu notre environnement de développement et décrit les outils utilisés notamment GitHub qui a été un outil clé pour notre travail collaboratif. Nous avons également vu les différents langages de programmation. Concernant la base de données, Room a été un véritable atout avec sa facilité à gérer et à implémenter la base de données. Un gain de temps que l'on attribue, aussi, aux différentes librairies. Enfin, nous avons vu les différentes interfaces principales qui composent notre application.
+Dans ce dernier chapitre, nous avons revu notre environnement de développement et décrit les outils utilisés notamment GitHub qui a été un outil clé pour notre travail collaboratif. Nous avons également vu les différents langages de programmation. Concernant la base de données, Room a été un véritable atout avec sa facilité à gérer et à implémenter la base de données. Un gain de temps que l'on attribue, aussi, aux différentes librairies. Enfin, nous avons passé en revue les différentes interfaces principales qui composent notre application.
